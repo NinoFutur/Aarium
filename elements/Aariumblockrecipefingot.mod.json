@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "aarium",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Aariumblock"
+    },
+    "name": "aariumblockrecipefingot",
+    "namespace": "mod"
+  }
+}

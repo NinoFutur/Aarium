@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 8.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "aarium",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Aariumore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Aariumnugget"
+    },
+    "name": "aariumnuggetrecipefore",
+    "namespace": "mod"
+  }
+}

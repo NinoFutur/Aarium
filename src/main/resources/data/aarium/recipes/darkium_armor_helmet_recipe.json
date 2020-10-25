@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:darkiumingot"
+    },
+    "1": {
+      "item": "aarium:darkiumingot"
+    },
+    "2": {
+      "item": "aarium:darkiumingot"
+    },
+    "3": {
+      "item": "aarium:darkiumingot"
+    },
+    "5": {
+      "item": "aarium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:darkium_armor_helmet",
+    "count": 1
+  }
+}

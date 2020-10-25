@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 60.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Volcaniteore"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Volcaniteingot"
+    },
+    "name": "volcaniteingotrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aariumingot"
+    },
+    "2": {
+      "item": "aarium:aariumingot"
+    },
+    "3": {
+      "item": "aarium:aariumingot"
+    },
+    "4": {
+      "item": "aarium:aariumingot"
+    },
+    "5": {
+      "item": "aarium:aariumingot"
+    },
+    "6": {
+      "item": "aarium:aariumingot"
+    },
+    "7": {
+      "item": "aarium:aariumingot"
+    },
+    "8": {
+      "item": "aarium:aariumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:aarium_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightium_pickaxe",
+    "customModelName": "Normal",
+    "name": "Lightium Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 30,
+    "efficiency": 50000.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50000,
+    "damageVsEntity": 0.1,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:lightium_gem"
+    },
+    "1": {
+      "item": "aarium:lightium_gem"
+    },
+    "2": {
+      "item": "aarium:lightium_gem"
+    },
+    "3": {
+      "item": "aarium:lightium_gem"
+    },
+    "5": {
+      "item": "aarium:lightium_gem"
+    }
+  },
+  "result": {
+    "item": "aarium:lightium_armor_helmet",
+    "count": 1
+  }
+}

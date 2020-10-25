@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_dog",
+    "name": "Music disk: The sound of silence",
+    "description": "The sound of silence",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:the_sound_of_silence"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

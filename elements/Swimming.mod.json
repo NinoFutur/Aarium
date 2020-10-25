@@ -1,0 +1,56 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": true,
+    "textureLeggings": "swimming_leggings",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onLeggingsTick": {
+      "name": "SwimmingLeggingsTickEvent"
+    },
+    "creativeTab": {
+      "value": "TRANSPORTATION"
+    },
+    "armorTextureFile": "lightium",
+    "helmetName": "Swimming Helmet",
+    "bodyName": "Swimming Body",
+    "leggingsName": "Swimming Leggings",
+    "bootsName": "Swimming Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 1,
+    "enchantability": 0,
+    "toughness": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "aarium:blocks/darkium_block_v2",
+    "top": "aarium:blocks/darkium_block_v2",
+    "side": "aarium:blocks/darkium_block_v2"
+  }
+}

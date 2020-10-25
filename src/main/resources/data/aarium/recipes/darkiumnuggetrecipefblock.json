@@ -1,0 +1,12 @@
+{
+  "group": "aarium",
+  "type": "minecraft:smelting",
+  "experience": 200,
+  "cookingtime": 800,
+  "ingredient": {
+    "item": "aarium:darkiumore"
+  },
+  "result": {
+    "item": "aarium:darkiumnugget"
+  }
+}

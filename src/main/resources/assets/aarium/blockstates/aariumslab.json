@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aarium:block/aariumslab"
+    },
+    "type=top": {
+      "model": "aarium:block/aariumslab_top"
+    },
+    "type=double": {
+      "model": "aarium:block/aariumslab_full"
+    }
+  }
+}

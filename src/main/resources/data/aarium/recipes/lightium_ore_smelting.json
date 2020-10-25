@@ -1,0 +1,12 @@
+{
+  "group": "aarium",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aarium:lightium_ore"
+  },
+  "result": {
+    "item": "aarium:lightium_gem"
+  }
+}

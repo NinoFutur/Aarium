@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/aarium_block_2",
+    "up": "aarium:blocks/aarium_block_2",
+    "north": "aarium:blocks/aarium_block_2",
+    "east": "aarium:blocks/aarium_block_2",
+    "south": "aarium:blocks/aarium_block_2",
+    "west": "aarium:blocks/aarium_block_2",
+    "particle": "aarium:blocks/aarium_block_2"
+  }
+}

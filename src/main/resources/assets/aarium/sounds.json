@@ -1,0 +1,20 @@
+{
+  "this_is_my_rolling": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "aarium:chamillionaire-ft-krayzie-bone-ridin-official-video",
+        "stream": true
+      }
+    ]
+  },
+  "the_sound_of_silence": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "aarium:hello-darkness-my-old-friend-lyrics-version-2017",
+        "stream": true
+      }
+    ]
+  }
+}

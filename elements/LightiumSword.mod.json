@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightium_sword",
+    "customModelName": "Normal",
+    "name": "Lightium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 50000,
+    "efficiency": 50000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 50000,
+    "damageVsEntity": 49998.0,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

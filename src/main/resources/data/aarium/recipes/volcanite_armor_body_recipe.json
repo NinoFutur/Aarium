@@ -1,0 +1,39 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:volcaniteingot"
+    },
+    "2": {
+      "item": "aarium:volcaniteingot"
+    },
+    "3": {
+      "item": "aarium:volcaniteingot"
+    },
+    "4": {
+      "item": "aarium:volcaniteingot"
+    },
+    "5": {
+      "item": "aarium:volcaniteingot"
+    },
+    "6": {
+      "item": "aarium:volcaniteingot"
+    },
+    "7": {
+      "item": "aarium:volcaniteingot"
+    },
+    "8": {
+      "item": "aarium:volcaniteingot"
+    }
+  },
+  "result": {
+    "item": "aarium:volcanite_armor_chestplate",
+    "count": 1
+  }
+}

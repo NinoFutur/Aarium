@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_dog",
+    "name": "Music disc - Rolling",
+    "description": "Rindin'",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:this_is_my_rolling"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

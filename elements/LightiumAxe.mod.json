@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightium_axe",
+    "customModelName": "Normal",
+    "name": "Lightium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 50000,
+    "efficiency": 50000.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50000,
+    "damageVsEntity": 6.0,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

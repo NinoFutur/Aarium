@@ -1,0 +1,27 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:volcaniteingot"
+    },
+    "1": {
+      "item": "aarium:volcaniteingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aarium:volcanite_hoe",
+    "count": 1
+  }
+}

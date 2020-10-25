@@ -1,0 +1,13 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:darkiumblock"
+    }
+  ],
+  "result": {
+    "item": "aarium:darkiumingot",
+    "count": 9
+  }
+}

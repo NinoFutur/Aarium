@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/darkium_ore",
+    "particle": "aarium:blocks/darkium_ore"
+  }
+}

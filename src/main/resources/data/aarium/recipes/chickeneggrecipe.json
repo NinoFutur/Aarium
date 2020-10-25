@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:enchantedegg"
+    },
+    "1": {
+      "item": "aarium:enchantedegg"
+    },
+    "2": {
+      "item": "aarium:enchantedegg"
+    },
+    "3": {
+      "item": "aarium:enchantedegg"
+    },
+    "4": {
+      "item": "aarium:enchantedegg"
+    },
+    "5": {
+      "item": "aarium:enchantedegg"
+    },
+    "6": {
+      "item": "aarium:enchantedegg"
+    },
+    "7": {
+      "item": "aarium:enchantedegg"
+    },
+    "8": {
+      "item": "aarium:enchantedegg"
+    }
+  },
+  "result": {
+    "item": "minecraft:chicken_spawn_egg",
+    "count": 3
+  }
+}

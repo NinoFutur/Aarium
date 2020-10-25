@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightium_shovel",
+    "customModelName": "Normal",
+    "name": "Lightium Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 50000,
+    "efficiency": 50000.0,
+    "attackSpeed": 0.1,
+    "enchantability": 50000,
+    "damageVsEntity": 0.30000000000000004,
+    "usageCount": 50000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
