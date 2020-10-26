@@ -1366,6 +1366,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "playerfreezerrecipe"
+    },
+    {
+      "name": "Lumineousconcreteyellow",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lumineousconcreteyellow"
+    },
+    {
+      "name": "Lumnieousredconcrete",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lumnieousredconcrete"
+    },
+    {
+      "name": "Blacklumineousconcrete",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacklumineousconcrete"
+    },
+    {
+      "name": "Bluelumineousconcrete",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluelumineousconcrete"
+    },
+    {
+      "name": "Greenlumineousconcrete",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greenlumineousconcrete"
     }
   ],
   "variable_elements": [],
