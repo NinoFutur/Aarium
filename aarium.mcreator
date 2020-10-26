@@ -1411,6 +1411,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "greenlumineousconcrete"
+    },
+    {
+      "name": "Whiteluminousconcrete",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whiteluminousconcrete"
     }
   ],
   "variable_elements": [],

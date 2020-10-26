@@ -6,11 +6,11 @@
       "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:white_concrete"
     }
   ],
   "result": {
-    "item": "aarium:luminousconcretegreen",
+    "item": "aarium:luminousconcretewhite",
     "count": 1
   }
 }

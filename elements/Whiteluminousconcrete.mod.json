@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.CONCRETE#4"
+        "value": "Blocks.CONCRETE#0"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Luminousconcreteyellow"
+      "value": "CUSTOM:Luminousconcretewhite"
     },
-    "name": "lumineousconcreteyellow",
+    "name": "whiteluminousconcrete",
     "namespace": "mod"
   }
 }
