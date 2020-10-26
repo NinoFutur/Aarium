@@ -33,7 +33,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "aariumblock"
     },
