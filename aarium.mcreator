@@ -1420,6 +1420,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "whiteluminousconcrete"
+    },
+    {
+      "name": "Aariumingotpainting",
+      "type": "painting",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aariumingotpainting"
+    },
+    {
+      "name": "Solidair",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solidair"
+    },
+    {
+      "name": "Solidairrecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solidairrecipe"
     }
   ],
   "variable_elements": [],
@@ -1486,6 +1513,7 @@
       "item.aarium.holemaker": "Hole maker (5x5)",
       "block.aarium.aariumblock": "Aarium block",
       "item.aarium.farmingobsidian": "Farmingobsidian Portal Igniter",
+      "block.aarium.solidair": "Solid air",
       "item.aarium.darkium_armor_boots": "Darkium Boots",
       "item.aarium.volcanite_axe": "Volcanite Axe",
       "item.aarium.lightium_axe": "Lightium Axe",
@@ -1575,6 +1603,7 @@
       "item.aarium.holemaker": "Hole maker (5x5)",
       "block.aarium.aariumblock": "Aarium block",
       "item.aarium.farmingobsidian": "Farmingobsidian Portal Igniter",
+      "block.aarium.solidair": "Solid air",
       "item.aarium.darkium_armor_boots": "Darkium Boots",
       "item.aarium.volcanite_axe": "Volcanite Axe",
       "item.aarium.lightium_axe": "Lightium Axe",

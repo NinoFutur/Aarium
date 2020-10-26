@@ -60,7 +60,7 @@ public class HolemakerRightClickedInAirProcedure extends AariumModElements.ModEl
 					.handleCommand(
 							new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"clear @p aarium:holemaker 1");
+							"clear @s[gameamode=!creative] aarium:holemaker 1");
 		}
 	}
 }
