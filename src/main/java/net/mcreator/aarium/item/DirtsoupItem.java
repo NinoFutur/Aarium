@@ -4,6 +4,7 @@ package net.mcreator.aarium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.UseAction;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -25,13 +26,13 @@ public class DirtsoupItem extends AariumModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1)
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(1).saturation(0f).setAlwaysEdible().build()));
 			setRegistryName("dirtsoup");
 		}
 
 		@Override
-		public UseAction getUseAction(ItemStack par1ItemStack) {
+		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.EAT;
 		}
 	}

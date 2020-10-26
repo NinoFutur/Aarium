@@ -34,7 +34,7 @@ public class GreenscreenstairsBlock extends AariumModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(),
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.9999999999999998f, 10f)).getDefaultState(),
 					Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.9999999999999998f, 10f).lightValue(15));
 			setRegistryName("greenscreenstairs");
 		}
