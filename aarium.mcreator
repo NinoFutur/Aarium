@@ -1474,6 +1474,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aariummultitoolrecipe"
+    },
+    {
+      "name": "TreechopperaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopperaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Treechopperaxe",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopperaxe"
     }
   ],
   "variable_elements": [],
@@ -1578,6 +1616,7 @@
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "item.aarium.spawn": "Spawn Portal Igniter",
       "item.aarium.enchantedegg": "Enchanted egg",
+      "item.aarium.treechopperaxe": "Tree chopper",
       "block.aarium.green_screen": "Green screen",
       "item.aarium.lightium_gem": "Lightium",
       "item.aarium.aarium_axe": "Aarium Axe",
@@ -1669,6 +1708,7 @@
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "item.aarium.spawn": "Spawn Portal Igniter",
       "item.aarium.enchantedegg": "Enchanted egg",
+      "item.aarium.treechopperaxe": "Tree chopper axe",
       "block.aarium.green_screen": "Fond vert",
       "item.aarium.lightium_gem": "Lightium",
       "item.aarium.aarium_axe": "Aarium Axe",
