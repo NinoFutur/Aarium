@@ -2,8 +2,6 @@
 package net.mcreator.aarium.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
@@ -37,12 +35,6 @@ public class VolcaniteappleItem extends AariumModElements.ModElement {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.RARE)
 					.food((new Food.Builder()).hunger(3).saturation(3f).setAlwaysEdible().meat().build()));
 			setRegistryName("volcaniteapple");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public boolean hasEffect(ItemStack itemstack) {
-			return true;
 		}
 
 		@Override
