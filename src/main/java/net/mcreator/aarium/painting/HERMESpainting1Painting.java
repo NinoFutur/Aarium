@@ -18,6 +18,6 @@ public class HERMESpainting1Painting extends AariumModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerPaintingType(RegistryEvent.Register<PaintingType> event) {
-		event.getRegistry().register(new PaintingType(64, 64).setRegistryName("herme_spainting_1"));
+		event.getRegistry().register(new PaintingType(160, 160).setRegistryName("herme_spainting_1"));
 	}
 }
