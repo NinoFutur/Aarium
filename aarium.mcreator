@@ -1512,6 +1512,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "treechopperaxe"
+    },
+    {
+      "name": "VolcaniteappleFoodEaten",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcaniteapple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Volcaniteapple",
+      "type": "food",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcaniteapple"
+    },
+    {
+      "name": "Volcaniteapplerecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcaniteapplerecipe"
     }
   ],
   "variable_elements": [],
@@ -1541,6 +1576,7 @@
       "item.aarium.aarium_shovel": "Pelle en Aarium",
       "item.aarium.aarium_sword": "Épée en Aarium",
       "item.aarium.volcanite_armor_helmet": "Casque en volcanite",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "block.aarium.volcaniteore": "Minerai de volcanite",
       "item.aarium.aariummultitool": "Outil multiple en Aarium",
       "item.aarium.darkium_pickaxe": "Pioche en Darkium",
@@ -1633,6 +1669,7 @@
       "item.aarium.aarium_shovel": "Aarium Shovel",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "block.aarium.volcaniteore": "Volcanite ore",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
