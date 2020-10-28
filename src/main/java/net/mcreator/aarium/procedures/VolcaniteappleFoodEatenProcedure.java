@@ -25,6 +25,6 @@ public class VolcaniteappleFoodEatenProcedure extends AariumModElements.ModEleme
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE,
-					(int) ((500 + 20) * ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0)), (int) 5));
+					(int) ((500 + 40) * ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0)), (int) 5));
 	}
 }
