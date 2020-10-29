@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PlayerFreezer"
+      "value": "CUSTOM:Playerfrezer"
     },
     "name": "playerfreezerrecipe",
     "namespace": "mod"

@@ -29,7 +29,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onEntityHitWith": {
-      "name": "PlayerFreezerLivingEntityIsHitWithItem"
+      "name": "PlayerfrezerLivingEntityIsHitWithItem"
     }
   }
 }

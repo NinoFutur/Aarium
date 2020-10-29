@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.EGG"
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "Items.EGG"
       },
       {
-        "value": "Items.EGG"
+        "value": ""
       },
       {
-        "value": "Items.EGG"
+        "value": ""
       },
       {
-        "value": "Items.EGG"
+        "value": ""
       },
       {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Items.EGG"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

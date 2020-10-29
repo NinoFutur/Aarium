@@ -854,20 +854,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -919,6 +907,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -945,35 +937,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "holemaker"
-    },
-    {
-      "name": "HolemakerRightClickedInAir",
-      "type": "procedure",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "holemaker_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "Event",
@@ -1333,32 +1296,6 @@
       "registry_name": "volcanite_hoe_recipe"
     },
     {
-      "name": "PlayerFreezer",
-      "type": "item",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "player_freezer"
-    },
-    {
-      "name": "PlayerFreezerLivingEntityIsHitWithItem",
-      "type": "procedure",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "player_freezer_living_entity_is_hit_with_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Playerfreezerrecipe",
       "type": "recipe",
       "sortid": 131,
@@ -1610,6 +1547,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "skyaria"
+    },
+    {
+      "name": "Playerfrezer",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerfrezer"
+    },
+    {
+      "name": "PlayerfrezerLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerfrezer_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1633,18 +1596,18 @@
     "en_us": {
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "item.aarium.forestia": "Pateria Portal Igniter",
-      "block.aarium.greenscreen": "Écran vert",
-      "item.aarium.aariumingot": "Lingot en Aarium",
-      "item.aarium.aarium_sword": "Épée en Aarium",
-      "item.aarium.volcanite_armor_helmet": "Casque en volcanite",
+      "block.aarium.greenscreen": "Green screen",
+      "item.aarium.aariumingot": "Aarium ingot",
+      "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.volcaniteapple": "Volcanite apple",
-      "item.aarium.aariummultitool": "Outil multiple en Aarium",
-      "item.aarium.darkium_pickaxe": "Pioche en Darkium",
+      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.aariummultitool": "Aarium multitool",
+      "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "block.aarium.darkiumblock": "Darkium block",
-      "block.aarium.aariumore": "Aarium Ore",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
+      "block.aarium.aariumore": "Aarium Ore",
+      "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
@@ -1676,9 +1639,9 @@
       "item.aarium.volcanite_shovel": "Volcanite Shovel",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
       "item.aarium.lightium_armor_chestplate": "Lightium Chestplate",
-      "item.aarium.aarium_shovel": "Pelle en Aarium",
+      "item.aarium.aarium_shovel": "Aarium Shovel",
       "block.aarium.volcaniteore": "Volcanite ore",
-      "item.aarium.darkium_armor_helmet": "Casque en Darkium",
+      "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.aarium.volcaniteingot": "Volcanite ingot",
       "block.aarium.greenscreenstairs": "Green screen stairs",
@@ -1707,7 +1670,6 @@
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
-      "item.aarium.player_freezer": "Player Freezer",
       "item.aarium.swimming_helmet": "Swimming Helmet",
       "block.aarium.superobsidian": "Super obsidian",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -1726,6 +1688,7 @@
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.treechopperaxe": "Tree chopper",
       "block.aarium.green_screen": "Green screen",
+      "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.lightium_gem": "Lightium",
       "item.aarium.aarium_axe": "Aarium Axe",
       "item.aarium.volcanite_pickaxe": "Volcanite Pickaxe"
@@ -1736,15 +1699,15 @@
       "block.aarium.greenscreen": "Green screen",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.volcaniteapple": "Volcanite apple",
+      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "block.aarium.darkiumblock": "Darkium block",
-      "block.aarium.aariumore": "Aarium Ore",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
+      "block.aarium.aariumore": "Aarium Ore",
+      "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
@@ -1807,7 +1770,6 @@
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
-      "item.aarium.player_freezer": "Player Freezer",
       "item.aarium.swimming_helmet": "Swimming Helmet",
       "block.aarium.superobsidian": "Super obsidienne",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -1826,6 +1788,7 @@
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.treechopperaxe": "Tree chopper axe",
       "block.aarium.green_screen": "Fond vert",
+      "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.lightium_gem": "Lightium",
       "item.aarium.aarium_axe": "Aarium Axe",
       "item.aarium.volcanite_pickaxe": "Volcanite Pickaxe"

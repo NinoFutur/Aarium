@@ -50,7 +50,7 @@ public class SwimmingItem extends AariumModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 0;
+				return 35;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -83,10 +83,7 @@ public class SwimmingItem extends AariumModElements.ModElement {
 				double z = entity.getPosZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
+					$_dependencies.put("entity", entity);
 					SwimmingLeggingsTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}

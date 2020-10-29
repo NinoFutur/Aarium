@@ -46,11 +46,11 @@ public class TravelersItem extends AariumModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 0, 0, 0}[slot.getIndex()];
+				return new int[]{1, 5, 0, 0}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 0;
+				return 35;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -67,7 +67,7 @@ public class TravelersItem extends AariumModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0.5f;
+				return 1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.TRANSPORTATION)) {
