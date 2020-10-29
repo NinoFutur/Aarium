@@ -31,7 +31,7 @@ public class DarkiumShovelItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

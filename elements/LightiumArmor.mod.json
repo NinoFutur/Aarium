@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "lightium_boots",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "COMBAT"
     },
     "armorTextureFile": "lightium",
     "helmetName": "Lightium Helmet",
@@ -38,16 +38,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 1024,
-    "damageValueHelmet": 1024,
-    "damageValueBody": 1024,
-    "damageValueLeggings": 1024,
-    "damageValueBoots": 1024,
-    "enchantability": 9,
+    "maxDamage": 10,
+    "damageValueHelmet": 300,
+    "damageValueBody": 300,
+    "damageValueLeggings": 300,
+    "damageValueBoots": 300,
+    "enchantability": 50,
     "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightiumGem"
+      }
+    ]
   }
 }

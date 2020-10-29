@@ -10,24 +10,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
         "value": ""
       },
       {
@@ -35,12 +17,30 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LightiumArmor.helmet"
+      "value": "CUSTOM:AariumArmor.boots"
     },
-    "name": "lightium_armor_helmet_recipe",
+    "name": "travelersrecipe",
     "namespace": "mod"
   }
 }

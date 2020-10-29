@@ -680,15 +680,6 @@
       "registry_name": "lightium_shovel"
     },
     {
-      "name": "LightiumHoe",
-      "type": "tool",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lightium_hoe"
-    },
-    {
       "name": "LightiumPickaxeRecipe",
       "type": "recipe",
       "sortid": 87,
@@ -1581,6 +1572,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "playerfrezer"
+    },
+    {
+      "name": "Travelersrecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "travelersrecipe"
+    },
+    {
+      "name": "Swimmingrecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swimmingrecipe"
     }
   ],
   "variable_elements": [],
@@ -1604,13 +1613,13 @@
     "en_us": {
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "item.aarium.forestia": "Pateria Portal Igniter",
-      "block.aarium.greenscreen": "Écran vert",
-      "item.aarium.aariumingot": "Lingot en Aarium",
-      "item.aarium.aarium_sword": "Épée en Aarium",
+      "block.aarium.greenscreen": "Green screen",
+      "item.aarium.aariumingot": "Aarium ingot",
+      "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.volcaniteapple": "Volcanite apple",
-      "item.aarium.volcanite_armor_helmet": "Casque en volcanite",
-      "item.aarium.aariummultitool": "Outil multiple en Aarium",
-      "item.aarium.darkium_pickaxe": "Pioche en Darkium",
+      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.aariummultitool": "Aarium multitool",
+      "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
@@ -1647,9 +1656,9 @@
       "item.aarium.volcanite_shovel": "Volcanite Shovel",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
       "item.aarium.lightium_armor_chestplate": "Lightium Chestplate",
-      "item.aarium.aarium_shovel": "Pelle en Aarium",
+      "item.aarium.aarium_shovel": "Aarium Shovel",
       "block.aarium.volcaniteore": "Volcanite ore",
-      "item.aarium.darkium_armor_helmet": "Casque en Darkium",
+      "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.aarium.volcaniteingot": "Volcanite ingot",
       "block.aarium.greenscreenstairs": "Green screen stairs",

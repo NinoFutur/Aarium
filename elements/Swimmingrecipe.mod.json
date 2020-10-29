@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LightiumOreBlock"
+        "value": "CUSTOM:Aariumingot"
       },
       {
-        "value": "CUSTOM:LightiumOreBlock"
+        "value": "Items.EXPERIENCE_BOTTLE"
       },
       {
-        "value": "CUSTOM:LightiumOreBlock"
+        "value": "CUSTOM:Aariumingot"
       },
       {
-        "value": "CUSTOM:LightiumOreBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:LightiumOreBlock"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.FEATHER"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.FEATHER"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LightiumArmor.helmet"
+      "value": "CUSTOM:Swimming.legs"
     },
-    "name": "lightium_armor_helmet_recipe",
+    "name": "swimmingrecipe",
     "namespace": "mod"
   }
 }

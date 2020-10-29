@@ -8,19 +8,19 @@
   ],
   "key": {
     "0": {
-      "item": "aarium:lightium_gem"
+      "item": "aarium:lightium_ore_block"
     },
     "1": {
-      "item": "aarium:lightium_gem"
+      "item": "aarium:lightium_ore_block"
     },
     "2": {
-      "item": "aarium:lightium_gem"
+      "item": "aarium:lightium_ore_block"
     },
     "4": {
-      "item": "minecraft:stick"
+      "item": "minecraft:blaze_rod"
     },
     "7": {
-      "item": "minecraft:stick"
+      "item": "minecraft:blaze_rod"
     }
   },
   "result": {

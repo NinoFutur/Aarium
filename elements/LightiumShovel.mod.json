@@ -11,15 +11,19 @@
       "value": "No creative tab entry"
     },
     "toolType": "Spade",
-    "harvestLevel": 50000,
-    "efficiency": 50000.0,
-    "attackSpeed": 0.1,
-    "enchantability": 50000,
-    "damageVsEntity": 0.30000000000000004,
-    "usageCount": 50000,
+    "harvestLevel": 4,
+    "efficiency": 50.0,
+    "attackSpeed": 1.0,
+    "enchantability": 500,
+    "damageVsEntity": 6.0,
+    "usageCount": 5000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightiumGem"
+      }
+    ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

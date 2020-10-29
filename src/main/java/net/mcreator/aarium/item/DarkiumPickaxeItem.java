@@ -23,7 +23,7 @@ public class DarkiumPickaxeItem extends AariumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 6280;
+				return 3500;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class DarkiumPickaxeItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

@@ -23,7 +23,7 @@ public class DarkiumAxeItem extends AariumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 6280;
+				return 3500;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class DarkiumAxeItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 58f;
+				return 9.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class DarkiumAxeItem extends AariumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.75f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("darkium_axe"));
 	}
 }

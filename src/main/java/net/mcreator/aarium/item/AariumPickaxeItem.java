@@ -31,7 +31,7 @@ public class AariumPickaxeItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

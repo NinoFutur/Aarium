@@ -2,12 +2,18 @@
   "group": "aarium",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "aarium:aariumnugget"
+    },
     "1": {
+      "item": "aarium:aariumnugget"
+    },
+    "2": {
       "item": "aarium:aariumnugget"
     },
     "3": {
@@ -19,7 +25,13 @@
     "5": {
       "item": "aarium:aariumnugget"
     },
+    "6": {
+      "item": "aarium:aariumnugget"
+    },
     "7": {
+      "item": "aarium:aariumnugget"
+    },
+    "8": {
       "item": "aarium:aariumnugget"
     }
   },

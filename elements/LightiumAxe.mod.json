@@ -8,18 +8,22 @@
     "name": "Lightium Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "COMBAT"
     },
     "toolType": "Axe",
     "harvestLevel": 50000,
-    "efficiency": 50000.0,
-    "attackSpeed": 1.0,
-    "enchantability": 50000,
-    "damageVsEntity": 6.0,
+    "efficiency": 50.0,
+    "attackSpeed": 1.8,
+    "enchantability": 5000,
+    "damageVsEntity": 15.0,
     "usageCount": 50000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightiumOreBlock"
+      }
+    ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
