@@ -27,7 +27,13 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.world.dimension.SolitudiaDimension;
+import net.mcreator.aarium.world.dimension.SkyariaDimension;
+import net.mcreator.aarium.world.dimension.SiberiaDimension;
+import net.mcreator.aarium.world.dimension.PateriaDimension;
+import net.mcreator.aarium.world.dimension.ForestiaDimension;
 import net.mcreator.aarium.world.dimension.FarmingstoneDimension;
+import net.mcreator.aarium.world.dimension.AquariaDimension;
 import net.mcreator.aarium.AariumModElements;
 
 import java.util.Random;
@@ -74,6 +80,18 @@ public class AariumoreBlock extends AariumModElements.ModElement {
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 					if (dimensionType == FarmingstoneDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == AquariaDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == SiberiaDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == PateriaDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == ForestiaDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == SolitudiaDimension.type)
+						dimensionCriteria = true;
+					if (dimensionType == SkyariaDimension.type)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

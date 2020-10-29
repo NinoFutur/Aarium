@@ -27,6 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.world.dimension.IgnisiaDimension;
 import net.mcreator.aarium.AariumModElements;
 
 import java.util.Random;
@@ -71,6 +72,8 @@ public class VolcaniteoreBlock extends AariumModElements.ModElement {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
 					if (dimensionType == DimensionType.THE_NETHER)
+						dimensionCriteria = true;
+					if (dimensionType == IgnisiaDimension.type)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

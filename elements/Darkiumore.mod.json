@@ -14,6 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
+    "particleTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -93,7 +94,13 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface",
-      "CUSTOM:Farmingstone"
+      "CUSTOM:Farmingstone",
+      "CUSTOM:Aquaria",
+      "CUSTOM:Siberia",
+      "CUSTOM:Pateria",
+      "CUSTOM:Forestia",
+      "CUSTOM:Solitudia",
+      "CUSTOM:Skyaria"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
