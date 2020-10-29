@@ -3,43 +3,11 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 0.7,
-    "cookingTime": 200,
+    "xpReward": 150.0,
+    "cookingTime": 100,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
       "value": "CUSTOM:LightiumOre"
     },

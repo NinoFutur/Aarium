@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -22,29 +23,29 @@ public class LightiumShovelItem extends AariumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 50000;
+				return 5000;
 			}
 
 			public float getEfficiency() {
-				return 50000f;
+				return 50f;
 			}
 
 			public float getAttackDamage() {
-				return -1.7f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
-				return 50000;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 50000;
+				return 500;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(LightiumGemItem.block, (int) (1)));
 			}
-		}, 1, -3.9f, new Item.Properties().group(null)) {
+		}, 1, -3f, new Item.Properties().group(null)) {
 		}.setRegistryName("lightium_shovel"));
 	}
 }

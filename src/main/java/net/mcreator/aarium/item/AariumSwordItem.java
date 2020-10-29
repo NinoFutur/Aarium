@@ -31,7 +31,7 @@ public class AariumSwordItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 12f;
+				return 6.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -39,13 +39,13 @@ public class AariumSwordItem extends AariumModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 25;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("aarium_sword"));
 	}
 }

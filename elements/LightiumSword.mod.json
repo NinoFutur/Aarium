@@ -8,18 +8,22 @@
     "name": "Lightium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 50000,
-    "efficiency": 50000.0,
-    "attackSpeed": 100.0,
-    "enchantability": 50000,
-    "damageVsEntity": 49998.0,
-    "usageCount": 50000,
+    "harvestLevel": 4,
+    "efficiency": 1.0,
+    "attackSpeed": 2.0,
+    "enchantability": 50,
+    "damageVsEntity": 13.5,
+    "usageCount": 5000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:LightiumGem"
+      }
+    ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

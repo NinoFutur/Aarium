@@ -45,7 +45,7 @@ public class AariumShovelItem extends AariumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, 0f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("aarium_shovel"));
 	}
 }

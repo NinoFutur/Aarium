@@ -4,10 +4,13 @@ package net.mcreator.aarium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.aarium.block.LightiumOreBlockBlock;
 import net.mcreator.aarium.AariumModElements;
 
 @AariumModElements.ModElement.Tag
@@ -26,11 +29,11 @@ public class LightiumAxeItem extends AariumModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 50000f;
+				return 50f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 13f;
 			}
 
 			public int getHarvestLevel() {
@@ -38,13 +41,13 @@ public class LightiumAxeItem extends AariumModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 50000;
+				return 5000;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(LightiumOreBlockBlock.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(null)) {
+		}, 1, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("lightium_axe"));
 	}
 }

@@ -680,15 +680,6 @@
       "registry_name": "lightium_shovel"
     },
     {
-      "name": "LightiumHoe",
-      "type": "tool",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lightium_hoe"
-    },
-    {
       "name": "LightiumPickaxeRecipe",
       "type": "recipe",
       "sortid": 87,
@@ -1573,6 +1564,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "Swimmingrecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swimmingrecipe"
+    },
+    {
+      "name": "Travelersrecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "travelersrecipe"
     }
   ],
   "variable_elements": [],
@@ -1678,7 +1687,6 @@
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "item.aarium.lightium_shovel": "Lightium Shovel",
       "item.aarium.swimming_leggings": "Swimming Leggings",
-      "item.aarium.lightium_hoe": "Lightium Hoe",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.aarium_armor_boots": "Aarium Boots",
       "block.aarium.luminousconcreteblue": "Luminous concrete blue",
@@ -1778,7 +1786,6 @@
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "item.aarium.lightium_shovel": "Lightium Shovel",
       "item.aarium.swimming_leggings": "Swimming Leggings",
-      "item.aarium.lightium_hoe": "Lightium Hoe",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.aarium_armor_boots": "Aarium Boots",
       "block.aarium.luminousconcreteblue": "Béton lumineux bleu",

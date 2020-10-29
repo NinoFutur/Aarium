@@ -10,28 +10,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LightiumGem"
+        "value": "CUSTOM:LightiumOreBlock"
       },
       {
-        "value": "CUSTOM:LightiumGem"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:LightiumGem"
-      },
-      {
-        "value": "Items.STICK"
+        "value": "CUSTOM:LightiumOreBlock"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:LightiumOreBlock"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
+      },
+      {
+        "value": "Items.BLAZE_ROD"
       },
       {
         "value": ""

@@ -23,7 +23,7 @@ public class DarkiumSwordItem extends AariumModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 6280;
+				return 3500;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class DarkiumSwordItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 22f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class DarkiumSwordItem extends AariumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.25f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("darkium_sword"));
 	}
 }

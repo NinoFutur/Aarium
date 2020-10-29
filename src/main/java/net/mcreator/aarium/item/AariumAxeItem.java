@@ -31,7 +31,7 @@ public class AariumAxeItem extends AariumModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class AariumAxeItem extends AariumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.55f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("aarium_axe"));
 	}
 }
