@@ -47,7 +47,7 @@ public class LightiumAxeItem extends AariumModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(LightiumOreBlockBlock.block, (int) (1)));
 			}
-		}, 1, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 1, -2.2f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("lightium_axe"));
 	}
 }
