@@ -33,7 +33,7 @@ public class AariummultitoolItem extends AariumModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(8000));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(5000));
 		}
 
 		@Override

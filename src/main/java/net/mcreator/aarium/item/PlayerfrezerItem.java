@@ -1,38 +1,27 @@
 
 package net.mcreator.aarium.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.aarium.procedures.PlayerFreezerLivingEntityIsHitWithItemProcedure;
-import net.mcreator.aarium.AariumModElements;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @AariumModElements.ModElement.Tag
-public class PlayerFreezerItem extends AariumModElements.ModElement {
-	@ObjectHolder("aarium:player_freezer")
+public class PlayerfrezerItem extends AariumModElements.ModElement {
+
+	@ObjectHolder("aarium:playerfrezer")
 	public static final Item block = null;
-	public PlayerFreezerItem(AariumModElements instance) {
-		super(instance, 130);
+
+	public PlayerfrezerItem(AariumModElements instance) {
+		super(instance, 154);
+
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("player_freezer");
+			setRegistryName("playerfrezer");
 		}
 
 		@Override
@@ -59,10 +48,14 @@ public class PlayerFreezerItem extends AariumModElements.ModElement {
 			World world = entity.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				PlayerFreezerLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
+
+				$_dependencies.put("sourceentity", sourceentity);
+
+				PlayerfrezerLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
+
 	}
+
 }

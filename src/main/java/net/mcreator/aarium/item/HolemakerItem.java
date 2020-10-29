@@ -7,10 +7,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
-import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
@@ -20,7 +18,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aarium.procedures.HolemakerRightClickedOnBlockProcedure;
-import net.mcreator.aarium.procedures.HolemakerRightClickedInAirProcedure;
 import net.mcreator.aarium.AariumModElements;
 
 import java.util.Map;
@@ -66,24 +63,6 @@ public class HolemakerItem extends AariumModElements.ModElement {
 		}
 
 		@Override
-		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
-			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
-			ItemStack itemstack = ar.getResult();
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				HolemakerRightClickedInAirProcedure.executeProcedure($_dependencies);
-			}
-			return ar;
-		}
-
-		@Override
 		public ActionResultType onItemUseFirst(ItemStack stack, ItemUseContext context) {
 			ActionResultType retval = super.onItemUseFirst(stack, context);
 			World world = context.getWorld();
@@ -96,6 +75,7 @@ public class HolemakerItem extends AariumModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

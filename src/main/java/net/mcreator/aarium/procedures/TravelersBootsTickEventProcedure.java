@@ -48,7 +48,7 @@ public class TravelersBootsTickEventProcedure extends AariumModElements.ModEleme
 					.handleCommand(
 							new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"effect give @p minecraft:speed 2 10 true");
+							"effect give @p minecraft:speed 2 2 true");
 		}
 	}
 }

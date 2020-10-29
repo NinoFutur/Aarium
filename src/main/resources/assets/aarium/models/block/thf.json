@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/super_obsidian",
+    "up": "aarium:blocks/darkium_block_v2",
+    "north": "aarium:blocks/darkium_block_v2",
+    "east": "aarium:blocks/green",
+    "south": "aarium:blocks/darkium_block_v2",
+    "west": "aarium:blocks/lightium_ore",
+    "particle": "aarium:blocks/super_obsidian"
+  }
+}

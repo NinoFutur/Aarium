@@ -10,7 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:Aariumnugget"
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:Aariumnugget"
@@ -22,19 +28,13 @@
         "value": "CUSTOM:Aariumnugget"
       },
       {
-        "value": "CUSTOM:Aariumnugget"
+        "value": ""
       },
       {
         "value": "CUSTOM:Aariumnugget"
       },
       {
-        "value": "CUSTOM:Aariumnugget"
-      },
-      {
-        "value": "CUSTOM:Aariumnugget"
-      },
-      {
-        "value": "CUSTOM:Aariumnugget"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

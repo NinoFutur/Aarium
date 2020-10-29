@@ -44,10 +44,10 @@
     "maxDamage": 10,
     "damageValueHelmet": 0,
     "damageValueBody": 0,
-    "damageValueLeggings": 0,
+    "damageValueLeggings": 5,
     "damageValueBoots": 1,
-    "enchantability": 0,
-    "toughness": 0.5,
+    "enchantability": 35,
+    "toughness": 1.0,
     "equipSound": {
       "value": "entity.phantom.ambient"
     },
