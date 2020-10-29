@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AariumArmor.boots"
+      "value": "CUSTOM:Travelers.boots"
     },
     "name": "travelersrecipe",
     "namespace": "mod"
