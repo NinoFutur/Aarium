@@ -1590,6 +1590,70 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "swimmingrecipe"
+    },
+    {
+      "name": "Craftingtable4x4",
+      "type": "gui",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftingtable_4x_4"
+    },
+    {
+      "name": "OPSword",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_sword"
+    },
+    {
+      "name": "BuyCommandExecuted",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "buy_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Buy",
+      "type": "command",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "buy"
     }
   ],
   "variable_elements": [
@@ -1627,17 +1691,18 @@
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "item.aarium.forestia": "Pateria Portal Igniter",
       "block.aarium.greenscreen": "Green screen",
+      "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "block.aarium.aariumore": "Aarium Ore",
       "block.aarium.darkiumblock": "Darkium block",
+      "block.aarium.aariumore": "Aarium Ore",
+      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
@@ -1728,17 +1793,18 @@
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "item.aarium.forestia": "Pateria Portal Igniter",
       "block.aarium.greenscreen": "Green screen",
+      "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "block.aarium.aariumore": "Aarium Ore",
       "block.aarium.darkiumblock": "Darkium block",
+      "block.aarium.aariumore": "Aarium Ore",
+      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
