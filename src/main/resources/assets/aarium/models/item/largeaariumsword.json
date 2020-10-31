@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "aarium:items/large_aarium_sword"
+  }
+}

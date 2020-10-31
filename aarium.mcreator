@@ -1558,6 +1558,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           }
@@ -1647,13 +1651,22 @@
       }
     },
     {
-      "name": "Buy",
-      "type": "command",
-      "sortid": 160,
+      "name": "Largeaariumsword",
+      "type": "tool",
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "buy"
+      "registry_name": "largeaariumsword"
+    },
+    {
+      "name": "Largeaariumswordrecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "largeaariumswordrecipe"
     }
   ],
   "variable_elements": [
@@ -1766,6 +1779,7 @@
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
       "item.aarium.player_freezer": "Player Freezer",
+      "item.aarium.largeaariumsword": "Large aarium sword",
       "item.aarium.swimming_helmet": "Swimming Helmet",
       "block.aarium.superobsidian": "Super obsidian",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -1868,6 +1882,7 @@
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
       "item.aarium.player_freezer": "Player Freezer",
+      "item.aarium.largeaariumsword": "Large aarium sword",
       "item.aarium.swimming_helmet": "Swimming Helmet",
       "block.aarium.superobsidian": "Super obsidienne",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
