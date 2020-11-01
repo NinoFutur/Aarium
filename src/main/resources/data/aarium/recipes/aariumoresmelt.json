@@ -1,8 +1,8 @@
 {
   "group": "aarium",
   "type": "minecraft:smelting",
-  "experience": 8,
-  "cookingtime": 400,
+  "experience": 50,
+  "cookingtime": 250,
   "ingredient": {
     "item": "aarium:aariumore"
   },

@@ -47,15 +47,6 @@
       "registry_name": "aariumnuggetrecipefingot"
     },
     {
-      "name": "Aariumnuggetrecipefore",
-      "type": "recipe",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "aariumnuggetrecipefore"
-    },
-    {
       "name": "Aariumingotrecipefnugget",
       "type": "recipe",
       "sortid": 44,
@@ -1667,6 +1658,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "largeaariumswordrecipe"
+    },
+    {
+      "name": "Aariumoresmelt",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aariumoresmelt"
     }
   ],
   "variable_elements": [
