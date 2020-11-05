@@ -17,7 +17,7 @@
     "particleTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
