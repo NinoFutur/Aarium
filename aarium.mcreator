@@ -836,20 +836,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -900,6 +888,10 @@
       "registry_name": "holemaker_right_clicked_on_block",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -1715,15 +1707,15 @@
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.volcaniteapple": "Volcanite apple",
+      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "block.aarium.darkiumblock": "Darkium block",
-      "block.aarium.aariumore": "Aarium Ore",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
+      "block.aarium.aariumore": "Aarium Ore",
+      "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
@@ -1818,15 +1810,15 @@
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.volcaniteapple": "Volcanite apple",
+      "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "block.aarium.darkiumblock": "Darkium block",
-      "block.aarium.aariumore": "Aarium Ore",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
+      "block.aarium.aariumore": "Aarium Ore",
+      "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
@@ -1932,5 +1924,5 @@
     "modElementsPackage": "net.mcreator.aarium",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000543719
+  "mcreatorVersion": 202000546519
 }
