@@ -1667,6 +1667,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aariumoresmelt"
+    },
+    {
+      "name": "FireswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firesword",
+      "type": "tool",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword"
+    },
+    {
+      "name": "Fireswordrecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fireswordrecipe"
     }
   ],
   "variable_elements": [
@@ -1707,15 +1742,15 @@
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "block.aarium.aariumore": "Aarium Ore",
       "block.aarium.darkiumblock": "Darkium block",
+      "block.aarium.aariumore": "Aarium Ore",
+      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
@@ -1756,6 +1791,7 @@
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "block.aarium.luminousconcretegreen": "Luminous concrete green",
       "block.aarium.luminousconcreteyellow": "Luminous concrete yellow",
+      "item.aarium.firesword": "Fire sword",
       "item.aarium.aarium_armor_leggings": "Aarium Leggings",
       "block.aarium.darkiumslab": "Darkium block",
       "item.aarium.dirtsoup": "Dirt soup",
@@ -1810,15 +1846,15 @@
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
       "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
+      "item.aarium.volcaniteapple": "Volcanite apple",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium.darkium_shovel": "Darkium Shovel",
-      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "block.aarium.aariumore": "Aarium Ore",
       "block.aarium.darkiumblock": "Darkium block",
+      "block.aarium.aariumore": "Aarium Ore",
+      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "block.aarium.aariumslab": "Aarium slab",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
@@ -1859,6 +1895,7 @@
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "block.aarium.luminousconcretegreen": "Béton lumineux vert",
       "block.aarium.luminousconcreteyellow": "Béton lumineux jaune",
+      "item.aarium.firesword": "Fire sword",
       "item.aarium.aarium_armor_leggings": "Aarium Leggings",
       "block.aarium.darkiumslab": "Darkium block",
       "item.aarium.dirtsoup": "Dirt soup",
