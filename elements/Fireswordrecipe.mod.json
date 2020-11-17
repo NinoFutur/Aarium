@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:Volcaniteingot"
       },
       {
         "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:Volcaniteingot"
       },
       {
         "value": "Items.LAVA_BUCKET"
@@ -28,13 +28,13 @@
         "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:Volcaniteingot"
       },
       {
         "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:Volcaniteingot"
       }
     ],
     "recipeReturnStack": {

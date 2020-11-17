@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:lava_bucket"
+      "item": "aarium:volcaniteingot"
     },
     "1": {
       "item": "minecraft:lava_bucket"
     },
     "2": {
-      "item": "minecraft:lava_bucket"
+      "item": "aarium:volcaniteingot"
     },
     "3": {
       "item": "minecraft:lava_bucket"
@@ -26,13 +26,13 @@
       "item": "minecraft:lava_bucket"
     },
     "6": {
-      "item": "minecraft:lava_bucket"
+      "item": "aarium:volcaniteingot"
     },
     "7": {
       "item": "minecraft:lava_bucket"
     },
     "8": {
-      "item": "minecraft:lava_bucket"
+      "item": "aarium:volcaniteingot"
     }
   },
   "result": {
