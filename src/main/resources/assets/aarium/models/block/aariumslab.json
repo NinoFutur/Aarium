@@ -1,5 +1,5 @@
 {
-  "parent": "block/slab",
+  "parent": "block/half_slab",
   "textures": {
     "bottom": "aarium:blocks/aarium_block_2",
     "top": "aarium:blocks/aarium_block_2",

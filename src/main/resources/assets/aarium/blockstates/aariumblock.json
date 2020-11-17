@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "aarium:block/aariumblock"
+    "normal": {
+      "model": "aarium:aariumblock"
     }
   }
 }

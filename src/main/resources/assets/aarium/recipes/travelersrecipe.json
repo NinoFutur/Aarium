@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:experience_bottle"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "aarium:aariumingot"
+    },
+    "5": {
+      "item": "aarium:aariumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:travelersboots",
+    "count": 1
+  }
+}

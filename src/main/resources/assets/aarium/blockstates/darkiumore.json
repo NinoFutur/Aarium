@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "aarium:block/darkiumore"
+    "normal": {
+      "model": "aarium:darkiumore"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "aarium:block/lightium_ore"
+    "normal": {
+      "model": "aarium:lightium_ore"
     }
   }
 }

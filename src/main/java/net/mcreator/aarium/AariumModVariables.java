@@ -1,150 +1,145 @@
 package net.mcreator.aarium;
 
-import net.minecraftforge.fml.network.PacketDistributor;
-import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.AttachCapabilitiesEvent;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.common.util.FakePlayer;
-import net.minecraftforge.common.capabilities.ICapabilitySerializable;
-import net.minecraftforge.common.capabilities.CapabilityManager;
-import net.minecraftforge.common.capabilities.CapabilityInject;
-import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+import net.minecraftforge.fml.common.network.ByteBufUtils;
 
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Direction;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.nbt.INBT;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
+import net.minecraft.world.storage.WorldSavedData;
+import net.minecraft.world.World;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
-import java.util.function.Supplier;
-
 public class AariumModVariables {
-	public AariumModVariables(AariumModElements elements) {
-		elements.addNetworkMessage(PlayerVariablesSyncMessage.class, PlayerVariablesSyncMessage::buffer, PlayerVariablesSyncMessage::new,
-				PlayerVariablesSyncMessage::handler);
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
-	}
+	public static class MapVariables extends WorldSavedData {
+		public static final String DATA_NAME = "aarium_mapvars";
+		public MapVariables() {
+			super(DATA_NAME);
+		}
 
-	private void init(FMLCommonSetupEvent event) {
-		CapabilityManager.INSTANCE.register(PlayerVariables.class, new PlayerVariablesStorage(), PlayerVariables::new);
-	}
-	@CapabilityInject(PlayerVariables.class)
-	public static Capability<PlayerVariables> PLAYER_VARIABLES_CAPABILITY = null;
-	@SubscribeEvent
-	public void onAttachCapabilities(AttachCapabilitiesEvent<Entity> event) {
-		if (event.getObject() instanceof PlayerEntity && !(event.getObject() instanceof FakePlayer))
-			event.addCapability(new ResourceLocation("aarium", "player_variables"), new PlayerVariablesProvider());
-	}
-	private static class PlayerVariablesProvider implements ICapabilitySerializable<INBT> {
-		private final LazyOptional<PlayerVariables> instance = LazyOptional.of(PLAYER_VARIABLES_CAPABILITY::getDefaultInstance);
-		@Override
-		public <T> LazyOptional<T> getCapability(Capability<T> cap, Direction side) {
-			return cap == PLAYER_VARIABLES_CAPABILITY ? instance.cast() : LazyOptional.empty();
+		public MapVariables(String s) {
+			super(s);
 		}
 
 		@Override
-		public INBT serializeNBT() {
-			return PLAYER_VARIABLES_CAPABILITY.getStorage().writeNBT(PLAYER_VARIABLES_CAPABILITY, this.instance.orElseThrow(RuntimeException::new),
-					null);
+		public void readFromNBT(NBTTagCompound nbt) {
 		}
 
 		@Override
-		public void deserializeNBT(INBT nbt) {
-			PLAYER_VARIABLES_CAPABILITY.getStorage().readNBT(PLAYER_VARIABLES_CAPABILITY, this.instance.orElseThrow(RuntimeException::new), null,
-					nbt);
-		}
-	}
-
-	private static class PlayerVariablesStorage implements Capability.IStorage<PlayerVariables> {
-		@Override
-		public INBT writeNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side) {
-			CompoundNBT nbt = new CompoundNBT();
-			nbt.putDouble("Money", instance.Money);
-			nbt.putDouble("Prestige", instance.Prestige);
+		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 			return nbt;
 		}
 
+		public void syncData(World world) {
+			this.markDirty();
+			if (world.isRemote) {
+				AariumMod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(0, this));
+			} else {
+				AariumMod.PACKET_HANDLER.sendToAll(new WorldSavedDataSyncMessage(0, this));
+			}
+		}
+
+		public static MapVariables get(World world) {
+			MapVariables instance = (MapVariables) world.getMapStorage().getOrLoadData(MapVariables.class, DATA_NAME);
+			if (instance == null) {
+				instance = new MapVariables();
+				world.getMapStorage().setData(DATA_NAME, instance);
+			}
+			return instance;
+		}
+	}
+
+	public static class WorldVariables extends WorldSavedData {
+		public static final String DATA_NAME = "aarium_worldvars";
+		public WorldVariables() {
+			super(DATA_NAME);
+		}
+
+		public WorldVariables(String s) {
+			super(s);
+		}
+
 		@Override
-		public void readNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side, INBT inbt) {
-			CompoundNBT nbt = (CompoundNBT) inbt;
-			instance.Money = nbt.getDouble("Money");
-			instance.Prestige = nbt.getDouble("Prestige");
+		public void readFromNBT(NBTTagCompound nbt) {
+		}
+
+		@Override
+		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			return nbt;
+		}
+
+		public void syncData(World world) {
+			this.markDirty();
+			if (world.isRemote) {
+				AariumMod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(1, this));
+			} else {
+				AariumMod.PACKET_HANDLER.sendToDimension(new WorldSavedDataSyncMessage(1, this), world.provider.getDimension());
+			}
+		}
+
+		public static WorldVariables get(World world) {
+			WorldVariables instance = (WorldVariables) world.getPerWorldStorage().getOrLoadData(WorldVariables.class, DATA_NAME);
+			if (instance == null) {
+				instance = new WorldVariables();
+				world.getPerWorldStorage().setData(DATA_NAME, instance);
+			}
+			return instance;
 		}
 	}
 
-	public static class PlayerVariables {
-		public double Money = 500.0;
-		public double Prestige = 0;
-		public void syncPlayerVariables(Entity entity) {
-			if (entity instanceof ServerPlayerEntity)
-				AariumMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity), new PlayerVariablesSyncMessage(this));
-		}
-	}
-	@SubscribeEvent
-	public void onPlayerLoggedInSyncPlayerVariables(PlayerEvent.PlayerLoggedInEvent event) {
-		if (!event.getPlayer().world.isRemote)
-			((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()))
-					.syncPlayerVariables(event.getPlayer());
-	}
-
-	@SubscribeEvent
-	public void onPlayerRespawnedSyncPlayerVariables(PlayerEvent.PlayerRespawnEvent event) {
-		if (!event.getPlayer().world.isRemote)
-			((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()))
-					.syncPlayerVariables(event.getPlayer());
-	}
-
-	@SubscribeEvent
-	public void onPlayerChangedDimensionSyncPlayerVariables(PlayerEvent.PlayerChangedDimensionEvent event) {
-		if (!event.getPlayer().world.isRemote)
-			((PlayerVariables) event.getPlayer().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()))
-					.syncPlayerVariables(event.getPlayer());
-	}
-
-	@SubscribeEvent
-	public void clonePlayer(PlayerEvent.Clone event) {
-		PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new PlayerVariables()));
-		PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-		clone.Money = original.Money;
-		clone.Prestige = original.Prestige;
-		if (!event.isWasDeath()) {
-		}
-	}
-	public static class PlayerVariablesSyncMessage {
-		public PlayerVariables data;
-		public PlayerVariablesSyncMessage(PacketBuffer buffer) {
-			this.data = new PlayerVariables();
-			new PlayerVariablesStorage().readNBT(null, this.data, null, buffer.readCompoundTag());
+	public static class WorldSavedDataSyncMessageHandler implements IMessageHandler<WorldSavedDataSyncMessage, IMessage> {
+		@Override
+		public IMessage onMessage(WorldSavedDataSyncMessage message, MessageContext context) {
+			if (context.side == Side.SERVER)
+				context.getServerHandler().player.getServerWorld()
+						.addScheduledTask(() -> syncData(message, context, context.getServerHandler().player.world));
+			else
+				Minecraft.getMinecraft().addScheduledTask(() -> syncData(message, context, Minecraft.getMinecraft().player.world));
+			return null;
 		}
 
-		public PlayerVariablesSyncMessage(PlayerVariables data) {
+		private void syncData(WorldSavedDataSyncMessage message, MessageContext context, World world) {
+			if (context.side == Side.SERVER) {
+				message.data.markDirty();
+				if (message.type == 0)
+					AariumMod.PACKET_HANDLER.sendToAll(message);
+				else
+					AariumMod.PACKET_HANDLER.sendToDimension(message, world.provider.getDimension());
+			}
+			if (message.type == 0) {
+				world.getMapStorage().setData(MapVariables.DATA_NAME, message.data);
+			} else {
+				world.getPerWorldStorage().setData(WorldVariables.DATA_NAME, message.data);
+			}
+		}
+	}
+
+	public static class WorldSavedDataSyncMessage implements IMessage {
+		public int type;
+		public WorldSavedData data;
+		public WorldSavedDataSyncMessage() {
+		}
+
+		public WorldSavedDataSyncMessage(int type, WorldSavedData data) {
+			this.type = type;
 			this.data = data;
 		}
 
-		public static void buffer(PlayerVariablesSyncMessage message, PacketBuffer buffer) {
-			buffer.writeCompoundTag((CompoundNBT) new PlayerVariablesStorage().writeNBT(null, message.data, null));
+		@Override
+		public void toBytes(io.netty.buffer.ByteBuf buf) {
+			buf.writeInt(this.type);
+			ByteBufUtils.writeTag(buf, this.data.writeToNBT(new NBTTagCompound()));
 		}
 
-		public static void handler(PlayerVariablesSyncMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
-			NetworkEvent.Context context = contextSupplier.get();
-			context.enqueueWork(() -> {
-				if (!context.getDirection().getReceptionSide().isServer()) {
-					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
-							.orElse(new PlayerVariables()));
-					variables.Money = message.data.Money;
-					variables.Prestige = message.data.Prestige;
-				}
-			});
-			context.setPacketHandled(true);
+		@Override
+		public void fromBytes(io.netty.buffer.ByteBuf buf) {
+			this.type = buf.readInt();
+			if (this.type == 0)
+				this.data = new MapVariables();
+			else
+				this.data = new WorldVariables();
+			this.data.readFromNBT(ByteBufUtils.readTag(buf));
 		}
 	}
 }

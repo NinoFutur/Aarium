@@ -1,0 +1,26 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:darkiumingot"
+    },
+    "2": {
+      "item": "aarium:darkiumingot"
+    },
+    "3": {
+      "item": "aarium:darkiumingot"
+    },
+    "5": {
+      "item": "aarium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:darkium_armorboots",
+    "count": 1
+  }
+}

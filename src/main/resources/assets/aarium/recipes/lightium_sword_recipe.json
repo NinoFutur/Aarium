@@ -1,0 +1,24 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "1": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "aarium:lightium_sword",
+    "count": 1
+  }
+}

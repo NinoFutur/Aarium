@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:volcaniteingot"
+    },
+    "1": {
+      "item": "minecraft:lava_bucket"
+    },
+    "2": {
+      "item": "aarium:volcaniteingot"
+    },
+    "3": {
+      "item": "minecraft:lava_bucket"
+    },
+    "4": {
+      "item": "aarium:aarium_sword"
+    },
+    "5": {
+      "item": "minecraft:lava_bucket"
+    },
+    "6": {
+      "item": "aarium:volcaniteingot"
+    },
+    "7": {
+      "item": "minecraft:lava_bucket"
+    },
+    "8": {
+      "item": "aarium:volcaniteingot"
+    }
+  },
+  "result": {
+    "item": "aarium:firesword",
+    "count": 1
+  }
+}

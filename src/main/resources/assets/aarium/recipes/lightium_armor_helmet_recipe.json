@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "1": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "2": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "3": {
+      "item": "aarium:lightium_ore_block"
+    },
+    "5": {
+      "item": "aarium:lightium_ore_block"
+    }
+  },
+  "result": {
+    "item": "aarium:lightium_armorhelmet",
+    "count": 1
+  }
+}

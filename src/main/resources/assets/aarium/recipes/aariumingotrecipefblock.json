@@ -1,0 +1,13 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:aariumblock"
+    }
+  ],
+  "result": {
+    "item": "aarium:aariumingot",
+    "count": 9
+  }
+}

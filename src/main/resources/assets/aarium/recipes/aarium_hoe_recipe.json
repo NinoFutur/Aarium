@@ -1,0 +1,27 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aariumingot"
+    },
+    "1": {
+      "item": "aarium:aariumingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aarium:aarium_hoe",
+    "count": 1
+  }
+}

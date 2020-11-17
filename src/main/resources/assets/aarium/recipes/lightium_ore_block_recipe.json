@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:lightium_gem"
+    },
+    "1": {
+      "item": "aarium:lightium_gem"
+    },
+    "2": {
+      "item": "aarium:lightium_gem"
+    },
+    "3": {
+      "item": "aarium:lightium_gem"
+    },
+    "4": {
+      "item": "aarium:lightium_gem"
+    },
+    "5": {
+      "item": "aarium:lightium_gem"
+    },
+    "6": {
+      "item": "aarium:lightium_gem"
+    },
+    "7": {
+      "item": "aarium:lightium_gem"
+    },
+    "8": {
+      "item": "aarium:lightium_gem"
+    }
+  },
+  "result": {
+    "item": "aarium:lightium_ore_block",
+    "count": 1
+  }
+}

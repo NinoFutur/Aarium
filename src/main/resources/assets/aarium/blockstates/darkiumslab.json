@@ -1,13 +1,10 @@
 {
   "variants": {
-    "type=bottom": {
-      "model": "aarium:block/darkiumslab"
+    "half=bottom,variant=default": {
+      "model": "aarium:darkiumslab"
     },
-    "type=top": {
-      "model": "aarium:block/darkiumslab_top"
-    },
-    "type=double": {
-      "model": "aarium:block/darkiumslab_full"
+    "half=top,variant=default": {
+      "model": "aarium:darkiumslab_top"
     }
   }
 }

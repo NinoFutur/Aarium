@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "aarium:block/greenscreen"
+    "normal": {
+      "model": "aarium:greenscreen"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "aarium:block/luminousconcretewhite"
+    "normal": {
+      "model": "aarium:luminousconcretewhite"
     }
   }
 }

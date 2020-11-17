@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aarium_pickaxe"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "aarium:aarium_shovel"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "aarium:aariumblock"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "aarium:aarium_axe"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "aarium:aarium_sword"
+    }
+  },
+  "result": {
+    "item": "aarium:aariummultitool",
+    "count": 1
+  }
+}

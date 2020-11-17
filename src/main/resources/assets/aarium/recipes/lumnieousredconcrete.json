@@ -1,0 +1,17 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:concrete",
+      "data": 14
+    }
+  ],
+  "result": {
+    "item": "aarium:luminousconcretered",
+    "count": 1
+  }
+}

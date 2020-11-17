@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "aarium:darkiumslab_double"
+    }
+  }
+}

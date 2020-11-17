@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:darkiumingot"
+    },
+    "1": {
+      "item": "aarium:darkiumingot"
+    },
+    "2": {
+      "item": "aarium:darkiumingot"
+    },
+    "3": {
+      "item": "aarium:darkiumingot"
+    },
+    "4": {
+      "item": "aarium:darkiumingot"
+    },
+    "5": {
+      "item": "aarium:darkiumingot"
+    },
+    "6": {
+      "item": "aarium:darkiumingot"
+    },
+    "7": {
+      "item": "aarium:darkiumingot"
+    },
+    "8": {
+      "item": "aarium:darkiumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:darkiumblock",
+    "count": 1
+  }
+}

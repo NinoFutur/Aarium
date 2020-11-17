@@ -1,0 +1,13 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:lightium_ore_block"
+    }
+  ],
+  "result": {
+    "item": "aarium:lightium_gem",
+    "count": 9
+  }
+}

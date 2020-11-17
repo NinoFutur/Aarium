@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aariumingot"
+    },
+    "1": {
+      "item": "aarium:aariumingot"
+    },
+    "2": {
+      "item": "aarium:aariumingot"
+    },
+    "3": {
+      "item": "aarium:aariumingot"
+    },
+    "5": {
+      "item": "aarium:aariumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:aarium_armorhelmet",
+    "count": 1
+  }
+}
