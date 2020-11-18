@@ -2,7 +2,7 @@
   "id_map": {
     "GUI": 1,
     "DIMENSION": 13,
-    "ENTITY": 1
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -1728,6 +1728,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Koro",
+      "type": "mob",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2,
+        "1": 3
+      },
+      "registry_name": "koro"
     }
   ],
   "variable_elements": [
@@ -1815,9 +1827,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -1842,14 +1854,14 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.travelershelmet.name": "Travelers Helmet",
+      "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
       "item.volcaniteingot.name": "Volcanite ingot",
-      "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "tile.lightium_ore_block.name": "Block of Lightium",
+      "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.aarium_axe": "Aarium Axe",
@@ -1923,6 +1935,7 @@
       "block.aarium.darkiumslab": "Darkium block",
       "item.bowoflight.name": "Bow of light",
       "tile.luminousconcreteblack.name": "Luminous concrete black",
+      "entity.koro.name": "Koro",
       "item.aarium.volcanite_armor_leggings": "Volcanite Leggings",
       "item.aarium.holemaker": "Hole maker (5x5)",
       "item.aariumingot.name": "Aarium ingot",
@@ -2019,9 +2032,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
-      "block.aarium.lightium_ore_block": "Bloc de Lightium",
       "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
+      "block.aarium.lightium_ore_block": "Bloc de Lightium",
+      "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2046,14 +2059,14 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.travelershelmet.name": "Travelers Helmet",
+      "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
       "item.volcaniteingot.name": "Volcanite ingot",
-      "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "tile.lightium_ore_block.name": "Block of Lightium",
+      "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.aarium_axe": "Aarium Axe",
@@ -2127,6 +2140,7 @@
       "block.aarium.darkiumslab": "Darkium block",
       "item.bowoflight.name": "Bow of light",
       "tile.luminousconcreteblack.name": "Luminous concrete black",
+      "entity.koro.name": "Koro",
       "item.aarium.volcanite_armor_leggings": "Volcanite Leggings",
       "item.aarium.holemaker": "Hole maker (5x5)",
       "item.aariumingot.name": "Aarium ingot",
