@@ -85,119 +85,121 @@ public class ProcedureNearentitiesfinderRightClickedInAir extends ElementsAarium
 			}
 			entity.getEntityData().setDouble("NEFTimer", 0);
 		} else {
-			if (!world.isRemote && world.getMinecraftServer() != null) {
-				world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
-					@Override
-					public String getName() {
-						return "";
-					}
+			if (((entity.getEntityData().getDouble("NEFTimer")) < 600)) {
+				if (!world.isRemote && world.getMinecraftServer() != null) {
+					world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+						@Override
+						public String getName() {
+							return "";
+						}
 
-					@Override
-					public boolean canUseCommand(int permission, String command) {
-						return true;
-					}
+						@Override
+						public boolean canUseCommand(int permission, String command) {
+							return true;
+						}
 
-					@Override
-					public World getEntityWorld() {
-						return world;
-					}
+						@Override
+						public World getEntityWorld() {
+							return world;
+						}
 
-					@Override
-					public MinecraftServer getServer() {
-						return world.getMinecraftServer();
-					}
+						@Override
+						public MinecraftServer getServer() {
+							return world.getMinecraftServer();
+						}
 
-					@Override
-					public boolean sendCommandFeedback() {
-						return false;
-					}
+						@Override
+						public boolean sendCommandFeedback() {
+							return false;
+						}
 
-					@Override
-					public BlockPos getPosition() {
-						return new BlockPos((int) x, (int) y, (int) z);
-					}
+						@Override
+						public BlockPos getPosition() {
+							return new BlockPos((int) x, (int) y, (int) z);
+						}
 
-					@Override
-					public Vec3d getPositionVector() {
-						return new Vec3d(x, y, z);
-					}
-				}, "title @p times 0 100 0");
-			}
-			if (!world.isRemote && world.getMinecraftServer() != null) {
-				world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
-					@Override
-					public String getName() {
-						return "";
-					}
+						@Override
+						public Vec3d getPositionVector() {
+							return new Vec3d(x, y, z);
+						}
+					}, "title @p times 0 100 0");
+				}
+				if (!world.isRemote && world.getMinecraftServer() != null) {
+					world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+						@Override
+						public String getName() {
+							return "";
+						}
 
-					@Override
-					public boolean canUseCommand(int permission, String command) {
-						return true;
-					}
+						@Override
+						public boolean canUseCommand(int permission, String command) {
+							return true;
+						}
 
-					@Override
-					public World getEntityWorld() {
-						return world;
-					}
+						@Override
+						public World getEntityWorld() {
+							return world;
+						}
 
-					@Override
-					public MinecraftServer getServer() {
-						return world.getMinecraftServer();
-					}
+						@Override
+						public MinecraftServer getServer() {
+							return world.getMinecraftServer();
+						}
 
-					@Override
-					public boolean sendCommandFeedback() {
-						return false;
-					}
+						@Override
+						public boolean sendCommandFeedback() {
+							return false;
+						}
 
-					@Override
-					public BlockPos getPosition() {
-						return new BlockPos((int) x, (int) y, (int) z);
-					}
+						@Override
+						public BlockPos getPosition() {
+							return new BlockPos((int) x, (int) y, (int) z);
+						}
 
-					@Override
-					public Vec3d getPositionVector() {
-						return new Vec3d(x, y, z);
-					}
-				}, "title @p actionbar {\"text\":\"Tu ne peux pas utiliser le NEF maintenant.\",\"color\":\"red\"}");
-			}
-			if (!world.isRemote && world.getMinecraftServer() != null) {
-				world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
-					@Override
-					public String getName() {
-						return "";
-					}
+						@Override
+						public Vec3d getPositionVector() {
+							return new Vec3d(x, y, z);
+						}
+					}, "title @p actionbar {\"text\":\"Tu ne peux pas utiliser le NEF maintenant.\",\"color\":\"red\"}");
+				}
+				if (!world.isRemote && world.getMinecraftServer() != null) {
+					world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+						@Override
+						public String getName() {
+							return "";
+						}
 
-					@Override
-					public boolean canUseCommand(int permission, String command) {
-						return true;
-					}
+						@Override
+						public boolean canUseCommand(int permission, String command) {
+							return true;
+						}
 
-					@Override
-					public World getEntityWorld() {
-						return world;
-					}
+						@Override
+						public World getEntityWorld() {
+							return world;
+						}
 
-					@Override
-					public MinecraftServer getServer() {
-						return world.getMinecraftServer();
-					}
+						@Override
+						public MinecraftServer getServer() {
+							return world.getMinecraftServer();
+						}
 
-					@Override
-					public boolean sendCommandFeedback() {
-						return false;
-					}
+						@Override
+						public boolean sendCommandFeedback() {
+							return false;
+						}
 
-					@Override
-					public BlockPos getPosition() {
-						return new BlockPos((int) x, (int) y, (int) z);
-					}
+						@Override
+						public BlockPos getPosition() {
+							return new BlockPos((int) x, (int) y, (int) z);
+						}
 
-					@Override
-					public Vec3d getPositionVector() {
-						return new Vec3d(x, y, z);
-					}
-				}, "title @p 20 100 20");
+						@Override
+						public Vec3d getPositionVector() {
+							return new Vec3d(x, y, z);
+						}
+					}, "title @p 20 100 20");
+				}
 			}
 		}
 	}

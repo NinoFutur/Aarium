@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 1,
+    "GUI": 2,
     "DIMENSION": 13,
-    "ENTITY": 3
+    "ENTITY": 7
   },
   "mod_elements": [
     {
@@ -1740,6 +1740,80 @@
         "1": 3
       },
       "registry_name": "koro"
+    },
+    {
+      "name": "Oppickaxe",
+      "type": "tool",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oppickaxe"
+    },
+    {
+      "name": "OPshovel",
+      "type": "tool",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "o_pshovel"
+    },
+    {
+      "name": "OpstuffCommandExecuted",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opstuff_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opstuff",
+      "type": "command",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opstuff"
+    },
+    {
+      "name": "Enchantedcoal",
+      "type": "fuel",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchantedcoal"
+    },
+    {
+      "name": "EnchantedDiamondblock",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_diamondblock"
+    },
+    {
+      "name": "Bossghast",
+      "type": "mob",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4,
+        "1": 5
+      },
+      "registry_name": "bossghast"
     }
   ],
   "variable_elements": [
@@ -1814,6 +1888,7 @@
       "item.aarium.solitudia": "Solitudia Portal Igniter",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
+      "item.enchanted_diamondblock.name": "Enchanted diamond block",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
@@ -1827,9 +1902,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -1838,6 +1913,7 @@
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
+      "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
@@ -1854,14 +1930,14 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
+      "item.travelershelmet.name": "Travelers Helmet",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
       "item.volcaniteingot.name": "Volcanite ingot",
-      "tile.lightium_ore_block.name": "Block of Lightium",
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
+      "tile.lightium_ore_block.name": "Block of Lightium",
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.aarium_axe": "Aarium Axe",
@@ -1906,6 +1982,7 @@
       "tile.greenscreenstairs.name": "Green screen stairs",
       "block.aarium.lightium_ore": "Lightium Ore",
       "item.aarium.aariumnugget": "Aarium nugget",
+      "item.o_pshovel.name": "OP shovel",
       "item.aariummultitool.name": "Aarium multitool",
       "item.forestia.name": "Pateria Portal Igniter",
       "item.aarium.enchantedegg": "Enchanted egg",
@@ -1946,6 +2023,7 @@
       "item.lightium_gem.name": "Lightium",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
+      "item.oppickaxe.name": "OP pickaxe",
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
       "item.aarium.player_freezer": "Player Freezer",
@@ -2019,6 +2097,7 @@
       "item.aarium.solitudia": "Solitudia Portal Igniter",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
+      "item.enchanted_diamondblock.name": "Enchanted diamond block",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
@@ -2032,9 +2111,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Bloc de Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Bloc de Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2043,6 +2122,7 @@
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
+      "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
@@ -2059,14 +2139,14 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
+      "item.travelershelmet.name": "Travelers Helmet",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
       "item.volcaniteingot.name": "Volcanite ingot",
-      "tile.lightium_ore_block.name": "Block of Lightium",
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
+      "tile.lightium_ore_block.name": "Block of Lightium",
       "item.aarium.ignisia": "Ignisia Portal Igniter",
       "item.aarium.playerfrezer": "Player Freezer",
       "item.aarium.aarium_axe": "Aarium Axe",
@@ -2111,6 +2191,7 @@
       "tile.greenscreenstairs.name": "Green screen stairs",
       "block.aarium.lightium_ore": "Minerai de Lightium",
       "item.aarium.aariumnugget": "Aarium nugget",
+      "item.o_pshovel.name": "OP pickaxe",
       "item.aariummultitool.name": "Aarium multitool",
       "item.forestia.name": "Pateria Portal Igniter",
       "item.aarium.enchantedegg": "Enchanted egg",
@@ -2151,6 +2232,7 @@
       "item.lightium_gem.name": "Lightium",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
+      "item.oppickaxe.name": "OP pickaxe",
       "item.aarium.aarium_hoe": "Aarium Hoe",
       "item.aarium.darkiumnugget": "Darkium nugget",
       "item.aarium.player_freezer": "Player Freezer",
