@@ -249,15 +249,6 @@
       "registry_name": "aariumslabrecipe_3"
     },
     {
-      "name": "Dirtsoup",
-      "type": "food",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dirtsoup"
-    },
-    {
       "name": "Dirtsouprecipe",
       "type": "recipe",
       "sortid": 56,
@@ -556,24 +547,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "musicdisk_thesoundofsilence"
-    },
-    {
-      "name": "Enchantedcoalblock",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "enchantedcoalblock"
-    },
-    {
-      "name": "Enchantedcoalblockrecipe",
-      "type": "recipe",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "enchantedcoalblockrecipe"
     },
     {
       "name": "Darkiumslab",
@@ -1585,15 +1558,6 @@
       "registry_name": "swimmingrecipe"
     },
     {
-      "name": "Craftingtable4x4",
-      "type": "gui",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "craftingtable_4x_4"
-    },
-    {
       "name": "OPSword",
       "type": "tool",
       "sortid": 159,
@@ -1780,24 +1744,6 @@
       "registry_name": "opstuff"
     },
     {
-      "name": "Enchantedcoal",
-      "type": "fuel",
-      "sortid": 173,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "enchantedcoal"
-    },
-    {
-      "name": "EnchantedDiamondblock",
-      "type": "item",
-      "sortid": 175,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "enchanted_diamondblock"
-    },
-    {
       "name": "Bossghast",
       "type": "mob",
       "sortid": 176,
@@ -1882,7 +1828,6 @@
       "item.aarium.solitudia": "Solitudia Portal Igniter",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
-      "item.enchanted_diamondblock.name": "Enchanted diamond block",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
@@ -1913,12 +1858,10 @@
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.enchantedcoalblock.name": "Enchanted coal block",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "item.aarium.farmingwood": "Farmingwood Portal Igniter",
-      "item.dirtsoup.name": "Dirt soup",
       "item.aarium.lightium_shovel": "Lightium Shovel",
       "item.largeaariumsword.name": "Large aarium sword",
       "item.aarium.swimming_leggings": "Swimming Leggings",
@@ -2091,7 +2034,6 @@
       "item.aarium.solitudia": "Solitudia Portal Igniter",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
-      "item.enchanted_diamondblock.name": "Enchanted diamond block",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
@@ -2122,12 +2064,10 @@
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.enchantedcoalblock.name": "Enchanted coal block",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "item.aarium.farmingwood": "Farmingwood Portal Igniter",
-      "item.dirtsoup.name": "Dirt soup",
       "item.aarium.lightium_shovel": "Lightium Shovel",
       "item.largeaariumsword.name": "Large aarium sword",
       "item.aarium.swimming_leggings": "Swimming Leggings",
