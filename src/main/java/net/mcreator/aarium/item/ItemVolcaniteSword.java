@@ -34,7 +34,7 @@ public class ItemVolcaniteSword extends ElementsAariumMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("VOLCANITE_SWORD", 3, 441, 8f, -1f, 21)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("VOLCANITE_SWORD", 3, 441, 8f, 1f, 21)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

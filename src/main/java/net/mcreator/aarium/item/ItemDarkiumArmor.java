@@ -33,7 +33,7 @@ public class ItemDarkiumArmor extends ElementsAariumMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("DARKIUM_ARMOR", "aarium:darkium", 100, new int[]{10, 30, 25, 10}, 45,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("DARKIUM_ARMOR", "aarium:darkium", 100, new int[]{10, 25, 30, 10}, 45,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("darkium_armorhelmet")
 				.setRegistryName("darkium_armorhelmet").setCreativeTab(CreativeTabs.COMBAT));

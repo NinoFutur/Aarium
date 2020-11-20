@@ -82,7 +82,7 @@ public class ProcedureHolemakerRightClickedOnBlock extends ElementsAariumMod.Mod
 				public Vec3d getPositionVector() {
 					return new Vec3d(x, y, z);
 				}
-			}, "fill ~-5 1 ~-5 ~5 5 ~5 minecraft:air");
+			}, "fill ~-5 5 ~-5 ~5 5 ~5 minecraft:air destroy");
 		}
 		if (!world.isRemote && world.getMinecraftServer() != null) {
 			world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
@@ -120,7 +120,7 @@ public class ProcedureHolemakerRightClickedOnBlock extends ElementsAariumMod.Mod
 				public Vec3d getPositionVector() {
 					return new Vec3d(x, y, z);
 				}
-			}, "tp @p ~ 1 ~");
+			}, "tp @p ~ 5 ~");
 		}
 		if (((entity instanceof EntityPlayer)
 				? ((EntityPlayer) entity).inventory.hasItemStack(new ItemStack(ItemHolemaker.block, (int) (1)))

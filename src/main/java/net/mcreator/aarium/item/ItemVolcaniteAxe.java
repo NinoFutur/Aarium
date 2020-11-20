@@ -46,8 +46,8 @@ public class ItemVolcaniteAxe extends ElementsAariumMod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("VOLCANITE_AXE", 3, 441, 8f, -1f, 21), effective_items_set);
-			this.attackDamage = -1f;
+			super(EnumHelper.addToolMaterial("VOLCANITE_AXE", 3, 441, 8f, 0f, 21), effective_items_set);
+			this.attackDamage = 0f;
 			this.attackSpeed = -3f;
 		}
 

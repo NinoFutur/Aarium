@@ -50,10 +50,7 @@ public class ItemTravelers extends ElementsAariumMod.ModElement {
 				int z = (int) entity.posZ;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
+					$_dependencies.put("entity", entity);
 					ProcedureTravelersBootsTickEvent.executeProcedure($_dependencies);
 				}
 			}
