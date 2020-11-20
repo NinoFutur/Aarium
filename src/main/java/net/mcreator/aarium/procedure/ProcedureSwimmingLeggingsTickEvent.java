@@ -22,6 +22,6 @@ public class ProcedureSwimmingLeggingsTickEvent extends ElementsAariumMod.ModEle
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 240, (int) 1));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, (int) 240, (int) 3));
 	}
 }

@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 2,
-    "DIMENSION": 13,
-    "ENTITY": 7
+    "ENTITY": 7,
+    "DIMENSION": 13
   },
   "mod_elements": [
     {
@@ -781,20 +781,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -1902,9 +1890,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -1916,9 +1904,9 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.enchantedcoalblock.name": "Enchanted coal block",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -2111,9 +2099,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Bloc de Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Bloc de Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2125,9 +2113,9 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.enchantedcoalblock.name": "Enchanted coal block",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
