@@ -22,6 +22,6 @@ public class ProcedureTravelersBootsTickEvent extends ElementsAariumMod.ModEleme
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 60, (int) 5, (false), (false)));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 240, (int) 1, (false), (false)));
 	}
 }
