@@ -1141,7 +1141,13 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "volcanite_armor"
+      "registry_name": "volcanite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "VolcaniteArmorHelmetRecipe",

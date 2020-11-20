@@ -33,7 +33,7 @@ public class ItemVolcaniteArmor extends ElementsAariumMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("VOLCANITE_ARMOR", "aarium:volcanite", 23, new int[]{3, 9, 8, 3}, 14,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("VOLCANITE_ARMOR", "aarium:volcanite", 23, new int[]{3, 8, 9, 3}, 14,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("volcanite_armorhelmet")
 				.setRegistryName("volcanite_armorhelmet").setCreativeTab(CreativeTabs.COMBAT));

@@ -48,7 +48,7 @@ public class ItemLightiumAxe extends ElementsAariumMod.ModElement {
 		protected ItemToolCustom() {
 			super(EnumHelper.addToolMaterial("LIGHTIUM_AXE", 50000, 50000, 50f, 11f, 5000), effective_items_set);
 			this.attackDamage = 11f;
-			this.attackSpeed = -2.2f;
+			this.attackSpeed = -3f;
 		}
 
 		@Override
