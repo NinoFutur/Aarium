@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 2,
+    "ENTITY": 7,
     "DIMENSION": 13,
-    "ENTITY": 7
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -247,15 +247,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aariumslabrecipe_3"
-    },
-    {
-      "name": "Dirtsouprecipe",
-      "type": "recipe",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dirtsouprecipe"
     },
     {
       "name": "Darkiumnugget",
@@ -1639,24 +1630,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -1754,6 +1729,35 @@
         "1": 5
       },
       "registry_name": "bossghast"
+    },
+    {
+      "name": "BossghastEntityDies",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bossghast_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1841,9 +1845,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -1855,9 +1859,9 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -1867,8 +1871,8 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
+      "item.travelershelmet.name": "Travelers Helmet",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
@@ -2047,9 +2051,9 @@
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Bloc de Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Bloc de Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2061,9 +2065,9 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -2073,8 +2077,8 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
+      "item.travelershelmet.name": "Travelers Helmet",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",

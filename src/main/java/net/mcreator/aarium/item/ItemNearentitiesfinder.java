@@ -17,7 +17,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import net.mcreator.aarium.procedure.ProcedureNearentitiesfinderRightClickedInAir;
+import net.mcreator.aarium.procedure.ProcedureFarmingstonePlayerEntersDimension;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Map;
@@ -78,7 +78,7 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureNearentitiesfinderRightClickedInAir.executeProcedure($_dependencies);
+				ProcedureFarmingstonePlayerEntersDimension.executeProcedure($_dependencies);
 			}
 			return ar;
 		}

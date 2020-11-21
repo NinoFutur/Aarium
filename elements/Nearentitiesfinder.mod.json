@@ -29,7 +29,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 1,
     "onRightClickedInAir": {
-      "name": "NearentitiesfinderRightClickedInAir"
+      "name": "FarmingstonePlayerEntersDimension"
     }
   }
 }
