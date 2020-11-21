@@ -1844,18 +1844,6 @@
         "0": 3
       },
       "registry_name": "superenchanteur"
-    },
-    {
-      "name": "Aariumgolem",
-      "type": "mob",
-      "sortid": 180,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {
-        "0": 8,
-        "1": 9
-      },
-      "registry_name": "aariumgolem"
     }
   ],
   "variable_elements": [
@@ -1931,7 +1919,6 @@
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
       "tile.darkiumblock.name": "Darkium block",
-      "entity.aariumgolem.name": "Aarium golem",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.record.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -2138,7 +2125,6 @@
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
       "tile.darkiumblock.name": "Darkium block",
-      "entity.aariumgolem.name": "Aariumgolem",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.record.musicdisk_thesoundofsilence.desc": "The sound of silence",
