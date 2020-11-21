@@ -1,14 +1,8 @@
 package net.mcreator.aarium.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.entity.item.EntityXPOrb;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureBossghastEntityDies extends ElementsAariumMod.ModElement {
+
 	public ProcedureBossghastEntityDies(ElementsAariumMod instance) {
 		super(instance, 177);
 	}
@@ -30,10 +24,12 @@ public class ProcedureBossghastEntityDies extends ElementsAariumMod.ModElement {
 			System.err.println("Failed to load dependency world for procedure BossghastEntityDies!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		for (int index0 = 0; index0 < (int) (100); index0++) {
 			if (!world.isRemote) {
 				world.spawnEntity(new EntityXPOrb(world, x, (y + 5), z, (int) 0));
@@ -48,5 +44,7 @@ public class ProcedureBossghastEntityDies extends ElementsAariumMod.ModElement {
 				world.spawnEntity(new EntityXPOrb(world, x, (y + 11), z, (int) 0));
 			}
 		}
+
 	}
+
 }

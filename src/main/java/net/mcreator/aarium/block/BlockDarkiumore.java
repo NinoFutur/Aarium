@@ -74,7 +74,7 @@ public class BlockDarkiumore extends ElementsAariumMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 2; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(5) + 1;
 			int z = chunkZ + random.nextInt(16);
