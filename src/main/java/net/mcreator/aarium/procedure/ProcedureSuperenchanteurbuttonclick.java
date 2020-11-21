@@ -1,8 +1,21 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.Slot;
+import net.minecraft.inventory.Container;
+import net.minecraft.init.Items;
+import net.minecraft.init.Enchantments;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.Entity;
+import net.minecraft.enchantment.EnchantmentHelper;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSuperenchanteurbuttonclick extends ElementsAariumMod.ModElement {
-
 	public ProcedureSuperenchanteurbuttonclick(ElementsAariumMod instance) {
 		super(instance, 178);
 	}
@@ -12,9 +25,7 @@ public class ProcedureSuperenchanteurbuttonclick extends ElementsAariumMod.ModEl
 			System.err.println("Failed to load dependency entity for procedure Superenchanteurbuttonclick!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
@@ -61,7 +72,5 @@ public class ProcedureSuperenchanteurbuttonclick extends ElementsAariumMod.ModEl
 				}
 			}
 		}
-
 	}
-
 }
