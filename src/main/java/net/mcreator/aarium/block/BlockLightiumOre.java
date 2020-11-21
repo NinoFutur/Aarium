@@ -57,9 +57,9 @@ public class BlockLightiumOre extends ElementsAariumMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(4) + 12;
+			int y = random.nextInt(15) + 1;
 			int z = chunkZ + random.nextInt(16);
 			(new WorldGenMinable(block.getDefaultState(), 2, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
