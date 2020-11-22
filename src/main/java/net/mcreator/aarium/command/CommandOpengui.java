@@ -58,12 +58,12 @@ public class CommandOpengui extends ElementsAariumMod.ModElement {
 
 		@Override
 		public String getName() {
-			return "opengui";
+			return "superenchant";
 		}
 
 		@Override
 		public String getUsage(ICommandSender var1) {
-			return "/opengui [<arguments>]";
+			return "/superenchant [<arguments>]";
 		}
 
 		@Override

@@ -1,0 +1,17 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:concrete",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "aarium:laboratoryblock",
+    "count": 1
+  }
+}

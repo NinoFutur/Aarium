@@ -12,6 +12,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
@@ -47,13 +48,18 @@ public class BlockSolidair extends ElementsAariumMod.ModElement {
 			setResistance(20F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(CreativeTabs.DECORATIONS);
 		}
 
 		@SideOnly(Side.CLIENT)
 		@Override
 		public BlockRenderLayer getBlockLayer() {
 			return BlockRenderLayer.TRANSLUCENT;
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

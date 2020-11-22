@@ -1,0 +1,30 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "2": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "4": {
+      "item": "minecraft:concrete",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "aarium:laboratoryblockdarklinesborder",
+    "count": 1
+  }
+}

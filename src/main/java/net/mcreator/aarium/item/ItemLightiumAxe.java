@@ -33,7 +33,7 @@ public class ItemLightiumAxe extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-		}.setUnlocalizedName("lightium_axe").setRegistryName("lightium_axe").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("lightium_axe").setRegistryName("lightium_axe").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)
