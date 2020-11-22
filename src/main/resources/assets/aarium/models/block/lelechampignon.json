@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aarium:blocks/lelechampignon",
+    "particle": "aarium:blocks/lelechampignon"
+  }
+}
