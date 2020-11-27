@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureOpenguiCommandExecuted extends ElementsAariumMod.ModElement {
 	public ProcedureOpenguiCommandExecuted(ElementsAariumMod instance) {
-		super(instance, 179);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

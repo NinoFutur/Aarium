@@ -22,7 +22,7 @@ public class BlockLaboratoryblockdarklinesborder extends ElementsAariumMod.ModEl
 	@GameRegistry.ObjectHolder("aarium:laboratoryblockdarklinesborder")
 	public static final Block block = null;
 	public BlockLaboratoryblockdarklinesborder(ElementsAariumMod instance) {
-		super(instance, 182);
+		super(instance, 13);
 	}
 
 	@Override

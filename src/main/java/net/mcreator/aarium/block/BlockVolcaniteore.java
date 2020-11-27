@@ -32,7 +32,7 @@ public class BlockVolcaniteore extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:volcaniteore")
 	public static final Block block = null;
 	public BlockVolcaniteore(ElementsAariumMod instance) {
-		super(instance, 112);
+		super(instance, 10);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class GuiSuperenchanteur extends ElementsAariumMod.ModElement {
 	public static int GUIID = 3;
 	public static HashMap guistate = new HashMap();
 	public GuiSuperenchanteur(ElementsAariumMod instance) {
-		super(instance, 177);
+		super(instance, 184);
 	}
 
 	@Override

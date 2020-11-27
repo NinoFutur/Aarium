@@ -23,7 +23,7 @@ import java.util.ArrayList;
 @ElementsAariumMod.ModElement.Tag
 public class CommandOpengui extends ElementsAariumMod.ModElement {
 	public CommandOpengui(ElementsAariumMod instance) {
-		super(instance, 179);
+		super(instance, 183);
 	}
 
 	@Override

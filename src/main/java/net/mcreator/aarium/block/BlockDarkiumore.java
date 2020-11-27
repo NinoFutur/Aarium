@@ -22,12 +22,18 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.world.WorldSpawn;
 import net.mcreator.aarium.world.WorldSolitudia;
 import net.mcreator.aarium.world.WorldSkyaria;
 import net.mcreator.aarium.world.WorldSiberia;
 import net.mcreator.aarium.world.WorldPateria;
+import net.mcreator.aarium.world.WorldIgnisia;
 import net.mcreator.aarium.world.WorldForestia;
+import net.mcreator.aarium.world.WorldFarmingwood;
 import net.mcreator.aarium.world.WorldFarmingstone;
+import net.mcreator.aarium.world.WorldFarmingobsidian;
+import net.mcreator.aarium.world.WorldFarmingdirt;
+import net.mcreator.aarium.world.WorldEvent;
 import net.mcreator.aarium.world.WorldAquaria;
 import net.mcreator.aarium.ElementsAariumMod;
 
@@ -69,6 +75,34 @@ public class BlockDarkiumore extends ElementsAariumMod.ModElement {
 		if (dimID == WorldForestia.DIMID)
 			dimensionCriteria = true;
 		if (dimID == WorldSolitudia.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldSkyaria.DIMID)
+			dimensionCriteria = true;
+		if (dimID == 0)
+			dimensionCriteria = true;
+		if (dimID == WorldSpawn.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldEvent.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldFarmingwood.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldFarmingstone.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldFarmingdirt.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldFarmingobsidian.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldAquaria.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldSiberia.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldPateria.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldForestia.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldSolitudia.DIMID)
+			dimensionCriteria = true;
+		if (dimID == WorldIgnisia.DIMID)
 			dimensionCriteria = true;
 		if (dimID == WorldSkyaria.DIMID)
 			dimensionCriteria = true;

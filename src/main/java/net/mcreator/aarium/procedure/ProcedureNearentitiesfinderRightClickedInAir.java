@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureNearentitiesfinderRightClickedInAir extends ElementsAariumMod.ModElement {
 	public ProcedureNearentitiesfinderRightClickedInAir(ElementsAariumMod instance) {
-		super(instance, 167);
+		super(instance, 176);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

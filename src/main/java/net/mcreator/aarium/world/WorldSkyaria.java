@@ -48,11 +48,11 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldSkyaria extends ElementsAariumMod.ModElement {
-	public static int DIMID = 15;
+	public static int DIMID = 28;
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSkyaria(ElementsAariumMod instance) {
-		super(instance, 153);
+		super(instance, 59);
 	}
 
 	@Override

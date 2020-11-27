@@ -52,11 +52,11 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldSpawn extends ElementsAariumMod.ModElement {
-	public static int DIMID = 3;
+	public static int DIMID = 16;
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSpawn(ElementsAariumMod instance) {
-		super(instance, 24);
+		super(instance, 38);
 	}
 
 	@Override

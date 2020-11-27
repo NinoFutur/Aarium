@@ -24,7 +24,7 @@ public class BlockLightiumOreBlock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lightium_ore_block")
 	public static final Block block = null;
 	public BlockLightiumOreBlock(ElementsAariumMod instance) {
-		super(instance, 78);
+		super(instance, 9);
 	}
 
 	@Override

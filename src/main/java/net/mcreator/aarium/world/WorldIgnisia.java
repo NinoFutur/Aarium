@@ -48,11 +48,11 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldIgnisia extends ElementsAariumMod.ModElement {
-	public static int DIMID = 14;
+	public static int DIMID = 27;
 	public static final boolean NETHER_TYPE = true;
 	public static DimensionType dtype;
 	public WorldIgnisia(ElementsAariumMod instance) {
-		super(instance, 152);
+		super(instance, 58);
 	}
 
 	@Override

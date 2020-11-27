@@ -56,11 +56,11 @@ import java.util.HashMap;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldFarmingstone extends ElementsAariumMod.ModElement {
-	public static int DIMID = 6;
+	public static int DIMID = 19;
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldFarmingstone(ElementsAariumMod instance) {
-		super(instance, 27);
+		super(instance, 41);
 	}
 
 	@Override

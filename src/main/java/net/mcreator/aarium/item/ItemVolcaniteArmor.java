@@ -28,7 +28,7 @@ public class ItemVolcaniteArmor extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:volcanite_armorboots")
 	public static final Item boots = null;
 	public ItemVolcaniteArmor(ElementsAariumMod instance) {
-		super(instance, 115);
+		super(instance, 70);
 	}
 
 	@Override

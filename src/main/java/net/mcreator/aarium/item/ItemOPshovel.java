@@ -24,7 +24,7 @@ public class ItemOPshovel extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:o_pshovel")
 	public static final Item block = null;
 	public ItemOPshovel(ElementsAariumMod instance) {
-		super(instance, 171);
+		super(instance, 62);
 	}
 
 	@Override

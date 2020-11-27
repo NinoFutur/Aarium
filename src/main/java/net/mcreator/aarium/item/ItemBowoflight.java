@@ -39,9 +39,9 @@ import net.mcreator.aarium.ElementsAariumMod;
 public class ItemBowoflight extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:bowoflight")
 	public static final Item block = null;
-	public static final int ENTITYID = 1;
+	public static final int ENTITYID = 12;
 	public ItemBowoflight(ElementsAariumMod instance) {
-		super(instance, 33);
+		super(instance, 67);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class ItemDarkiumHoe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:darkium_hoe")
 	public static final Item block = null;
 	public ItemDarkiumHoe(ElementsAariumMod instance) {
-		super(instance, 22);
+		super(instance, 36);
 	}
 
 	@Override

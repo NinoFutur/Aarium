@@ -53,7 +53,7 @@ public class BlockLelechampignon extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lelechampignon")
 	public static final Block block = null;
 	public BlockLelechampignon(ElementsAariumMod instance) {
-		super(instance, 199);
+		super(instance, 87);
 	}
 
 	@Override

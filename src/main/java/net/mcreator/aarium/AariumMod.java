@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = AariumMod.MODID, version = AariumMod.VERSION)
 public class AariumMod {
 	public static final String MODID = "aarium";
-	public static final String VERSION = "1.0.0";
+	public static final String VERSION = "0.3";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("aarium:a");
 	@SidedProxy(clientSide = "net.mcreator.aarium.ClientProxyAariumMod", serverSide = "net.mcreator.aarium.ServerProxyAariumMod")
 	public static IProxyAariumMod proxy;

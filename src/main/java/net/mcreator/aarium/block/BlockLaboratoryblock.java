@@ -22,7 +22,7 @@ public class BlockLaboratoryblock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:laboratoryblock")
 	public static final Block block = null;
 	public BlockLaboratoryblock(ElementsAariumMod instance) {
-		super(instance, 180);
+		super(instance, 11);
 	}
 
 	@Override

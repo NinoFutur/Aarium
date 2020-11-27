@@ -52,11 +52,11 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldSolitudia extends ElementsAariumMod.ModElement {
-	public static int DIMID = 13;
+	public static int DIMID = 26;
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSolitudia(ElementsAariumMod instance) {
-		super(instance, 151);
+		super(instance, 57);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class ItemTravelers extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:travelersboots")
 	public static final Item boots = null;
 	public ItemTravelers(ElementsAariumMod instance) {
-		super(instance, 41);
+		super(instance, 91);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class ItemLightiumAxe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lightium_axe")
 	public static final Item block = null;
 	public ItemLightiumAxe(ElementsAariumMod instance) {
-		super(instance, 83);
+		super(instance, 44);
 	}
 
 	@Override

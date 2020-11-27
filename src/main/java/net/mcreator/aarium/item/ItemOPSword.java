@@ -28,7 +28,7 @@ public class ItemOPSword extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:op_sword")
 	public static final Item block = null;
 	public ItemOPSword(ElementsAariumMod instance) {
-		super(instance, 159);
+		super(instance, 171);
 	}
 
 	@Override

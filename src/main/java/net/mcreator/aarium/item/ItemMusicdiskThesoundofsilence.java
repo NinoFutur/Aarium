@@ -20,7 +20,7 @@ public class ItemMusicdiskThesoundofsilence extends ElementsAariumMod.ModElement
 	@GameRegistry.ObjectHolder("aarium:musicdisk_thesoundofsilence")
 	public static final Item block = null;
 	public ItemMusicdiskThesoundofsilence(ElementsAariumMod instance) {
-		super(instance, 14);
+		super(instance, 23);
 	}
 
 	@Override

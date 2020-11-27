@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "DIMENSION": 26,
     "GUI": 3,
-    "DIMENSION": 13,
-    "ENTITY": 11
+    "ENTITY": 12
   },
   "mod_elements": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Aariumnugget",
       "type": "item",
-      "sortid": 8,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -26,7 +26,7 @@
     {
       "name": "Aariumingot",
       "type": "item",
-      "sortid": 9,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "Aariumnuggetrecipefingot",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -53,7 +53,7 @@
     {
       "name": "Aariumingotrecipefnugget",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -62,7 +62,7 @@
     {
       "name": "Aariumingotrecipefblock",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -71,7 +71,7 @@
     {
       "name": "Aariumblockrecipefingot",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -80,7 +80,7 @@
     {
       "name": "AariumPickaxe",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -89,7 +89,7 @@
     {
       "name": "AariumAxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -98,7 +98,7 @@
     {
       "name": "AariumSword",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -107,7 +107,7 @@
     {
       "name": "AariumShovel",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -116,7 +116,7 @@
     {
       "name": "AariumHoe",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -125,7 +125,7 @@
     {
       "name": "AariumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +134,7 @@
     {
       "name": "AariumAxeRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -143,7 +143,7 @@
     {
       "name": "AariumSwordRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -152,7 +152,7 @@
     {
       "name": "AariumShovelRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -161,7 +161,7 @@
     {
       "name": "AariumHoeRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -179,7 +179,7 @@
     {
       "name": "Superobsidianrecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -188,7 +188,7 @@
     {
       "name": "Greenscreen",
       "type": "block",
-      "sortid": 34,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -197,7 +197,7 @@
     {
       "name": "Greenscreenwithoutcontact",
       "type": "block",
-      "sortid": 35,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -206,7 +206,7 @@
     {
       "name": "Greenscreenstairs",
       "type": "block",
-      "sortid": 36,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +224,7 @@
     {
       "name": "Aariumslabrecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -233,7 +233,7 @@
     {
       "name": "Aariumslabrecipe2",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -242,7 +242,7 @@
     {
       "name": "Aariumslabrecipe3",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -251,7 +251,7 @@
     {
       "name": "Darkiumnugget",
       "type": "item",
-      "sortid": 10,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -260,7 +260,7 @@
     {
       "name": "Darkiumingot",
       "type": "item",
-      "sortid": 11,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +269,7 @@
     {
       "name": "Darkiumnuggetrecipefblock",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -278,7 +278,7 @@
     {
       "name": "Darkiumnuggetrecipefingot",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -287,7 +287,7 @@
     {
       "name": "Darkiumingotrecipefnugget",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "Darkiumblockrecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -323,7 +323,7 @@
     {
       "name": "Darkiumingotrecipefblock",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -332,7 +332,7 @@
     {
       "name": "DarkiumPickaxe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -341,7 +341,7 @@
     {
       "name": "DarkiumAxe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -350,7 +350,7 @@
     {
       "name": "DarkiumSword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -359,7 +359,7 @@
     {
       "name": "DarkiumShovel",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -368,7 +368,7 @@
     {
       "name": "DarkiumHoe",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -377,7 +377,7 @@
     {
       "name": "DarkiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -386,7 +386,7 @@
     {
       "name": "DarkiumAxeRecipe",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -395,7 +395,7 @@
     {
       "name": "DarkiumSwordRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "DarkiumShovelRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -413,7 +413,7 @@
     {
       "name": "DarkiumHoeRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -422,7 +422,7 @@
     {
       "name": "DarkiumArmor",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -437,7 +437,7 @@
     {
       "name": "DarkiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -446,7 +446,7 @@
     {
       "name": "DarkiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -455,7 +455,7 @@
     {
       "name": "DarkiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "DarkiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -473,7 +473,7 @@
     {
       "name": "AariumArmor",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -488,7 +488,7 @@
     {
       "name": "AariumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -497,7 +497,7 @@
     {
       "name": "AariumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -506,7 +506,7 @@
     {
       "name": "AariumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -515,7 +515,7 @@
     {
       "name": "AariumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -524,7 +524,7 @@
     {
       "name": "Musicdiscrolling",
       "type": "musicdisc",
-      "sortid": 13,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -533,7 +533,7 @@
     {
       "name": "MusicdiskThesoundofsilence",
       "type": "musicdisc",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -551,7 +551,7 @@
     {
       "name": "LightiumGem",
       "type": "item",
-      "sortid": 76,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -560,7 +560,7 @@
     {
       "name": "LightiumOre",
       "type": "block",
-      "sortid": 77,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -569,7 +569,7 @@
     {
       "name": "LightiumOreBlock",
       "type": "block",
-      "sortid": 78,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -578,7 +578,7 @@
     {
       "name": "LightiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -587,7 +587,7 @@
     {
       "name": "LightiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -596,7 +596,7 @@
     {
       "name": "LightiumOreSmelting",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -605,7 +605,7 @@
     {
       "name": "LightiumPickaxe",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -614,7 +614,7 @@
     {
       "name": "LightiumAxe",
       "type": "tool",
-      "sortid": 83,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -623,7 +623,7 @@
     {
       "name": "LightiumSword",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -632,7 +632,7 @@
     {
       "name": "LightiumShovel",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -641,7 +641,7 @@
     {
       "name": "LightiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -650,7 +650,7 @@
     {
       "name": "LightiumAxeRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -659,7 +659,7 @@
     {
       "name": "LightiumSwordRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -668,7 +668,7 @@
     {
       "name": "LightiumShovelRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -677,7 +677,7 @@
     {
       "name": "LightiumHoeRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -686,7 +686,7 @@
     {
       "name": "LightiumArmor",
       "type": "armor",
-      "sortid": 92,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -701,7 +701,7 @@
     {
       "name": "LightiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -710,7 +710,7 @@
     {
       "name": "LightiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -719,7 +719,7 @@
     {
       "name": "LightiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -728,7 +728,7 @@
     {
       "name": "LightiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -737,7 +737,7 @@
     {
       "name": "TravelersBootsTickEvent",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -754,7 +754,7 @@
     {
       "name": "Travelers",
       "type": "armor",
-      "sortid": 41,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -769,7 +769,7 @@
     {
       "name": "Swimming",
       "type": "armor",
-      "sortid": 40,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -784,7 +784,7 @@
     {
       "name": "SwimmingLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -801,25 +801,29 @@
     {
       "name": "Spawn",
       "type": "dimension",
-      "sortid": 24,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 14
+      },
       "registry_name": "spawn"
     },
     {
       "name": "Bowoflight",
       "type": "gun",
-      "sortid": 33,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 12
+      },
       "registry_name": "bowoflight"
     },
     {
       "name": "Luminousconcretewhite",
       "type": "block",
-      "sortid": 37,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -828,7 +832,7 @@
     {
       "name": "Luminousconcreteblack",
       "type": "block",
-      "sortid": 38,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -837,7 +841,7 @@
     {
       "name": "HolemakerRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -870,7 +874,7 @@
     {
       "name": "Holemaker",
       "type": "item",
-      "sortid": 23,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -879,16 +883,18 @@
     {
       "name": "Event",
       "type": "dimension",
-      "sortid": 25,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 15
+      },
       "registry_name": "event"
     },
     {
       "name": "FarmingwoodPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -917,16 +923,18 @@
     {
       "name": "Farmingwood",
       "type": "dimension",
-      "sortid": 26,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 16
+      },
       "registry_name": "farmingwood"
     },
     {
       "name": "FarmingstonePlayerEntersDimension",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -955,16 +963,18 @@
     {
       "name": "Farmingstone",
       "type": "dimension",
-      "sortid": 27,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 17
+      },
       "registry_name": "farmingstone"
     },
     {
       "name": "FarmingdirtPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -993,25 +1003,29 @@
     {
       "name": "Farmingdirt",
       "type": "dimension",
-      "sortid": 28,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 18
+      },
       "registry_name": "farmingdirt"
     },
     {
       "name": "Farmingobsidian",
       "type": "dimension",
-      "sortid": 104,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 19
+      },
       "registry_name": "farmingobsidian"
     },
     {
       "name": "Luminousconcreteyellow",
       "type": "block",
-      "sortid": 105,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1020,7 +1034,7 @@
     {
       "name": "Luminousconcretered",
       "type": "block",
-      "sortid": 106,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1029,7 +1043,7 @@
     {
       "name": "Luminousconcreteblue",
       "type": "block",
-      "sortid": 107,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1038,7 +1052,7 @@
     {
       "name": "Luminousconcretegreen",
       "type": "block",
-      "sortid": 108,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1047,7 +1061,7 @@
     {
       "name": "Enchantedegg",
       "type": "item",
-      "sortid": 109,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1056,7 +1070,7 @@
     {
       "name": "Enchantedeggrecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1065,7 +1079,7 @@
     {
       "name": "Chickeneggrecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1074,7 +1088,7 @@
     {
       "name": "Volcaniteore",
       "type": "block",
-      "sortid": 112,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1083,7 +1097,7 @@
     {
       "name": "Volcaniteingot",
       "type": "item",
-      "sortid": 113,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1092,7 +1106,7 @@
     {
       "name": "Volcaniteingotrecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1101,7 +1115,7 @@
     {
       "name": "VolcaniteArmor",
       "type": "armor",
-      "sortid": 115,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1116,7 +1130,7 @@
     {
       "name": "VolcaniteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1125,7 +1139,7 @@
     {
       "name": "VolcaniteArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1134,7 +1148,7 @@
     {
       "name": "VolcaniteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1143,7 +1157,7 @@
     {
       "name": "VolcaniteArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1152,7 +1166,7 @@
     {
       "name": "VolcanitePickaxe",
       "type": "tool",
-      "sortid": 120,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1161,7 +1175,7 @@
     {
       "name": "VolcaniteAxe",
       "type": "tool",
-      "sortid": 121,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1170,7 +1184,7 @@
     {
       "name": "VolcaniteSword",
       "type": "tool",
-      "sortid": 122,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1179,7 +1193,7 @@
     {
       "name": "VolcaniteShovel",
       "type": "tool",
-      "sortid": 123,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1188,7 +1202,7 @@
     {
       "name": "VolcaniteHoe",
       "type": "tool",
-      "sortid": 124,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1197,7 +1211,7 @@
     {
       "name": "VolcanitePickaxeRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1206,7 +1220,7 @@
     {
       "name": "VolcaniteAxeRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1215,7 +1229,7 @@
     {
       "name": "VolcaniteSwordRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1224,7 +1238,7 @@
     {
       "name": "VolcaniteShovelRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1233,7 +1247,7 @@
     {
       "name": "VolcaniteHoeRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1242,7 +1256,7 @@
     {
       "name": "Playerfreezerrecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1251,7 +1265,7 @@
     {
       "name": "Lumineousconcreteyellow",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1260,7 +1274,7 @@
     {
       "name": "Lumnieousredconcrete",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1269,7 +1283,7 @@
     {
       "name": "Blacklumineousconcrete",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1278,7 +1292,7 @@
     {
       "name": "Bluelumineousconcrete",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1287,7 +1301,7 @@
     {
       "name": "Greenlumineousconcrete",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1296,7 +1310,7 @@
     {
       "name": "Whiteluminousconcrete",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1305,7 +1319,7 @@
     {
       "name": "Aariumingotpainting",
       "type": "painting",
-      "sortid": 138,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1314,7 +1328,7 @@
     {
       "name": "Solidair",
       "type": "block",
-      "sortid": 139,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1323,7 +1337,7 @@
     {
       "name": "Solidairrecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1332,7 +1346,7 @@
     {
       "name": "HERMESpainting1",
       "type": "painting",
-      "sortid": 141,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1341,7 +1355,7 @@
     {
       "name": "Aariummultitool",
       "type": "tool",
-      "sortid": 142,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1350,7 +1364,7 @@
     {
       "name": "Aariummultitoolrecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1359,7 +1373,7 @@
     {
       "name": "TreechopperaxeBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1388,7 +1402,7 @@
     {
       "name": "Treechopperaxe",
       "type": "tool",
-      "sortid": 144,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1397,7 +1411,7 @@
     {
       "name": "VolcaniteappleFoodEaten",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1414,7 +1428,7 @@
     {
       "name": "Volcaniteapple",
       "type": "food",
-      "sortid": 145,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1423,7 +1437,7 @@
     {
       "name": "Volcaniteapplerecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1432,70 +1446,84 @@
     {
       "name": "Aquaria",
       "type": "dimension",
-      "sortid": 147,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 20
+      },
       "registry_name": "aquaria"
     },
     {
       "name": "Siberia",
       "type": "dimension",
-      "sortid": 148,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 21
+      },
       "registry_name": "siberia"
     },
     {
       "name": "Pateria",
       "type": "dimension",
-      "sortid": 149,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 22
+      },
       "registry_name": "pateria"
     },
     {
       "name": "Forestia",
       "type": "dimension",
-      "sortid": 150,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 23
+      },
       "registry_name": "forestia"
     },
     {
       "name": "Solitudia",
       "type": "dimension",
-      "sortid": 151,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 24
+      },
       "registry_name": "solitudia"
     },
     {
       "name": "Ignisia",
       "type": "dimension",
-      "sortid": 152,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 25
+      },
       "registry_name": "ignisia"
     },
     {
       "name": "Skyaria",
       "type": "dimension",
-      "sortid": 153,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 26
+      },
       "registry_name": "skyaria"
     },
     {
       "name": "PlayerfrezerLivingEntityIsHitWithItem",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1524,7 +1552,7 @@
     {
       "name": "Playerfrezer",
       "type": "item",
-      "sortid": 154,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1533,7 +1561,7 @@
     {
       "name": "Travelersrecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1542,7 +1570,7 @@
     {
       "name": "Swimmingrecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1551,7 +1579,7 @@
     {
       "name": "OPSword",
       "type": "tool",
-      "sortid": 159,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1560,7 +1588,7 @@
     {
       "name": "Largeaariumsword",
       "type": "tool",
-      "sortid": 162,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1569,7 +1597,7 @@
     {
       "name": "Largeaariumswordrecipe",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1578,7 +1606,7 @@
     {
       "name": "Aariumoresmelt",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1587,7 +1615,7 @@
     {
       "name": "FireswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1604,7 +1632,7 @@
     {
       "name": "Firesword",
       "type": "tool",
-      "sortid": 165,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1613,7 +1641,7 @@
     {
       "name": "Fireswordrecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1622,7 +1650,7 @@
     {
       "name": "NearentitiesfinderRightClickedInAir",
       "type": "procedure",
-      "sortid": 167,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1630,24 +1658,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -1655,7 +1667,7 @@
     {
       "name": "Nearentitiesfinder",
       "type": "item",
-      "sortid": 167,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1664,7 +1676,7 @@
     {
       "name": "NEFTimer",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1681,7 +1693,7 @@
     {
       "name": "Koro",
       "type": "mob",
-      "sortid": 169,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1693,7 +1705,7 @@
     {
       "name": "Oppickaxe",
       "type": "tool",
-      "sortid": 170,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1702,7 +1714,7 @@
     {
       "name": "OPshovel",
       "type": "tool",
-      "sortid": 171,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1711,7 +1723,7 @@
     {
       "name": "OpstuffCommandExecuted",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1728,7 +1740,7 @@
     {
       "name": "Opstuff",
       "type": "command",
-      "sortid": 172,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1737,7 +1749,7 @@
     {
       "name": "Bossghast",
       "type": "mob",
-      "sortid": 176,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1749,7 +1761,7 @@
     {
       "name": "BossghastEntityDies",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1778,7 +1790,7 @@
     {
       "name": "OpenguiCommandExecuted",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1811,7 +1823,7 @@
     {
       "name": "Superenchanteurbuttonclick",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1828,7 +1840,7 @@
     {
       "name": "Opengui",
       "type": "command",
-      "sortid": 179,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1837,7 +1849,7 @@
     {
       "name": "Superenchanteur",
       "type": "gui",
-      "sortid": 177,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1848,7 +1860,7 @@
     {
       "name": "Laboratoryblock",
       "type": "block",
-      "sortid": 180,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1857,7 +1869,7 @@
     {
       "name": "Laboratoryblockdarkline",
       "type": "block",
-      "sortid": 181,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1866,7 +1878,7 @@
     {
       "name": "Laboratoryblockdarklinesborder",
       "type": "block",
-      "sortid": 182,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1875,7 +1887,7 @@
     {
       "name": "Laboratoryblockdarkcross",
       "type": "block",
-      "sortid": 183,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1884,7 +1896,7 @@
     {
       "name": "Laboratoryblocktrue",
       "type": "block",
-      "sortid": 184,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1893,7 +1905,7 @@
     {
       "name": "Laboratoryblockfalse",
       "type": "block",
-      "sortid": 185,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1902,7 +1914,7 @@
     {
       "name": "Laboratoryblockwarning",
       "type": "block",
-      "sortid": 186,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1911,7 +1923,7 @@
     {
       "name": "Luminoussolidair",
       "type": "block",
-      "sortid": 187,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1920,7 +1932,7 @@
     {
       "name": "Luminoussolidairrecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1929,7 +1941,7 @@
     {
       "name": "Luminousair",
       "type": "block",
-      "sortid": 189,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1938,7 +1950,7 @@
     {
       "name": "Luminousairrecipe",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1947,7 +1959,7 @@
     {
       "name": "LB1",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1956,7 +1968,7 @@
     {
       "name": "LB2",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1965,7 +1977,7 @@
     {
       "name": "LB3",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1974,7 +1986,7 @@
     {
       "name": "LB4",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1983,7 +1995,7 @@
     {
       "name": "LB5",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1992,7 +2004,7 @@
     {
       "name": "LB6",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2001,7 +2013,7 @@
     {
       "name": "LB7",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2010,7 +2022,7 @@
     {
       "name": "Laboratory",
       "type": "tag",
-      "sortid": 198,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2019,11 +2031,137 @@
     {
       "name": "Lelechampignon",
       "type": "plant",
-      "sortid": 199,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "lelechampignon"
+    },
+    {
+      "name": "Egyptianblock0",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_0"
+    },
+    {
+      "name": "Egyptianblock1",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_1"
+    },
+    {
+      "name": "Egyptianblock2",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_2"
+    },
+    {
+      "name": "Egyptianblock3",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_3"
+    },
+    {
+      "name": "Egyptianblock4",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_4"
+    },
+    {
+      "name": "Egyptianblock5",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_5"
+    },
+    {
+      "name": "Egyptianblock6",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_6"
+    },
+    {
+      "name": "EB0",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eb_0"
+    },
+    {
+      "name": "Egyptianblock70",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_70"
+    },
+    {
+      "name": "Egyptianblock71",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_71"
+    },
+    {
+      "name": "EgyptianBlock8",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptian_block_8"
+    },
+    {
+      "name": "Egyptianblock9",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_9"
+    },
+    {
+      "name": "Egyptianblock10",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_10"
+    },
+    {
+      "name": "Egyptblock11",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptblock_11"
     }
   ],
   "variable_elements": [
@@ -2055,11 +2193,12 @@
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "block.aarium.greenscreen": "Green screen",
-      "tile.luminousair.name": "Luminous solid air",
+      "tile.luminousair.name": "Luminous air",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
+      "tile.egyptianblock_6.name": "Egyptian block (Wither)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
@@ -2080,6 +2219,7 @@
       "item.aarium.darkium_armor_chestplate": "Darkium Chestplate",
       "item.aarium.lightium_armor_leggings": "Lightium Leggings",
       "item.swimminglegs.name": "Swimming Leggings",
+      "tile.egyptianblock_4.name": "Egyptian block (river)",
       "item.darkium_sword.name": "Darkium Sword",
       "item.playerfrezer.name": "Player Freezer",
       "item.aarium.aarium_ingot": "Aarium ingot",
@@ -2105,13 +2245,14 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Luminous concrete yellow",
+      "tile.egyptianblock_2.name": "Egyptian block (orange sun)",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2124,11 +2265,15 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
+      "tile.egyptianblock_9.name": "Egyptian block (Sun with lines)",
+      "tile.egyptianblock_71.name": "Egyptian block (Rê up)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
+      "tile.egyptianblock_3.name": "Egyptian block (tree)",
+      "tile.egyptianblock_70.name": "Egyptian block (Rê down)",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "item.aarium.farmingwood": "Farmingwood Portal Igniter",
       "item.aarium.lightium_shovel": "Lightium Shovel",
@@ -2155,6 +2300,7 @@
       "item.aarium.forestia": "Pateria Portal Igniter",
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
+      "tile.egyptian_block_8.name": "Egyptian block (Big bottle)",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.volcaniteapple": "Volcanite apple",
       "item.lightium_armorhelmet.name": "Lightium Helmet",
@@ -2168,6 +2314,7 @@
       "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "item.aarium_sword.name": "Aarium Sword",
+      "tile.egyptianblock_5.name": "Egyptian block (dead bush)",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
       "item.aarium.musicdisk_thesoundofsilence": "Music disk: The sound of silence",
       "item.travelersbody.name": "Travelers Body",
@@ -2185,6 +2332,7 @@
       "item.darkiumingot.name": "Darkium ingot",
       "item.aarium.travelers_leggings": "Travelers Leggings",
       "item.lightium_axe.name": "Lightium Axe",
+      "tile.egyptblock_11.name": "Egyptian block (Pharaon face)",
       "item.farmingobsidian.name": "Farmingobsidian Portal Igniter",
       "tile.greenscreenstairs.name": "Green screen stairs",
       "block.aarium.lightium_ore": "Lightium Ore",
@@ -2202,6 +2350,7 @@
       "item.aarium_armorhelmet.name": "Aarium Helmet",
       "item.ignisia.name": "Ignisia Portal Igniter",
       "item.aarium.lightium_armor_chestplate": "Lightium Chestplate",
+      "tile.egyptianblock_1.name": "Egyptian block (two papyrus leaves)",
       "item.aarium.aarium_shovel": "Aarium Shovel",
       "tile.laboratoryblockdarkline.name": "Laboratory block (line)",
       "block.aarium.volcaniteore": "Volcanite ore",
@@ -2212,6 +2361,7 @@
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "item.darkium_shovel.name": "Darkium Shovel",
       "block.aarium.luminousconcretegreen": "Luminous concrete green",
+      "tile.egyptianblock_0.name": "Egyptian block (base)",
       "item.volcanite_sword.name": "Volcanite Sword",
       "item.firesword.name": "Fire sword",
       "item.aarium_armorbody.name": "Aarium Chestplate",
@@ -2253,6 +2403,7 @@
       "item.aarium.aarium_armor_boots": "Aarium Boots",
       "block.aarium.luminousconcreteblue": "Luminous concrete blue",
       "item.aarium.musicdiscrolling.desc": "Rindin\u0027",
+      "tile.egyptianblock_10.name": "Egyptian block (N)",
       "tile.superobsidian.name": "Super obsidian",
       "item.aarium.spawn": "Spawn Portal Igniter",
       "item.lightium_shovel.name": "Lightium Shovel",
@@ -2276,6 +2427,7 @@
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
+      "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
@@ -2296,6 +2448,7 @@
       "item.aarium.darkium_armor_chestplate": "Darkium Chestplate",
       "item.aarium.lightium_armor_leggings": "Lightium Leggings",
       "item.swimminglegs.name": "Swimming Leggings",
+      "tile.egyptianblock_4.name": "Egyptian block (orange sun)",
       "item.darkium_sword.name": "Darkium Sword",
       "item.playerfrezer.name": "Player Freezer",
       "item.aarium.aarium_ingot": "Lingot d\u0027Aarium",
@@ -2321,13 +2474,14 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Béton lumineux jaune",
+      "tile.egyptianblock_2.name": "Egyptian block (two papyrus leaves)",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Bloc de Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Bloc de Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -2340,11 +2494,15 @@
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "item.aarium.swimming_boots": "Swimming Boots",
-      "item.lightium_armorlegs.name": "Lightium Leggings",
-      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
+      "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
+      "item.lightium_armorlegs.name": "Lightium Leggings",
+      "tile.egyptianblock_9.name": "Egyptian block (Big bottle)",
+      "tile.egyptianblock_71.name": "Egyptian block (Wither)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
+      "tile.egyptianblock_3.name": "Egyptian block (orange sun)",
+      "tile.egyptianblock_70.name": "Egyptian block (Wither)",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "item.aarium.farmingwood": "Farmingwood Portal Igniter",
       "item.aarium.lightium_shovel": "Lightium Shovel",
@@ -2371,6 +2529,7 @@
       "item.aarium.forestia": "Pateria Portal Igniter",
       "item.aarium.op_sword": "OP Sword",
       "item.aarium.aariumingot": "Aarium ingot",
+      "tile.egyptian_block_8.name": "Egyptian block (Rê up)",
       "item.aarium.volcanite_armor_helmet": "Volcanite Helmet",
       "item.aarium.volcaniteapple": "Volcanite apple",
       "item.lightium_armorhelmet.name": "Lightium Helmet",
@@ -2384,6 +2543,7 @@
       "block.aarium.darkiumblock": "Darkium block",
       "block.aarium.aariumslab": "Aarium slab",
       "item.aarium_sword.name": "Aarium Sword",
+      "tile.egyptianblock_5.name": "Egyptian block (river)",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
       "item.aarium.musicdisk_thesoundofsilence": "Music disk: The sound of silence",
       "item.travelersbody.name": "Travelers Body",
@@ -2401,6 +2561,7 @@
       "item.darkiumingot.name": "Darkium ingot",
       "item.aarium.travelers_leggings": "Travelers Leggings",
       "item.lightium_axe.name": "Lightium Axe",
+      "tile.egyptblock_11.name": "Egyptian block (N)",
       "item.farmingobsidian.name": "Farmingobsidian Portal Igniter",
       "tile.greenscreenstairs.name": "Green screen stairs",
       "block.aarium.lightium_ore": "Minerai de Lightium",
@@ -2418,6 +2579,7 @@
       "item.aarium_armorhelmet.name": "Aarium Helmet",
       "item.ignisia.name": "Ignisia Portal Igniter",
       "item.aarium.lightium_armor_chestplate": "Plastron en Lightium",
+      "tile.egyptianblock_1.name": "Egyptian block (base)",
       "item.aarium.aarium_shovel": "Aarium Shovel",
       "tile.laboratoryblockdarkline.name": "Laboratory block",
       "block.aarium.volcaniteore": "Volcanite ore",
@@ -2428,6 +2590,7 @@
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "item.darkium_shovel.name": "Darkium Shovel",
       "block.aarium.luminousconcretegreen": "Béton lumineux vert",
+      "tile.egyptianblock_0.name": "Egyptian block (base)",
       "item.volcanite_sword.name": "Volcanite Sword",
       "item.firesword.name": "Fire sword",
       "item.aarium_armorbody.name": "Aarium Chestplate",
@@ -2469,6 +2632,7 @@
       "item.aarium.aarium_armor_boots": "Aarium Boots",
       "block.aarium.luminousconcreteblue": "Béton lumineux bleu",
       "item.aarium.musicdiscrolling.desc": "Rindin\u0027",
+      "tile.egyptianblock_10.name": "Egyptian block (Sun with lines)",
       "tile.superobsidian.name": "Super obsidian",
       "item.aarium.spawn": "Spawn Portal Igniter",
       "item.lightium_shovel.name": "Lightium Shovel",
@@ -2487,11 +2651,12 @@
   "workspaceSettings": {
     "modid": "aarium",
     "modName": "Aarium",
-    "version": "1.0.0",
+    "version": "0.3",
     "author": "nino_, MCreator",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "pure_aarium_ingot",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

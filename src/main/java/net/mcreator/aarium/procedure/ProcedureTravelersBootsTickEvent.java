@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureTravelersBootsTickEvent extends ElementsAariumMod.ModElement {
 	public ProcedureTravelersBootsTickEvent(ElementsAariumMod instance) {
-		super(instance, 97);
+		super(instance, 136);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
