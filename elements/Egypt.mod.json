@@ -1,0 +1,52 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Egyptianblock0"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock1"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock2"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock3"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock4"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock5"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock6"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock70"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock71"
+      },
+      {
+        "value": "CUSTOM:EgyptianBlock8"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock9"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock10"
+      },
+      {
+        "value": "CUSTOM:Egyptianblock11"
+      }
+    ],
+    "functions": [],
+    "name": "egypt",
+    "namespace": "minecraft"
+  }
+}

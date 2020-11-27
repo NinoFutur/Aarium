@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureFarmingdirtPlayerEntersDimension extends ElementsAariumMod.ModElement {
 	public ProcedureFarmingdirtPlayerEntersDimension(ElementsAariumMod instance) {
-		super(instance, 141);
+		super(instance, 157);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -27,7 +27,7 @@ public class ItemVolcaniteapple extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:volcaniteapple")
 	public static final Item block = null;
 	public ItemVolcaniteapple(ElementsAariumMod instance) {
-		super(instance, 92);
+		super(instance, 108);
 	}
 
 	@Override

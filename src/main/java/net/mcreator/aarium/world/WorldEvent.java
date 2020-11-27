@@ -56,7 +56,7 @@ public class WorldEvent extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldEvent(ElementsAariumMod instance) {
-		super(instance, 39);
+		super(instance, 61);
 	}
 
 	@Override

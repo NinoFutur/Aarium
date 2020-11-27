@@ -56,7 +56,7 @@ public class WorldForestia extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldForestia(ElementsAariumMod instance) {
-		super(instance, 56);
+		super(instance, 53);
 	}
 
 	@Override

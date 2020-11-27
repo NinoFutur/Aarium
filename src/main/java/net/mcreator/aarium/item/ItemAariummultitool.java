@@ -28,7 +28,7 @@ public class ItemAariummultitool extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:aariummultitool")
 	public static final Item block = null;
 	public ItemAariummultitool(ElementsAariumMod instance) {
-		super(instance, 51);
+		super(instance, 45);
 	}
 
 	@Override

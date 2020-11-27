@@ -28,7 +28,7 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:nearentitiesfinder")
 	public static final Item block = null;
 	public ItemNearentitiesfinder(ElementsAariumMod instance) {
-		super(instance, 60);
+		super(instance, 49);
 	}
 
 	@Override

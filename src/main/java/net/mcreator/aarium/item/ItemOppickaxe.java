@@ -24,7 +24,7 @@ public class ItemOppickaxe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:oppickaxe")
 	public static final Item block = null;
 	public ItemOppickaxe(ElementsAariumMod instance) {
-		super(instance, 61);
+		super(instance, 46);
 	}
 
 	@Override

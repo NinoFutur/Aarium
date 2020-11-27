@@ -16,7 +16,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureOpstuffCommandExecuted extends ElementsAariumMod.ModElement {
 	public ProcedureOpstuffCommandExecuted(ElementsAariumMod instance) {
-		super(instance, 178);
+		super(instance, 194);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

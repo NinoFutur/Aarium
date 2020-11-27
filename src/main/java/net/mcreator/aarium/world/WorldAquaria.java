@@ -56,7 +56,7 @@ public class WorldAquaria extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldAquaria(ElementsAariumMod instance) {
-		super(instance, 53);
+		super(instance, 50);
 	}
 
 	@Override

@@ -56,7 +56,7 @@ public class WorldSiberia extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSiberia(ElementsAariumMod instance) {
-		super(instance, 54);
+		super(instance, 51);
 	}
 
 	@Override

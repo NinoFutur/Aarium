@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureTreechopperaxeBlockDestroyedWithTool extends ElementsAariumMod.ModElement {
 	public ProcedureTreechopperaxeBlockDestroyedWithTool(ElementsAariumMod instance) {
-		super(instance, 165);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

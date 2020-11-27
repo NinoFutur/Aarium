@@ -35,7 +35,7 @@ public class ItemSwimming extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:swimmingboots")
 	public static final Item boots = null;
 	public ItemSwimming(ElementsAariumMod instance) {
-		super(instance, 90);
+		super(instance, 106);
 	}
 
 	@Override

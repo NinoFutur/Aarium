@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureBossghastEntityDies extends ElementsAariumMod.ModElement {
 	public ProcedureBossghastEntityDies(ElementsAariumMod instance) {
-		super(instance, 180);
+		super(instance, 196);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -13,7 +13,7 @@ import net.mcreator.aarium.ElementsAariumMod;
 @ElementsAariumMod.ModElement.Tag
 public class RecipeDarkiumnuggetrecipefblock extends ElementsAariumMod.ModElement {
 	public RecipeDarkiumnuggetrecipefblock(ElementsAariumMod instance) {
-		super(instance, 106);
+		super(instance, 122);
 	}
 
 	@Override

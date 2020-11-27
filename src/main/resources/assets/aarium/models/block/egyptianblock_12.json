@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "aarium:blocks/cut_sandstone_bottom",
+    "top": "aarium:blocks/cut_sandstone_bottom",
+    "side": "aarium:blocks/cut_sandstone_bottom"
+  }
+}

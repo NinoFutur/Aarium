@@ -18,28 +18,29 @@ import net.minecraft.block.Block;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
-public class BlockEgyptblock11 extends ElementsAariumMod.ModElement {
-	@GameRegistry.ObjectHolder("aarium:egyptblock_11")
+public class BlockEgyptianblock14 extends ElementsAariumMod.ModElement {
+	@GameRegistry.ObjectHolder("aarium:egyptianblock_14")
 	public static final Block block = null;
-	public BlockEgyptblock11(ElementsAariumMod instance) {
-		super(instance, 206);
+	public BlockEgyptianblock14(ElementsAariumMod instance) {
+		super(instance, 104);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("egyptblock_11"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("egyptianblock_14"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("aarium:egyptblock_11", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("aarium:egyptianblock_14", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("egyptblock_11");
+			setUnlocalizedName("egyptianblock_14");
 			setSoundType(SoundType.SAND);
 			setHarvestLevel("pickaxe", 2);
 			setHardness(2F);

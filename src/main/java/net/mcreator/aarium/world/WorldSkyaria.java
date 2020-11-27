@@ -52,7 +52,7 @@ public class WorldSkyaria extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSkyaria(ElementsAariumMod instance) {
-		super(instance, 59);
+		super(instance, 56);
 	}
 
 	@Override

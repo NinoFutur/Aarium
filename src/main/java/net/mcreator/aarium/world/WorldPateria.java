@@ -56,7 +56,7 @@ public class WorldPateria extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldPateria(ElementsAariumMod instance) {
-		super(instance, 55);
+		super(instance, 52);
 	}
 
 	@Override
