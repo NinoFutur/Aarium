@@ -9,13 +9,14 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.creativetab.TabCollectionegypt;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
@@ -48,7 +49,12 @@ public class BlockEgyptianblock12 extends ElementsAariumMod.ModElement {
 			setResistance(20F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(TabCollectionegypt.tab);
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

@@ -15,7 +15,6 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSlab;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.Variant;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -26,6 +25,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.creativetab.TabCollectionegypt;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Random;
@@ -63,7 +63,7 @@ public class BlockEgyptianblock15 extends ElementsAariumMod.ModElement {
 			setResistance(20F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(TabCollectionegypt.tab);
 			IBlockState state = this.blockState.getBaseState().withProperty(VARIANT, BlockCustom.Variant.DEFAULT);
 			if (!this.isDouble())
 				state = state.withProperty(BlockSlab.HALF, EnumBlockHalf.BOTTOM);

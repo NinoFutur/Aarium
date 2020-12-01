@@ -9,12 +9,12 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.creativetab.TabCollectionegypt;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
@@ -22,7 +22,7 @@ public class BlockEgyptianBlock8 extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:egyptian_block_8")
 	public static final Block block = null;
 	public BlockEgyptianBlock8(ElementsAariumMod instance) {
-		super(instance, 203);
+		super(instance, 97);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class BlockEgyptianBlock8 extends ElementsAariumMod.ModElement {
 			setResistance(20F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(TabCollectionegypt.tab);
 		}
 	}
 }

@@ -4,12 +4,9 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 import net.minecraft.command.ICommandSender;
 
-import net.mcreator.aarium.item.ItemNearentitiesfinder;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Map;
@@ -27,9 +24,6 @@ public class ProcedureNearentitiesfinderRightClickedInAir extends ElementsAarium
 		}
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double Cooldown = 0;
-		if (sourceentity instanceof EntityPlayer)
-			((EntityPlayer) sourceentity).getCooldownTracker().setCooldown((new ItemStack(ItemNearentitiesfinder.block, (int) (1))).getItem(),
-					(int) 600);
 		{
 			Entity _ent = sourceentity;
 			if (!_ent.world.isRemote && _ent.world.getMinecraftServer() != null) {
@@ -73,7 +67,7 @@ public class ProcedureNearentitiesfinderRightClickedInAir extends ElementsAarium
 					public Entity getCommandSenderEntity() {
 						return _ent;
 					}
-				}, "effect @e[c=25,x=~,y=~,z=~,rm=1,r=50] minecraft:glowing 15 1 true");
+				}, "effect @e[c=25,x=~,y=~,z=~,rm=1,r=15] minecraft:glowing 15 1 true");
 			}
 		}
 	}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/labo_block_yellow_black_lines",
+    "up": "aarium:blocks/labo_block_incinerator",
+    "north": "aarium:blocks/labo_block_yellow_black_lines",
+    "east": "aarium:blocks/labo_block_yellow_black_lines",
+    "south": "aarium:blocks/labo_block_yellow_black_lines",
+    "west": "aarium:blocks/labo_block_yellow_black_lines",
+    "particle": "aarium:blocks/labo_block_yellow_black_lines"
+  }
+}

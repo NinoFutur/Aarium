@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/jp_a",
+    "particle": "aarium:blocks/jp_a"
+  }
+}

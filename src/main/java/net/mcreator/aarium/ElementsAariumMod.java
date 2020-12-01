@@ -35,6 +35,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.mcreator.aarium.gui.GuiSuperenchanteur;
+import net.mcreator.aarium.gui.GuiSmallloadingbaygui;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -130,6 +131,8 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiSuperenchanteur.GUIID)
 				return new GuiSuperenchanteur.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiSmallloadingbaygui.GUIID)
+				return new GuiSmallloadingbaygui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -137,6 +140,8 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiSuperenchanteur.GUIID)
 				return new GuiSuperenchanteur.GuiWindow(world, x, y, z, player);
+			if (id == GuiSmallloadingbaygui.GUIID)
+				return new GuiSmallloadingbaygui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
