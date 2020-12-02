@@ -17,6 +17,9 @@
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "AcidUpdateTick"
+    },
     "onEntityCollides": {
       "name": "AcidMobplayerCollidesBlock"
     }

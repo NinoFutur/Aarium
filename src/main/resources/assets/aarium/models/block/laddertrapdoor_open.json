@@ -1,0 +1,7 @@
+{
+  "parent": "block/trapdoor_open",
+  "textures": {
+    "texture": "aarium:blocks/ladder_trapdoor_2",
+    "particle": "aarium:blocks/ladder_trapdoor_2"
+  }
+}

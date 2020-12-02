@@ -168,7 +168,7 @@ public class ItemSuperbreaker extends ElementsAariumMod.ModElement {
 
 		@Override
 		public int getItemEnchantability() {
-			return 15;
+			return 45;
 		}
 	}
 }
