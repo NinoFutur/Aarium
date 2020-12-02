@@ -26,9 +26,11 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.procedure.ProcedureAcidUpdateTick;
 import net.mcreator.aarium.procedure.ProcedureAcidMobplayerCollidesBlock;
 import net.mcreator.aarium.ElementsAariumMod;
 
+import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -48,6 +50,19 @@ public class BlockAcid extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new BlockFluidClassic(fluid, Material.WATER) {
+			@Override
+			public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+				super.updateTick(world, pos, state, random);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					ProcedureAcidUpdateTick.executeProcedure($_dependencies);
+				}
+				world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
+			}
+
 			@Override
 			public void onEntityCollidedWithBlock(World world, BlockPos pos, IBlockState state, Entity entity) {
 				super.onEntityCollidedWithBlock(world, pos, state, entity);

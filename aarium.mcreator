@@ -2462,6 +2462,238 @@
           }
         ]
       }
+    },
+    {
+      "name": "WaterswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watersword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Watersword",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watersword"
+    },
+    {
+      "name": "AcidUpdateTick",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Hiddenblock1",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_1"
+    },
+    {
+      "name": "Hiddenblock2",
+      "type": "block",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_2"
+    },
+    {
+      "name": "Hiddenblock3",
+      "type": "block",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_3"
+    },
+    {
+      "name": "Hiddenblock4",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_4"
+    },
+    {
+      "name": "Healthblock",
+      "type": "block",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblock"
+    },
+    {
+      "name": "Healthblockrecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblockrecipe"
+    },
+    {
+      "name": "HealthblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foodblock",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblock"
+    },
+    {
+      "name": "Foodblockrecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblockrecipe"
+    },
+    {
+      "name": "FoodblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Absorptionblock",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblock"
+    },
+    {
+      "name": "Absorptionblockrecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblockrecipe"
+    },
+    {
+      "name": "AbsorptionblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healthboostblock",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblock"
+    },
+    {
+      "name": "Healthboostblockrecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblockrecipe"
+    },
+    {
+      "name": "HealthboostblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laddertrapdoor",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laddertrapdoor"
+    },
+    {
+      "name": "Laddertrapdoorrecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laddertrapdoorrecipe"
     }
   ],
   "variable_elements": [
@@ -2529,6 +2761,7 @@
       "item.aarium.event": "Spawn Portal Igniter",
       "item.volcanite_axe.name": "Volcanite Axe",
       "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : U",
+      "tile.foodblock.name": "Food block",
       "tile.egyptianblock_181.name": "Egyptian block (Osiris, up)",
       "tile.greenscreen.name": "Green screen",
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
@@ -2574,6 +2807,7 @@
       "entity.bossghast.name": "Bossghast",
       "tile.egyptianblock_14.name": "Egyptian block (Ocean)",
       "item.lightium_armorbody.name": "Lightium Chestplate",
+      "tile.healthblock.name": "Health block",
       "item.aarium.swimming_boots": "Swimming Boots",
       "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
@@ -2619,6 +2853,7 @@
       "tile.volcaniteore.name": "Volcanite ore",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.volcanite_armorlegs.name": "Volcanite Leggings",
+      "item.watersword.name": "Water sword",
       "item.darkium_armorhelmet.name": "Darkium Helmet",
       "item.farmingdirt.name": "Farmingdirt Portal Igniter",
       "item.aarium.darkium_shovel": "Darkium Shovel",
@@ -2637,6 +2872,7 @@
       "item.farmingwood.name": "Farmingwood Portal Igniter",
       "item.aarium.darkium_armor_leggings": "Darkium Leggings",
       "item.musicdiscrolling.name": "Music disc - Rolling",
+      "tile.healthboostblock.name": "Health Boost block",
       "item.aarium.travelers_boots": "Traveler\u0027s Boots",
       "item.aarium_axe.name": "Aarium Axe",
       "block.aarium.aariumblock": "Aarium block",
@@ -2653,17 +2889,22 @@
       "block.aarium.lightium_ore": "Lightium Ore",
       "item.aarium.aariumnugget": "Aarium nugget",
       "item.o_pshovel.name": "OP shovel",
+      "tile.laddertrapdoor.name": "Ladder trapdoor",
       "item.aariummultitool.name": "Aarium multitool",
       "item.forestia.name": "Pateria Portal Igniter",
+      "tile.hiddenblock_4.name": "Hidden block",
       "item.aarium.enchantedegg": "Enchanted egg",
       "item.record.musicdiscrolling.desc": "Rindin\u0027",
+      "tile.hiddenblock_1.name": "Hidden block",
       "tile.darkiumore.name": "Darkium Ore",
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
       "item.spawn.name": "Spawn Portal Igniter",
+      "tile.absorptionblock.name": "Absorption block",
       "item.aarium.farmingstone": "Farmingstone Portal Igniter",
       "item.aarium.volcanite_shovel": "Volcanite Shovel",
       "item.aarium_armorhelmet.name": "Aarium Helmet",
       "item.ignisia.name": "Ignisia Portal Igniter",
+      "tile.hiddenblock_2.name": "Hidden block",
       "item.aarium.lightium_armor_chestplate": "Lightium Chestplate",
       "tile.egyptianblock_1.name": "Egyptian block (two papyrus leaves)",
       "item.aarium.aarium_shovel": "Aarium Shovel",
@@ -2674,6 +2915,7 @@
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
+      "tile.hiddenblock_3.name": "Hidden block",
       "item.darkium_shovel.name": "Darkium Shovel",
       "block.aarium.luminousconcretegreen": "Luminous concrete green",
       "tile.egyptianblock_0.name": "Egyptian block (base)",
@@ -2780,6 +3022,7 @@
       "item.aarium.event": "Spawn Portal Igniter",
       "item.volcanite_axe.name": "Volcanite Axe",
       "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : A",
+      "tile.foodblock.name": "Food block",
       "tile.egyptianblock_181.name": "Egyptian block (apple)",
       "tile.greenscreen.name": "Green screen",
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
@@ -2825,6 +3068,7 @@
       "entity.bossghast.name": "Bossghast",
       "tile.egyptianblock_14.name": "Egyptian block (Boat on ocean)",
       "item.lightium_armorbody.name": "Lightium Chestplate",
+      "tile.healthblock.name": "Health block",
       "item.aarium.swimming_boots": "Swimming Boots",
       "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
@@ -2870,6 +3114,7 @@
       "tile.volcaniteore.name": "Volcanite ore",
       "item.aarium.aariummultitool": "Aarium multitool",
       "item.volcanite_armorlegs.name": "Volcanite Leggings",
+      "item.watersword.name": "Water sword",
       "item.darkium_armorhelmet.name": "Darkium Helmet",
       "item.farmingdirt.name": "Farmingdirt Portal Igniter",
       "item.aarium.darkium_shovel": "Darkium Shovel",
@@ -2888,6 +3133,7 @@
       "item.farmingwood.name": "Farmingwood Portal Igniter",
       "item.aarium.darkium_armor_leggings": "Darkium Leggings",
       "item.musicdiscrolling.name": "Music disc - Rolling",
+      "tile.healthboostblock.name": "Absorption block",
       "item.aarium.travelers_boots": "Traveler\u0027s Boots",
       "item.aarium_axe.name": "Aarium Axe",
       "block.aarium.aariumblock": "Aarium block",
@@ -2904,17 +3150,22 @@
       "block.aarium.lightium_ore": "Minerai de Lightium",
       "item.aarium.aariumnugget": "Aarium nugget",
       "item.o_pshovel.name": "OP pickaxe",
+      "tile.laddertrapdoor.name": "Laddertrapdoor",
       "item.aariummultitool.name": "Aarium multitool",
       "item.forestia.name": "Pateria Portal Igniter",
+      "tile.hiddenblock_4.name": "Hidden block",
       "item.aarium.enchantedegg": "Enchanted egg",
       "item.record.musicdiscrolling.desc": "Rindin\u0027",
+      "tile.hiddenblock_1.name": "Hidden block 1",
       "tile.darkiumore.name": "Darkium Ore",
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
       "item.spawn.name": "Spawn Portal Igniter",
+      "tile.absorptionblock.name": "Absorption block",
       "item.aarium.farmingstone": "Farmingstone Portal Igniter",
       "item.aarium.volcanite_shovel": "Pelle en volcanite",
       "item.aarium_armorhelmet.name": "Aarium Helmet",
       "item.ignisia.name": "Ignisia Portal Igniter",
+      "tile.hiddenblock_2.name": "Hidden block 1",
       "item.aarium.lightium_armor_chestplate": "Plastron en Lightium",
       "tile.egyptianblock_1.name": "Egyptian block (base)",
       "item.aarium.aarium_shovel": "Aarium Shovel",
@@ -2925,6 +3176,7 @@
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
+      "tile.hiddenblock_3.name": "Hidden block 1",
       "item.darkium_shovel.name": "Darkium Shovel",
       "block.aarium.luminousconcretegreen": "Béton lumineux vert",
       "tile.egyptianblock_0.name": "Egyptian block (base)",

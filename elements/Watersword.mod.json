@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "fire_sword",
+    "texture": "water_sword",
     "customModelName": "Normal",
-    "name": "Fire sword",
+    "name": "Water sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -21,13 +21,13 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "Items.WATER_BUCKET"
       }
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "FireswordLivingEntityIsHitWithTool"
+      "name": "WaterswordLivingEntityIsHitWithTool"
     }
   }
 }
