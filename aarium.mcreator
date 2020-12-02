@@ -2694,6 +2694,89 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "laddertrapdoorrecipe"
+    },
+    {
+      "name": "Ithenariumore",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumore"
+    },
+    {
+      "name": "IthenariumoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ithenariumdust",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumdust"
+    },
+    {
+      "name": "Ithenariumingot",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingot"
+    },
+    {
+      "name": "Ithenariumingotfromblock",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingotfromblock"
+    },
+    {
+      "name": "Ithenariumblock",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblock"
+    },
+    {
+      "name": "Ithenariumblockrecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblockrecipe"
     }
   ],
   "variable_elements": [
@@ -2724,16 +2807,16 @@
     "en_us": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
       "tile.luminousair.name": "Luminous air",
+      "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (Wither)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "item.travelerslegs.name": "Travelers Leggings",
+      "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -2767,8 +2850,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
       "tile.laboratoryblockfalse.name": "Laboratory block (false)",
+      "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -2855,6 +2938,7 @@
       "item.volcanite_armorlegs.name": "Volcanite Leggings",
       "item.watersword.name": "Water sword",
       "item.darkium_armorhelmet.name": "Darkium Helmet",
+      "item.ithenariumingot.name": "Ithenarium ingot",
       "item.farmingdirt.name": "Farmingdirt Portal Igniter",
       "item.aarium.darkium_shovel": "Darkium Shovel",
       "block.aarium.aariumore": "Aarium Ore",
@@ -2875,6 +2959,7 @@
       "tile.healthboostblock.name": "Health Boost block",
       "item.aarium.travelers_boots": "Traveler\u0027s Boots",
       "item.aarium_axe.name": "Aarium Axe",
+      "item.ithenariumdust.name": "Ithenarium dust",
       "block.aarium.aariumblock": "Aarium block",
       "item.volcaniteapple.name": "Volcanite apple",
       "item.swimmingboots.name": "Swimming Boots",
@@ -2941,6 +3026,7 @@
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
       "tile.egyptianblock_11.name": "Egyptian block (Pharaon face)",
+      "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
       "item.oppickaxe.name": "OP pickaxe",
@@ -2955,6 +3041,7 @@
       "item.darkium_armorbody.name": "Darkium Chestplate",
       "tile.egyptianblock_16.name": "Egyptian block (feather)",
       "block.aarium.luminousconcretered": "Luminous concrete red",
+      "tile.ithenariumblock.name": "Ithenariumblock",
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "tile.luminoussolidair.name": "Luminous solid air",
       "item.farmingstone.name": "Farmingstone Portal Igniter",
@@ -2985,16 +3072,16 @@
     "fr_fr": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
       "tile.luminousair.name": "Luminous solid air",
+      "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "tile.egyptianblock_19.name": "Egyptian block (feather)",
       "item.travelerslegs.name": "Travelers Leggings",
+      "tile.egyptianblock_19.name": "Egyptian block (feather)",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -3028,8 +3115,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockwarning.name": "Laboratory block",
       "tile.laboratoryblockfalse.name": "Laboratory block",
+      "tile.laboratoryblockwarning.name": "Laboratory block",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -3116,6 +3203,7 @@
       "item.volcanite_armorlegs.name": "Volcanite Leggings",
       "item.watersword.name": "Water sword",
       "item.darkium_armorhelmet.name": "Darkium Helmet",
+      "item.ithenariumingot.name": "Ithenarium ingot",
       "item.farmingdirt.name": "Farmingdirt Portal Igniter",
       "item.aarium.darkium_shovel": "Darkium Shovel",
       "block.aarium.aariumore": "Aarium Ore",
@@ -3136,6 +3224,7 @@
       "tile.healthboostblock.name": "Absorption block",
       "item.aarium.travelers_boots": "Traveler\u0027s Boots",
       "item.aarium_axe.name": "Aarium Axe",
+      "item.ithenariumdust.name": "Ithenarium dust",
       "block.aarium.aariumblock": "Aarium block",
       "item.volcaniteapple.name": "Volcanite apple",
       "item.swimmingboots.name": "Swimming Boots",
@@ -3202,6 +3291,7 @@
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
       "tile.egyptianblock_11.name": "Egyptian block (Pharaon face)",
+      "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
       "item.oppickaxe.name": "OP pickaxe",
@@ -3216,6 +3306,7 @@
       "item.darkium_armorbody.name": "Darkium Chestplate",
       "tile.egyptianblock_16.name": "Egyptian slab",
       "block.aarium.luminousconcretered": "Béton lumineux rouge",
+      "tile.ithenariumblock.name": "Ithenariumblock",
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "tile.luminoussolidair.name": "Solid air",
       "item.farmingstone.name": "Farmingstone Portal Igniter",
