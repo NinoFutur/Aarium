@@ -19,6 +19,8 @@ public class ProcedureIthenariumarmorBodyTickEvent extends ElementsAariumMod.Mod
 			return;
 		}
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
-		((itemstack)).addEnchantment(Enchantments.BLAST_PROTECTION, (int) 100);
+		for (int index0 = 0; index0 < (int) (12); index0++) {
+			((itemstack)).addEnchantment(Enchantments.BLAST_PROTECTION, (int) 8);
+		}
 	}
 }

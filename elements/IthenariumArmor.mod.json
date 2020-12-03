@@ -25,11 +25,11 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "aarium_armor",
-    "helmetName": "Ithenariumarmor Helmet",
-    "bodyName": "Ithenariumarmor Body",
-    "leggingsName": "Ithenariumarmor Leggings",
-    "bootsName": "Ithenariumarmor Boots",
+    "armorTextureFile": "ithenarium",
+    "helmetName": "Ithenarium Helmet",
+    "bodyName": "Ithenarium Chestplate",
+    "leggingsName": "Ithenarium Leggings",
+    "bootsName": "Ithenarium Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -50,16 +50,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "maxDamage": 45,
+    "damageValueHelmet": 6,
+    "damageValueBody": 15,
+    "damageValueLeggings": 18,
+    "damageValueBoots": 6,
+    "enchantability": 27,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ithenariumingot"
+      }
+    ]
   }
 }

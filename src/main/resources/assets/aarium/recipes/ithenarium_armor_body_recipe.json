@@ -1,0 +1,39 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:ithenariumingot"
+    },
+    "2": {
+      "item": "aarium:ithenariumingot"
+    },
+    "3": {
+      "item": "aarium:ithenariumingot"
+    },
+    "4": {
+      "item": "aarium:ithenariumingot"
+    },
+    "5": {
+      "item": "aarium:ithenariumingot"
+    },
+    "6": {
+      "item": "aarium:ithenariumingot"
+    },
+    "7": {
+      "item": "aarium:ithenariumingot"
+    },
+    "8": {
+      "item": "aarium:ithenariumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:ithenarium_armorbody",
+    "count": 1
+  }
+}

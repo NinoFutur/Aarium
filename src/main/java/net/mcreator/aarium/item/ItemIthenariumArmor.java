@@ -25,22 +25,22 @@ import java.util.Map;
 import java.util.HashMap;
 
 @ElementsAariumMod.ModElement.Tag
-public class ItemIthenariumarmor extends ElementsAariumMod.ModElement {
-	@GameRegistry.ObjectHolder("aarium:ithenariumarmorhelmet")
+public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
+	@GameRegistry.ObjectHolder("aarium:ithenarium_armorhelmet")
 	public static final Item helmet = null;
-	@GameRegistry.ObjectHolder("aarium:ithenariumarmorbody")
+	@GameRegistry.ObjectHolder("aarium:ithenarium_armorbody")
 	public static final Item body = null;
-	@GameRegistry.ObjectHolder("aarium:ithenariumarmorlegs")
+	@GameRegistry.ObjectHolder("aarium:ithenarium_armorlegs")
 	public static final Item legs = null;
-	@GameRegistry.ObjectHolder("aarium:ithenariumarmorboots")
+	@GameRegistry.ObjectHolder("aarium:ithenarium_armorboots")
 	public static final Item boots = null;
-	public ItemIthenariumarmor(ElementsAariumMod instance) {
-		super(instance, 286);
+	public ItemIthenariumArmor(ElementsAariumMod instance) {
+		super(instance, 287);
 	}
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("ITHENARIUMARMOR", "aarium:aarium_armor", 25, new int[]{2, 5, 6, 2}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("ITHENARIUM_ARMOR", "aarium:ithenarium", 45, new int[]{6, 18, 15, 6}, 27,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD) {
 			@Override
@@ -55,7 +55,7 @@ public class ItemIthenariumarmor extends ElementsAariumMod.ModElement {
 					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("ithenariumarmorhelmet").setRegistryName("ithenariumarmorhelmet").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("ithenarium_armorhelmet").setRegistryName("ithenarium_armorhelmet").setCreativeTab(CreativeTabs.COMBAT));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST) {
 			@Override
 			public void onArmorTick(World world, EntityPlayer entity, ItemStack itemstack) {
@@ -68,7 +68,7 @@ public class ItemIthenariumarmor extends ElementsAariumMod.ModElement {
 					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("ithenariumarmorbody").setRegistryName("ithenariumarmorbody").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("ithenarium_armorbody").setRegistryName("ithenarium_armorbody").setCreativeTab(CreativeTabs.COMBAT));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS) {
 			@Override
 			public void onArmorTick(World world, EntityPlayer entity, ItemStack itemstack) {
@@ -81,7 +81,7 @@ public class ItemIthenariumarmor extends ElementsAariumMod.ModElement {
 					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("ithenariumarmorlegs").setRegistryName("ithenariumarmorlegs").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("ithenarium_armorlegs").setRegistryName("ithenarium_armorlegs").setCreativeTab(CreativeTabs.COMBAT));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET) {
 			@Override
 			public void onArmorTick(World world, EntityPlayer entity, ItemStack itemstack) {
@@ -94,15 +94,15 @@ public class ItemIthenariumarmor extends ElementsAariumMod.ModElement {
 					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("ithenariumarmorboots").setRegistryName("ithenariumarmorboots").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("ithenarium_armorboots").setRegistryName("ithenarium_armorboots").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(helmet, 0, new ModelResourceLocation("aarium:ithenariumarmorhelmet", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(body, 0, new ModelResourceLocation("aarium:ithenariumarmorbody", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(legs, 0, new ModelResourceLocation("aarium:ithenariumarmorlegs", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(boots, 0, new ModelResourceLocation("aarium:ithenariumarmorboots", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(helmet, 0, new ModelResourceLocation("aarium:ithenarium_armorhelmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(body, 0, new ModelResourceLocation("aarium:ithenarium_armorbody", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(legs, 0, new ModelResourceLocation("aarium:ithenarium_armorlegs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(boots, 0, new ModelResourceLocation("aarium:ithenarium_armorboots", "inventory"));
 	}
 }
