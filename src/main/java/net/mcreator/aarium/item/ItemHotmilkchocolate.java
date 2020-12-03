@@ -40,7 +40,7 @@ public class ItemHotmilkchocolate extends ElementsAariumMod.ModElement {
 			setUnlocalizedName("hotmilkchocolate");
 			setRegistryName("hotmilkchocolate");
 			setCreativeTab(CreativeTabs.FOOD);
-			setMaxStackSize(1);
+			setMaxStackSize(64);
 		}
 
 		@Override

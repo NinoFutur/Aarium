@@ -45,7 +45,7 @@ public class ItemMugofmilk extends ElementsAariumMod.ModElement {
 
 		@Override
 		public EnumAction getItemUseAction(ItemStack par1ItemStack) {
-			return EnumAction.EAT;
+			return EnumAction.DRINK;
 		}
 	}
 }
