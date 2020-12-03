@@ -3,20 +3,20 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "chocolat_au_lait_froid",
+    "texture": "chocolat_chaud",
     "customModelName": "Normal",
-    "name": "Chocolat au lait froid",
+    "name": "Hot milk chocolate",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 2,
+    "nutritionalValue": 3,
     "saturation": 1.0,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": "CUSTOM:Tasseitem"
+      "value": ""
     },
     "forDogs": false,
     "isAlwaysEdible": false,

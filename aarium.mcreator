@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 5,
-    "DIMENSION": 26,
-    "ENTITY": 16
+    "ENTITY": 16,
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -2855,112 +2855,112 @@
       }
     },
     {
-      "name": "Cacaofondu",
+      "name": "Smeltedcocoa",
       "type": "item",
-      "sortid": 262,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cacaofondu"
+      "registry_name": "smeltedcocoa"
     },
     {
-      "name": "Chocolat",
-      "type": "item",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chocolat"
-    },
-    {
-      "name": "Chocolatrecipe",
-      "type": "recipe",
-      "sortid": 264,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chocolatrecipe"
-    },
-    {
-      "name": "Cacaofondurecipe",
-      "type": "recipe",
-      "sortid": 265,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cacaofondurecipe"
-    },
-    {
-      "name": "Chocolatchaud",
+      "name": "Chocolatebar",
       "type": "food",
-      "sortid": 266,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chocolatchaud"
+      "registry_name": "chocolatebar"
     },
     {
-      "name": "Tassedelaitrecipe",
+      "name": "Chocolatbarrecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tassedelaitrecipe"
+      "registry_name": "chocolatbarrecipe"
     },
     {
-      "name": "Tassedelait",
-      "type": "item",
-      "sortid": 270,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tassedelait"
-    },
-    {
-      "name": "Chocolatchaudrecipe",
+      "name": "Smeltedcocoarecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chocolatchaudrecipe"
+      "registry_name": "smeltedcocoarecipe"
     },
     {
-      "name": "Tasserecipe",
+      "name": "Mugrecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tasserecipe"
+      "registry_name": "mugrecipe"
     },
     {
-      "name": "Tasseitem",
-      "type": "item",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tasseitem"
-    },
-    {
-      "name": "Chocolataulaitfroidfood",
+      "name": "Mugofmilk",
       "type": "food",
-      "sortid": 267,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chocolataulaitfroidfood"
+      "registry_name": "mugofmilk"
     },
     {
-      "name": "Chocolataulaitfroidrecipe",
+      "name": "Mugofmilkrecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chocolataulaitfroidrecipe"
+      "registry_name": "mugofmilkrecipe"
+    },
+    {
+      "name": "Mug",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mug"
+    },
+    {
+      "name": "Coldmilkchocolate",
+      "type": "food",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldmilkchocolate"
+    },
+    {
+      "name": "Hotmilkchocolaterecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotmilkchocolaterecipe"
+    },
+    {
+      "name": "Hotmilkchocolate",
+      "type": "food",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotmilkchocolate"
+    },
+    {
+      "name": "Coldmilkchocolaterecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldmilkchocolaterecipe"
     }
   ],
   "variable_elements": [
@@ -2995,6 +2995,7 @@
       "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
+      "item.mugofmilk.name": "Mug of milk",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (Wither)",
@@ -3040,6 +3041,7 @@
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
       "item.aarium.solitudia": "Solitudia Portal Igniter",
+      "item.smeltedcocoa.name": "Smelted Cocoa",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
       "tile.egyptianblock_12.name": "Egyptian stairs",
@@ -3069,7 +3071,6 @@
       "item.aarium.bowoflight": "Bow of light",
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
-      "item.chocolataulaitfroidfood.name": "Chocolat au lait froid",
       "tile.laboratoryblockdarkcross.name": "Laboratory block (cross)",
       "tile.egyptianblock_180.name": "Egyptian block (Osiris, down)",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
@@ -3082,7 +3083,6 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Sun with lines)",
-      "item.cacaofondu.name": "Cacao fondu",
       "tile.egyptianblock_71.name": "Egyptian block (Rê up)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -3097,7 +3097,6 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.chocolat.name": "Chocolat",
       "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
@@ -3169,8 +3168,10 @@
       "item.aarium.enchantedegg": "Enchanted egg",
       "item.record.musicdiscrolling.desc": "Rindin\u0027",
       "tile.hiddenblock_1.name": "Hidden block",
+      "item.mug.name": "Mug",
       "tile.darkiumore.name": "Darkium Ore",
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
+      "item.hotmilkchocolate.name": "Hot milk chocolate",
       "item.spawn.name": "Spawn Portal Igniter",
       "tile.absorptionblock.name": "Absorption block",
       "tile.ithenariumbarrel.name": "Ithenarium barrel",
@@ -3198,6 +3199,7 @@
       "item.firesword.name": "Fire sword",
       "item.aarium_armorbody.name": "Aarium Chestplate",
       "item.superbreaker.name": "Superbreaker",
+      "item.chocolatebar.name": "Chocolate bar",
       "item.aarium.firesword": "Fire sword",
       "item.aarium.aarium_armor_leggings": "Aarium Leggings",
       "block.aarium.darkiumslab": "Darkium block",
@@ -3235,6 +3237,7 @@
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "tile.luminoussolidair.name": "Luminous solid air",
       "item.farmingstone.name": "Farmingstone Portal Igniter",
+      "item.coldmilkchocolate.name": "Cold Milk Chocolate",
       "item.pateria.name": "Pateria Portal Igniter",
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
@@ -3267,6 +3270,7 @@
       "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
+      "item.mugofmilk.name": "Mug of milk",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
@@ -3312,6 +3316,7 @@
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
       "item.aarium.solitudia": "Solitudia Portal Igniter",
+      "item.smeltedcocoa.name": "Cacao fondu",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
       "tile.egyptianblock_12.name": "Egyptian block (Pharaon face)",
@@ -3325,7 +3330,6 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Béton lumineux jaune",
-      "item.tassedelait.name": "Tasse de lait",
       "tile.egyptianblock_2.name": "Egyptian block (two papyrus leaves)",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
@@ -3341,7 +3345,6 @@
       "item.aarium.bowoflight": "Bow of light",
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
-      "item.chocolataulaitfroidfood.name": "Chocolataulaitfroidfood",
       "tile.laboratoryblockdarkcross.name": "Laboratory block",
       "tile.egyptianblock_180.name": "Egyptian block (apple)",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
@@ -3354,7 +3357,6 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Big bottle)",
-      "item.cacaofondu.name": "Cacao fondu",
       "tile.egyptianblock_71.name": "Egyptian block (Wither)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -3369,7 +3371,6 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.chocolat.name": "Chocolat",
       "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
@@ -3441,8 +3442,10 @@
       "item.aarium.enchantedegg": "Enchanted egg",
       "item.record.musicdiscrolling.desc": "Rindin\u0027",
       "tile.hiddenblock_1.name": "Hidden block 1",
+      "item.mug.name": "Tasse",
       "tile.darkiumore.name": "Darkium Ore",
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
+      "item.hotmilkchocolate.name": "Hot chocolate",
       "item.spawn.name": "Spawn Portal Igniter",
       "tile.absorptionblock.name": "Absorption block",
       "tile.ithenariumbarrel.name": "Ithenariumbarrel",
@@ -3460,7 +3463,6 @@
       "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
-      "item.tasseitem.name": "Tasse",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "tile.hiddenblock_3.name": "Hidden block 1",
       "item.darkium_shovel.name": "Darkium Shovel",
@@ -3470,6 +3472,7 @@
       "item.firesword.name": "Fire sword",
       "item.aarium_armorbody.name": "Aarium Chestplate",
       "item.superbreaker.name": "Superbreaker",
+      "item.chocolatebar.name": "Chocolate bar",
       "item.aarium.firesword": "Fire sword",
       "item.aarium.aarium_armor_leggings": "Aarium Leggings",
       "block.aarium.darkiumslab": "Darkium block",
@@ -3507,11 +3510,11 @@
       "item.aarium.lightium_armor_boots": "Lightium Boots",
       "tile.luminoussolidair.name": "Solid air",
       "item.farmingstone.name": "Farmingstone Portal Igniter",
+      "item.coldmilkchocolate.name": "Chocolat au lait froid",
       "item.pateria.name": "Pateria Portal Igniter",
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
       "itemGroup.tabcollectionjapanesetext": "Collection?: japanese text",
-      "item.chocolatchaud.name": "Chocolat chaud",
       "item.volcanite_armorhelmet.name": "Volcanite Helmet",
       "item.aarium_armorlegs.name": "Aarium Leggings",
       "item.aarium.aarium_armor_boots": "Aarium Boots",

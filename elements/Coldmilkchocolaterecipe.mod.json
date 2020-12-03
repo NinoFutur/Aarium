@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.CLAY_BALL"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.CLAY_BALL"
+        "value": ""
       },
       {
-        "value": "Items.CLAY_BALL"
+        "value": "CUSTOM:Mugofmilk"
+      },
+      {
+        "value": "CUSTOM:Chocolatebar"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.CLAY_BALL"
-      },
-      {
         "value": ""
       },
       {
-        "value": "Items.CLAY_BALL"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tasseitem"
+      "value": "CUSTOM:Coldmilkchocolate"
     },
-    "name": "tasserecipe",
+    "name": "coldmilkchocolaterecipe",
     "namespace": "mod"
   }
 }

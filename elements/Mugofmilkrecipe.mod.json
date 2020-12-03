@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Mug"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Tassedelait"
+        "value": "CUSTOM:Mug"
       },
       {
-        "value": "CUSTOM:Chocolat"
+        "value": "Items.MILK_BUCKET"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Mug"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Mug"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Chocolataulaitfroidfood"
+      "value": "CUSTOM:Mugofmilk"
     },
-    "name": "chocolataulaitfroidrecipe",
+    "name": "mugofmilkrecipe",
     "namespace": "mod"
   }
 }

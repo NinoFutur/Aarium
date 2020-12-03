@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "aarium:tassedelait"
+      "item": "aarium:mugofmilk"
     },
     {
-      "item": "aarium:chocolat"
+      "item": "aarium:chocolatebar"
     }
   ],
   "result": {
-    "item": "aarium:chocolataulaitfroidfood",
+    "item": "aarium:coldmilkchocolate",
     "count": 1
   }
 }

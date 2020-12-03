@@ -9,12 +9,12 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:Chocolataulaitfroidfood"
+      "value": "Items.DYE#3"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Chocolatchaud"
+      "value": "CUSTOM:Smeltedcocoa"
     },
-    "name": "chocolatchaudrecipe",
+    "name": "smeltedcocoarecipe",
     "namespace": "mod"
   }
 }

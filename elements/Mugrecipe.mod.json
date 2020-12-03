@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Cacaofondu"
-      },
-      {
-        "value": "Items.SUGAR"
+        "value": "Items.CLAY_BALL"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.CLAY_BALL"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Chocolat"
+      "value": "CUSTOM:Tasseitem"
     },
-    "name": "chocolatrecipe",
+    "name": "mugrecipe",
     "namespace": "mod"
   }
 }

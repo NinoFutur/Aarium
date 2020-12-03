@@ -9,12 +9,12 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "Items.DYE#3"
+      "value": "CUSTOM:Coldmilkchocolate"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Cacaofondu"
+      "value": "CUSTOM:Hotmilkchocolate"
     },
-    "name": "cacaofondurecipe",
+    "name": "hotmilkchocolaterecipe",
     "namespace": "mod"
   }
 }

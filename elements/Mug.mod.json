@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "chocolat",
+    "texture": "tasse",
     "customModelName": "Normal",
-    "name": "Chocolat",
+    "name": "Mug",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
