@@ -3,24 +3,24 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "chocolat_au_lait_froid",
+    "texture": "chocolat",
     "customModelName": "Normal",
-    "name": "Chocolat au lait froid",
+    "name": "Chocolate bar",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 2,
-    "saturation": 1.0,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": "CUSTOM:Tasseitem"
+      "value": ""
     },
     "forDogs": false,
     "isAlwaysEdible": false,
-    "animation": "drink",
+    "animation": "eat",
     "hasGlow": false
   }
 }

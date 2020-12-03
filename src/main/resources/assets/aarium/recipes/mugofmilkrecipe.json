@@ -8,23 +8,23 @@
   ],
   "key": {
     "1": {
-      "item": "aarium:tasseitem"
+      "item": "aarium:mug"
     },
     "3": {
-      "item": "aarium:tasseitem"
+      "item": "aarium:mug"
     },
     "4": {
       "item": "minecraft:milk_bucket"
     },
     "5": {
-      "item": "aarium:tasseitem"
+      "item": "aarium:mug"
     },
     "7": {
-      "item": "aarium:tasseitem"
+      "item": "aarium:mug"
     }
   },
   "result": {
-    "item": "aarium:tassedelait",
+    "item": "aarium:mugofmilk",
     "count": 4
   }
 }

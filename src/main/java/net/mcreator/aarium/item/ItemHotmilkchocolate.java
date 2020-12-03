@@ -17,11 +17,11 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
-public class ItemChocolataulaitfroidfood extends ElementsAariumMod.ModElement {
-	@GameRegistry.ObjectHolder("aarium:chocolataulaitfroidfood")
+public class ItemHotmilkchocolate extends ElementsAariumMod.ModElement {
+	@GameRegistry.ObjectHolder("aarium:hotmilkchocolate")
 	public static final Item block = null;
-	public ItemChocolataulaitfroidfood(ElementsAariumMod instance) {
-		super(instance, 267);
+	public ItemHotmilkchocolate(ElementsAariumMod instance) {
+		super(instance, 284);
 	}
 
 	@Override
@@ -32,15 +32,15 @@ public class ItemChocolataulaitfroidfood extends ElementsAariumMod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:chocolataulaitfroidfood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:hotmilkchocolate", "inventory"));
 	}
 	public static class ItemFoodCustom extends ItemFood {
 		public ItemFoodCustom() {
-			super(2, 1f, false);
-			setUnlocalizedName("chocolataulaitfroidfood");
-			setRegistryName("chocolataulaitfroidfood");
+			super(3, 1f, false);
+			setUnlocalizedName("hotmilkchocolate");
+			setRegistryName("hotmilkchocolate");
 			setCreativeTab(CreativeTabs.FOOD);
-			setMaxStackSize(64);
+			setMaxStackSize(1);
 		}
 
 		@Override

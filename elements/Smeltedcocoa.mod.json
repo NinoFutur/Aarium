@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tasse_de_lait",
+    "texture": "cacao_fondu",
     "customModelName": "Normal",
-    "name": "Tasse de lait",
+    "name": "Smelted Cocoa",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "FOOD"
     },
     "stackSize": 64,
     "enchantability": 0,

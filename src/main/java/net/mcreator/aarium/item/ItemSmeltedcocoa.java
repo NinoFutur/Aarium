@@ -16,11 +16,11 @@ import net.minecraft.block.state.IBlockState;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
-public class ItemCacaofondu extends ElementsAariumMod.ModElement {
-	@GameRegistry.ObjectHolder("aarium:cacaofondu")
+public class ItemSmeltedcocoa extends ElementsAariumMod.ModElement {
+	@GameRegistry.ObjectHolder("aarium:smeltedcocoa")
 	public static final Item block = null;
-	public ItemCacaofondu(ElementsAariumMod instance) {
-		super(instance, 262);
+	public ItemSmeltedcocoa(ElementsAariumMod instance) {
+		super(instance, 273);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemCacaofondu extends ElementsAariumMod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:cacaofondu", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:smeltedcocoa", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("cacaofondu");
-			setRegistryName("cacaofondu");
+			setUnlocalizedName("smeltedcocoa");
+			setRegistryName("smeltedcocoa");
 			setCreativeTab(CreativeTabs.FOOD);
 		}
 

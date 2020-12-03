@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "aarium:cacaofondu"
+      "item": "aarium:smeltedcocoa"
     },
     {
       "item": "minecraft:sugar"
     }
   ],
   "result": {
-    "item": "aarium:chocolat",
+    "item": "aarium:chocolatebar",
     "count": 1
   }
 }

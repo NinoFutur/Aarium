@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Smeltedcocoa"
       },
       {
-        "value": "CUSTOM:Tasseitem"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Tasseitem"
-      },
-      {
-        "value": "Items.MILK_BUCKET"
-      },
-      {
-        "value": "CUSTOM:Tasseitem"
+        "value": "Items.SUGAR"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Tasseitem"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tassedelait"
+      "value": "CUSTOM:Chocolatebar"
     },
-    "name": "tassedelaitrecipe",
+    "name": "chocolatbarrecipe",
     "namespace": "mod"
   }
 }
