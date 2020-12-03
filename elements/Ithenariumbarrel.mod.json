@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByExplosion": {
+      "name": "IthenariumbarrelBlockDestroyedByExplosion"
+    },
     "onRedstoneOn": {
       "name": "IthenariumbarrelRedstoneOn"
     },

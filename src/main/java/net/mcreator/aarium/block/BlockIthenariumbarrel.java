@@ -9,6 +9,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.EnumFacing;
@@ -26,6 +27,7 @@ import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.Block;
 
 import net.mcreator.aarium.procedure.ProcedureIthenariumbarrelRedstoneOn;
+import net.mcreator.aarium.procedure.ProcedureIthenariumbarrelBlockDestroyedByExplosion;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Map;
@@ -126,6 +128,22 @@ public class BlockIthenariumbarrel extends ElementsAariumMod.ModElement {
 					ProcedureIthenariumbarrelRedstoneOn.executeProcedure($_dependencies);
 				}
 			} else {
+			}
+		}
+
+		@Override
+		public void onBlockDestroyedByExplosion(World world, BlockPos pos, Explosion e) {
+			super.onBlockDestroyedByExplosion(world, pos, e);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureIthenariumbarrelBlockDestroyedByExplosion.executeProcedure($_dependencies);
 			}
 		}
 	}

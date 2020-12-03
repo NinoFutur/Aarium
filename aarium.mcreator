@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 26,
+    "GUI": 5,
     "ENTITY": 16,
-    "GUI": 5
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -2824,6 +2824,71 @@
           }
         ]
       }
+    },
+    {
+      "name": "IthenariumbarrelBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cacaofondu",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cacaofondu"
+    },
+    {
+      "name": "Chocolat",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolat"
+    },
+    {
+      "name": "Chocolatrecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatrecipe"
+    },
+    {
+      "name": "Cacaofondurecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cacaofondurecipe"
     }
   ],
   "variable_elements": [
@@ -2854,16 +2919,16 @@
     "en_us": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "tile.luminousair.name": "Luminous air",
       "block.aarium.greenscreen": "Green screen",
+      "tile.luminousair.name": "Luminous air",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (Wither)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (coal)",
+      "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -2897,8 +2962,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockfalse.name": "Laboratory block (false)",
       "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
+      "tile.laboratoryblockfalse.name": "Laboratory block (false)",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -2943,6 +3008,7 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Sun with lines)",
+      "item.cacaofondu.name": "Cacao fondu",
       "tile.egyptianblock_71.name": "Egyptian block (Rê up)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -2957,6 +3023,7 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
+      "item.chocolat.name": "Chocolat",
       "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
@@ -3120,16 +3187,16 @@
     "fr_fr": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "tile.luminousair.name": "Luminous solid air",
       "block.aarium.greenscreen": "Green screen",
+      "tile.luminousair.name": "Luminous solid air",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (feather)",
+      "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -3163,8 +3230,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockfalse.name": "Laboratory block",
       "tile.laboratoryblockwarning.name": "Laboratory block",
+      "tile.laboratoryblockfalse.name": "Laboratory block",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -3209,6 +3276,7 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Big bottle)",
+      "item.cacaofondu.name": "Cacao fondu",
       "tile.egyptianblock_71.name": "Egyptian block (Wither)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -3223,6 +3291,7 @@
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
+      "item.chocolat.name": "Chocolat",
       "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
       "item.aariumnugget.name": "Aarium nugget",
