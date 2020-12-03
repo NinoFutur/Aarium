@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 5,
-    "ENTITY": 16,
-    "DIMENSION": 26
+    "DIMENSION": 26,
+    "ENTITY": 16
   },
   "mod_elements": [
     {
@@ -2696,89 +2696,6 @@
       "registry_name": "laddertrapdoorrecipe"
     },
     {
-      "name": "Ithenariumblock",
-      "type": "block",
-      "sortid": 256,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumblock"
-    },
-    {
-      "name": "IthenariumbarrelRedstoneOn",
-      "type": "procedure",
-      "sortid": 260,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumbarrel_redstone_on",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Cacaofondurecipe",
-      "type": "recipe",
-      "sortid": 265,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cacaofondurecipe"
-    },
-    {
-      "name": "Ithenariumblockrecipe",
-      "type": "recipe",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumblockrecipe"
-    },
-    {
-      "name": "Ithenariumingotfromblock",
-      "type": "recipe",
-      "sortid": 255,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumingotfromblock"
-    },
-    {
-      "name": "Chocolat",
-      "type": "item",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chocolat"
-    },
-    {
-      "name": "Cacaofondu",
-      "type": "item",
-      "sortid": 262,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cacaofondu"
-    },
-    {
       "name": "Ithenariumore",
       "type": "block",
       "sortid": 251,
@@ -2786,24 +2703,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ithenariumore"
-    },
-    {
-      "name": "Ithenariumdust",
-      "type": "item",
-      "sortid": 253,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumdust"
-    },
-    {
-      "name": "Chocolatrecipe",
-      "type": "recipe",
-      "sortid": 264,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chocolatrecipe"
     },
     {
       "name": "IthenariumoreBlockDestroyedByPlayer",
@@ -2835,6 +2734,51 @@
       }
     },
     {
+      "name": "Ithenariumdust",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumdust"
+    },
+    {
+      "name": "Ithenariumingot",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingot"
+    },
+    {
+      "name": "Ithenariumingotfromblock",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingotfromblock"
+    },
+    {
+      "name": "Ithenariumblock",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblock"
+    },
+    {
+      "name": "Ithenariumblockrecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblockrecipe"
+    },
+    {
       "name": "Ithenariumbarrel",
       "type": "block",
       "sortid": 258,
@@ -2851,6 +2795,35 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ithenariumbarrelrecipe"
+    },
+    {
+      "name": "IthenariumbarrelRedstoneOn",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
       "name": "IthenariumbarrelBlockDestroyedByExplosion",
@@ -2882,13 +2855,112 @@
       }
     },
     {
-      "name": "Ithenariumingot",
+      "name": "Cacaofondu",
       "type": "item",
-      "sortid": 254,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ithenariumingot"
+      "registry_name": "cacaofondu"
+    },
+    {
+      "name": "Chocolat",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolat"
+    },
+    {
+      "name": "Chocolatrecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatrecipe"
+    },
+    {
+      "name": "Cacaofondurecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cacaofondurecipe"
+    },
+    {
+      "name": "Chocolatchaud",
+      "type": "food",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatchaud"
+    },
+    {
+      "name": "Tassedelaitrecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tassedelaitrecipe"
+    },
+    {
+      "name": "Tassedelait",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tassedelait"
+    },
+    {
+      "name": "Chocolatchaudrecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatchaudrecipe"
+    },
+    {
+      "name": "Tasserecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tasserecipe"
+    },
+    {
+      "name": "Tasseitem",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tasseitem"
+    },
+    {
+      "name": "Chocolataulaitfroidfood",
+      "type": "food",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolataulaitfroidfood"
+    },
+    {
+      "name": "Chocolataulaitfroidrecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolataulaitfroidrecipe"
     }
   ],
   "variable_elements": [
@@ -2996,6 +3068,7 @@
       "item.aarium.bowoflight": "Bow of light",
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
+      "item.chocolataulaitfroidfood.name": "Chocolat au lait froid",
       "tile.laboratoryblockdarkcross.name": "Laboratory block (cross)",
       "tile.egyptianblock_180.name": "Egyptian block (Osiris, down)",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
@@ -3249,6 +3322,7 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Béton lumineux jaune",
+      "item.tassedelait.name": "Tasse de lait",
       "tile.egyptianblock_2.name": "Egyptian block (two papyrus leaves)",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
@@ -3264,6 +3338,7 @@
       "item.aarium.bowoflight": "Bow of light",
       "item.aarium.siberia": "Siberia Portal Igniter",
       "item.volcanite_shovel.name": "Volcanite Shovel",
+      "item.chocolataulaitfroidfood.name": "Chocolataulaitfroidfood",
       "tile.laboratoryblockdarkcross.name": "Laboratory block",
       "tile.egyptianblock_180.name": "Egyptian block (apple)",
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
@@ -3382,6 +3457,7 @@
       "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
+      "item.tasseitem.name": "Tasse",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "tile.hiddenblock_3.name": "Hidden block 1",
       "item.darkium_shovel.name": "Darkium Shovel",
@@ -3432,6 +3508,7 @@
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
       "itemGroup.tabcollectionjapanesetext": "Collection?: japanese text",
+      "item.chocolatchaud.name": "Chocolat chaud",
       "item.volcanite_armorhelmet.name": "Volcanite Helmet",
       "item.aarium_armorlegs.name": "Aarium Leggings",
       "item.aarium.aarium_armor_boots": "Aarium Boots",
@@ -3471,5 +3548,5 @@
     "modElementsPackage": "net.mcreator.aarium",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000546519
+  "mcreatorVersion": 202000547520
 }

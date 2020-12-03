@@ -1,0 +1,16 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:tassedelait"
+    },
+    {
+      "item": "aarium:chocolat"
+    }
+  ],
+  "result": {
+    "item": "aarium:chocolataulaitfroidfood",
+    "count": 1
+  }
+}
