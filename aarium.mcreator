@@ -2900,6 +2900,42 @@
       "registry_name": "chocolatchaud"
     },
     {
+      "name": "Tassedelaitrecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tassedelaitrecipe"
+    },
+    {
+      "name": "Tassedelait",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tassedelait"
+    },
+    {
+      "name": "Chocolatchaudrecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatchaudrecipe"
+    },
+    {
+      "name": "Tasserecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tasserecipe"
+    },
+    {
       "name": "Tasseitem",
       "type": "item",
       "sortid": 267,
@@ -2925,42 +2961,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chocolataulaitfroidrecipe"
-    },
-    {
-      "name": "Tasserecipe",
-      "type": "recipe",
-      "sortid": 269,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tasserecipe"
-    },
-    {
-      "name": "Tassedelait",
-      "type": "item",
-      "sortid": 270,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tassedelait"
-    },
-    {
-      "name": "Tassedelaitrecipe",
-      "type": "recipe",
-      "sortid": 271,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tassedelaitrecipe"
-    },
-    {
-      "name": "Chocolatchaudrecipe",
-      "type": "recipe",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chocolatchaudrecipe"
     }
   ],
   "variable_elements": [
@@ -3053,7 +3053,6 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Luminous concrete yellow",
-      "item.tassedelait.name": "Tasse de lait",
       "tile.egyptianblock_2.name": "Egyptian block (orange sun)",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
@@ -3188,7 +3187,6 @@
       "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
-      "item.tasseitem.name": "Tasse",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "tile.hiddenblock_3.name": "Hidden block",
       "item.darkium_shovel.name": "Darkium Shovel",
@@ -3239,7 +3237,6 @@
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
       "itemGroup.tabcollectionjapanesetext": "Collection?: japanese text",
-      "item.chocolatchaud.name": "Chocolat chaud",
       "item.volcanite_armorhelmet.name": "Volcanite Helmet",
       "item.aarium_armorlegs.name": "Aarium Leggings",
       "item.aarium.aarium_armor_boots": "Aarium Boots",
