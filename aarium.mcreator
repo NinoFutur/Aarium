@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 16,
     "DIMENSION": 26,
+    "ENTITY": 16,
     "GUI": 5
   },
   "mod_elements": [
@@ -2777,6 +2777,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ithenariumblockrecipe"
+    },
+    {
+      "name": "Ithenariumbarrel",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel"
+    },
+    {
+      "name": "Ithenariumbarrelrecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrelrecipe"
+    },
+    {
+      "name": "IthenariumbarrelRedstoneOn",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2807,16 +2854,16 @@
     "en_us": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
       "tile.luminousair.name": "Luminous air",
+      "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (Wither)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "item.travelerslegs.name": "Travelers Leggings",
+      "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -2850,8 +2897,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
       "tile.laboratoryblockfalse.name": "Laboratory block (false)",
+      "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -2985,6 +3032,7 @@
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
       "item.spawn.name": "Spawn Portal Igniter",
       "tile.absorptionblock.name": "Absorption block",
+      "tile.ithenariumbarrel.name": "Ithenarium barrel",
       "item.aarium.farmingstone": "Farmingstone Portal Igniter",
       "item.aarium.volcanite_shovel": "Volcanite Shovel",
       "item.aarium_armorhelmet.name": "Aarium Helmet",
@@ -3072,16 +3120,16 @@
     "fr_fr": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
       "tile.luminousair.name": "Luminous solid air",
+      "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.aarium.swimming_chestplate": "Swimming Body",
       "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "tile.egyptianblock_19.name": "Egyptian block (feather)",
       "item.travelerslegs.name": "Travelers Leggings",
+      "tile.egyptianblock_19.name": "Egyptian block (feather)",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -3115,8 +3163,8 @@
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockwarning.name": "Laboratory block",
       "tile.laboratoryblockfalse.name": "Laboratory block",
+      "tile.laboratoryblockwarning.name": "Laboratory block",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -3250,6 +3298,7 @@
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
       "item.spawn.name": "Spawn Portal Igniter",
       "tile.absorptionblock.name": "Absorption block",
+      "tile.ithenariumbarrel.name": "Ithenariumbarrel",
       "item.aarium.farmingstone": "Farmingstone Portal Igniter",
       "item.aarium.volcanite_shovel": "Pelle en volcanite",
       "item.aarium_armorhelmet.name": "Aarium Helmet",
