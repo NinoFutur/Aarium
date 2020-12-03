@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 5,
-    "ENTITY": 16,
-    "DIMENSION": 26
+    "DIMENSION": 26,
+    "ENTITY": 16
   },
   "mod_elements": [
     {
@@ -2961,6 +2961,38 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "coldmilkchocolaterecipe"
+    },
+    {
+      "name": "IthenariumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ithenariumarmor",
+      "type": "armor",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -3026,6 +3058,7 @@
       "item.darkium_sword.name": "Darkium Sword",
       "item.playerfrezer.name": "Player Freezer",
       "item.aarium.aarium_ingot": "Aarium ingot",
+      "item.ithenariumarmorboots.name": "Ithenariumarmor Boots",
       "item.aarium.event": "Spawn Portal Igniter",
       "item.volcanite_axe.name": "Volcanite Axe",
       "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : U",
@@ -3044,6 +3077,7 @@
       "item.smeltedcocoa.name": "Smelted Cocoa",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
+      "item.ithenariumarmorlegs.name": "Ithenariumarmor Leggings",
       "tile.egyptianblock_12.name": "Egyptian stairs",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
@@ -3103,6 +3137,7 @@
       "tile.egyptianblock_13.name": "Egyptian block (Boat on ocean)",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
+      "item.ithenariumarmorhelmet.name": "Ithenariumarmor Helmet",
       "item.volcaniteingot.name": "Volcanite ingot",
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "tile.lightium_ore_block.name": "Block of Lightium",
@@ -3217,6 +3252,7 @@
       "item.aarium.travelers_chestplate": "Travelers Body",
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
+      "item.ithenariumarmorbody.name": "Ithenariumarmor Body",
       "tile.egyptianblock_11.name": "Egyptian block (Pharaon face)",
       "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
@@ -3301,6 +3337,7 @@
       "item.darkium_sword.name": "Darkium Sword",
       "item.playerfrezer.name": "Player Freezer",
       "item.aarium.aarium_ingot": "Lingot d\u0027Aarium",
+      "item.ithenariumarmorboots.name": "Ithenariumarmor Boots",
       "item.aarium.event": "Spawn Portal Igniter",
       "item.volcanite_axe.name": "Volcanite Axe",
       "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : A",
@@ -3319,6 +3356,7 @@
       "item.smeltedcocoa.name": "Cacao fondu",
       "tile.luminousconcretered.name": "Luminous concrete red",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
+      "item.ithenariumarmorlegs.name": "Ithenariumarmor Leggings",
       "tile.egyptianblock_12.name": "Egyptian block (Pharaon face)",
       "tile.darkiumblock.name": "Darkium block",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
@@ -3377,6 +3415,7 @@
       "tile.egyptianblock_13.name": "Egyptian block (Pharaon face)",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
+      "item.ithenariumarmorhelmet.name": "Ithenariumarmor Helmet",
       "item.volcaniteingot.name": "Volcanite ingot",
       "item.aarium.lightium_armor_helmet": "Lightium Helmet",
       "tile.lightium_ore_block.name": "Block of Lightium",
@@ -3490,6 +3529,7 @@
       "item.aarium.travelers_chestplate": "Travelers Body",
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
+      "item.ithenariumarmorbody.name": "Ithenariumarmor Body",
       "tile.egyptianblock_11.name": "Egyptian block (Pharaon face)",
       "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
