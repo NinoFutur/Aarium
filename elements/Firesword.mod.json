@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "fire_sword",
+    "texture": "fire_sword_texture_maker_32",
     "customModelName": "Normal",
     "name": "Fire sword",
     "specialInfo": [],

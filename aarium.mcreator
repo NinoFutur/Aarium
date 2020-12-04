@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "DIMENSION": 26,
     "GUI": 5,
-    "ENTITY": 16,
-    "DIMENSION": 26
+    "ENTITY": 16
   },
   "mod_elements": [
     {
@@ -3101,6 +3101,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "treechopper"
+    },
+    {
+      "name": "IthenariumArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [

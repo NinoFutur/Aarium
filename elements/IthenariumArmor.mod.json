@@ -11,16 +11,16 @@
     "enableBoots": true,
     "textureBoots": "ithenarium_boots",
     "onHelmetTick": {
-      "name": "IthenariumarmorBodyTickEvent"
+      "name": "IthenariumArmorHelmetTickEvent"
     },
     "onBodyTick": {
-      "name": "IthenariumarmorBodyTickEvent"
+      "name": "IthenariumArmorHelmetTickEvent"
     },
     "onLeggingsTick": {
-      "name": "IthenariumarmorBodyTickEvent"
+      "name": "IthenariumArmorHelmetTickEvent"
     },
     "onBootsTick": {
-      "name": "IthenariumarmorBodyTickEvent"
+      "name": "IthenariumArmorHelmetTickEvent"
     },
     "creativeTab": {
       "value": "COMBAT"

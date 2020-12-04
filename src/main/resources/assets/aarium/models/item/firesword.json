@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "aarium:items/fire_sword"
+    "layer0": "aarium:items/fire_sword_texture_maker_32"
   }
 }

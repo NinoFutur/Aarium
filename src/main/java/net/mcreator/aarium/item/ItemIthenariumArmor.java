@@ -18,7 +18,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.aarium.procedure.ProcedureIthenariumarmorBodyTickEvent;
+import net.mcreator.aarium.procedure.ProcedureIthenariumArmorHelmetTickEvent;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Map;
@@ -52,7 +52,7 @@ public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
-					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
+					ProcedureIthenariumArmorHelmetTickEvent.executeProcedure($_dependencies);
 				}
 			}
 		}.setUnlocalizedName("ithenarium_armorhelmet").setRegistryName("ithenarium_armorhelmet").setCreativeTab(CreativeTabs.COMBAT));
@@ -65,7 +65,7 @@ public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
-					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
+					ProcedureIthenariumArmorHelmetTickEvent.executeProcedure($_dependencies);
 				}
 			}
 		}.setUnlocalizedName("ithenarium_armorbody").setRegistryName("ithenarium_armorbody").setCreativeTab(CreativeTabs.COMBAT));
@@ -78,7 +78,7 @@ public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
-					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
+					ProcedureIthenariumArmorHelmetTickEvent.executeProcedure($_dependencies);
 				}
 			}
 		}.setUnlocalizedName("ithenarium_armorlegs").setRegistryName("ithenarium_armorlegs").setCreativeTab(CreativeTabs.COMBAT));
@@ -91,7 +91,7 @@ public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
-					ProcedureIthenariumarmorBodyTickEvent.executeProcedure($_dependencies);
+					ProcedureIthenariumArmorHelmetTickEvent.executeProcedure($_dependencies);
 				}
 			}
 		}.setUnlocalizedName("ithenarium_armorboots").setRegistryName("ithenarium_armorboots").setCreativeTab(CreativeTabs.COMBAT));
