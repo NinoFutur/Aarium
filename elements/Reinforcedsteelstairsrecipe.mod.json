@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      },
+      {
+        "value": "CUSTOM:Reinforcedsteelblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Reinforcedsteelstairs"
+    },
+    "name": "reinforcedsteelstairsrecipe",
+    "namespace": "mod"
+  }
+}
