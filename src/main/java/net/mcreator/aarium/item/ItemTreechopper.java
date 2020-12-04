@@ -1,12 +1,37 @@
 
 package net.mcreator.aarium.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import net.mcreator.aarium.procedure.ProcedureTreechopperBlockDestroyedWithTool;
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.Map;
+import java.util.HashMap;
+
+import com.google.common.collect.Multimap;
+
 @ElementsAariumMod.ModElement.Tag
 public class ItemTreechopper extends ElementsAariumMod.ModElement {
-
 	@GameRegistry.ObjectHolder("aarium:treechopper")
 	public static final Item block = null;
-
 	public ItemTreechopper(ElementsAariumMod instance) {
 		super(instance, 286);
 	}
@@ -14,7 +39,6 @@ public class ItemTreechopper extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, IBlockState bl, BlockPos pos, EntityLivingBase entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, bl, pos, entity);
@@ -23,17 +47,14 @@ public class ItemTreechopper extends ElementsAariumMod.ModElement {
 				int z = pos.getZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-
 					ProcedureTreechopperBlockDestroyedWithTool.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
-
 		}.setUnlocalizedName("treechopper").setRegistryName("treechopper").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
@@ -42,9 +63,7 @@ public class ItemTreechopper extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:treechopper", "inventory"));
 	}
-
 	private static class ItemToolCustom extends Item {
-
 		protected ItemToolCustom() {
 			setMaxDamage(2000);
 			setMaxStackSize(1);
@@ -93,7 +112,5 @@ public class ItemTreechopper extends ElementsAariumMod.ModElement {
 		public int getItemEnchantability() {
 			return 2;
 		}
-
 	}
-
 }

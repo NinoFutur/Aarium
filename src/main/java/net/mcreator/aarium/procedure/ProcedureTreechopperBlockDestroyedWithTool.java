@@ -1,8 +1,15 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.material.Material;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.Map;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureTreechopperBlockDestroyedWithTool extends ElementsAariumMod.ModElement {
-
 	public ProcedureTreechopperBlockDestroyedWithTool(ElementsAariumMod instance) {
 		super(instance, 286);
 	}
@@ -24,12 +31,10 @@ public class ProcedureTreechopperBlockDestroyedWithTool extends ElementsAariumMo
 			System.err.println("Failed to load dependency world for procedure TreechopperBlockDestroyedWithTool!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		double AX = 0;
 		double AY = 0;
 		double AZ = 0;
@@ -54,7 +59,5 @@ public class ProcedureTreechopperBlockDestroyedWithTool extends ElementsAariumMo
 				world.setBlockToAir(new BlockPos((int) (AX), (int) (AY), (int) (AZ)));
 			}
 		}
-
 	}
-
 }
