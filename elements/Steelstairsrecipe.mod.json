@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Steelblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelblock"
+      },
+      {
+        "value": "CUSTOM:Steelblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelblock"
+      },
+      {
+        "value": "CUSTOM:Steelblock"
+      },
+      {
+        "value": "CUSTOM:Steelblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Steelstairs"
+    },
+    "name": "steelstairsrecipe",
+    "namespace": "mod"
+  }
+}

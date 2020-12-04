@@ -1371,44 +1371,6 @@
       "registry_name": "aariummultitoolrecipe"
     },
     {
-      "name": "TreechopperaxeBlockDestroyedWithTool",
-      "type": "procedure",
-      "sortid": 181,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "treechopperaxe_block_destroyed_with_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Treechopperaxe",
-      "type": "tool",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "treechopperaxe"
-    },
-    {
       "name": "VolcaniteappleFoodEaten",
       "type": "procedure",
       "sortid": 182,
@@ -2963,23 +2925,6 @@
       "registry_name": "coldmilkchocolaterecipe"
     },
     {
-      "name": "IthenariumarmorBodyTickEvent",
-      "type": "procedure",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumarmor_body_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
       "name": "IthenariumArmor",
       "type": "armor",
       "sortid": 287,
@@ -3022,6 +2967,23 @@
       "registry_name": "ithenarium_armor_leggings_recipe"
     },
     {
+      "name": "IthenariumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
       "name": "IthenariumArmorBootsRecipe",
       "type": "recipe",
       "sortid": 291,
@@ -3029,6 +2991,116 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ithenarium_armor_boots_recipe"
+    },
+    {
+      "name": "Reinforcedsteelstairsrecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairsrecipe"
+    },
+    {
+      "name": "Steelblock",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblock"
+    },
+    {
+      "name": "Steelstairsrecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairsrecipe"
+    },
+    {
+      "name": "Steelblockrecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblockrecipe"
+    },
+    {
+      "name": "Reinforcedsteelstairs",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairs"
+    },
+    {
+      "name": "Reinforcedsteelblockrecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblockrecipe"
+    },
+    {
+      "name": "Steelstairs",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairs"
+    },
+    {
+      "name": "TreechopperBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopper_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reinforcedsteelblock",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblock"
+    },
+    {
+      "name": "Treechopper",
+      "type": "tool",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopper"
     }
   ],
   "variable_elements": [
@@ -3357,6 +3429,7 @@
       "tile.laboratoryblocktrue.name": "Laboratory block",
       "tile.egyptianblock_17.name": "Egyptian block (feather)",
       "item.volcanite_armorbody.name": "Volcanite Chestplate",
+      "item.treechopper.name": "Hâche de bucheron",
       "tile.darkiumslab.name": "Darkium block",
       "item.volcanite_hoe.name": "Volcanite Hoe",
       "block.aarium.solidair": "Solid air",
@@ -3378,6 +3451,7 @@
       "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : A",
       "item.ithenarium_armorbody.name": "Ithenarium Chestplate",
       "tile.foodblock.name": "Food block",
+      "tile.steelblock.name": "Bloc d\u0027acier",
       "tile.egyptianblock_181.name": "Egyptian block (apple)",
       "tile.greenscreen.name": "Green screen",
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
@@ -3398,6 +3472,7 @@
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.record.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "block.aarium.greenscreenstairs": "Escaliers en fond vert",
+      "tile.reinforcedsteelstairs.name": "Reinforced steel block",
       "tile.japanesetexthiraganaa.name": "Japanese text (Hiragana) : A",
       "item.nearentitiesfinder.name": "Near entities finder",
       "tile.luminousconcretegreen.name": "Luminous concrete green",
@@ -3430,6 +3505,7 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Big bottle)",
+      "tile.steelstairs.name": "Steel block",
       "tile.egyptianblock_71.name": "Egyptian block (Wither)",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
@@ -3506,6 +3582,7 @@
       "tile.greenscreenstairs.name": "Green screen stairs",
       "tile.japanesetexthiraganae.name": "Japanese text (Hiragana) : A",
       "block.aarium.lightium_ore": "Minerai de Lightium",
+      "tile.reinforcedsteelblock.name": "Reinforced steel block",
       "item.aarium.aariumnugget": "Aarium nugget",
       "item.o_pshovel.name": "OP pickaxe",
       "tile.laddertrapdoor.name": "Laddertrapdoor",
