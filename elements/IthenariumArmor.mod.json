@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "ithenarium_helmet",
+    "textureHelmet": "ithenarium_head",
     "enableBody": true,
     "textureBody": "ithenarium_body",
     "enableLeggings": true,
