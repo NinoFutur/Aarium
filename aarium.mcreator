@@ -2925,137 +2925,6 @@
       "registry_name": "coldmilkchocolaterecipe"
     },
     {
-      "name": "IthenariumArmor",
-      "type": "armor",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenarium_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "IthenariumArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenarium_armor_helmet_recipe"
-    },
-    {
-      "name": "IthenariumArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenarium_armor_body_recipe"
-    },
-    {
-      "name": "IthenariumArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenarium_armor_leggings_recipe"
-    },
-    {
-      "name": "IthenariumarmorBodyTickEvent",
-      "type": "procedure",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenariumarmor_body_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
-      "name": "IthenariumArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ithenarium_armor_boots_recipe"
-    },
-    {
-      "name": "Reinforcedsteelstairsrecipe",
-      "type": "recipe",
-      "sortid": 294,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "reinforcedsteelstairsrecipe"
-    },
-    {
-      "name": "Steelblock",
-      "type": "block",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steelblock"
-    },
-    {
-      "name": "Steelstairsrecipe",
-      "type": "recipe",
-      "sortid": 293,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steelstairsrecipe"
-    },
-    {
-      "name": "Steelblockrecipe",
-      "type": "recipe",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steelblockrecipe"
-    },
-    {
-      "name": "Reinforcedsteelstairs",
-      "type": "block",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "reinforcedsteelstairs"
-    },
-    {
-      "name": "Reinforcedsteelblockrecipe",
-      "type": "recipe",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "reinforcedsteelblockrecipe"
-    },
-    {
-      "name": "Steelstairs",
-      "type": "block",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steelstairs"
-    },
-    {
       "name": "TreechopperBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 286,
@@ -3085,15 +2954,6 @@
       }
     },
     {
-      "name": "Reinforcedsteelblock",
-      "type": "block",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "reinforcedsteelblock"
-    },
-    {
       "name": "Treechopper",
       "type": "tool",
       "sortid": 286,
@@ -3103,50 +2963,76 @@
       "registry_name": "treechopper"
     },
     {
-      "name": "IthenariumArmorHelmetTickEvent",
-      "type": "procedure",
-      "sortid": 295,
+      "name": "Steelblock",
+      "type": "block",
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ithenarium_armor_helmet_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
+      "registry_name": "steelblock"
     },
     {
-      "name": "FireswordRightClickedInAir",
-      "type": "procedure",
-      "sortid": 296,
+      "name": "Steelblockrecipe",
+      "type": "recipe",
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "firesword_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "steelblockrecipe"
+    },
+    {
+      "name": "Reinforcedsteelblock",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblock"
+    },
+    {
+      "name": "Reinforcedsteelblockrecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblockrecipe"
+    },
+    {
+      "name": "Steelstairs",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairs"
+    },
+    {
+      "name": "Reinforcedsteelstairs",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairs"
+    },
+    {
+      "name": "Steelstairsrecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairsrecipe"
+    },
+    {
+      "name": "Reinforcedsteelstairsrecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairsrecipe"
     },
     {
       "name": "FireswordLivingEntityIsHitWithTool2",
@@ -3182,13 +3068,57 @@
       }
     },
     {
-      "name": "Megaithenariumbarrel",
-      "type": "block",
-      "sortid": 298,
+      "name": "FireswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "megaithenariumbarrel"
+      "registry_name": "firesword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IthenariumArmor",
+      "type": "armor",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "IthenariumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_helmet_recipe"
     },
     {
       "name": "MegaithenariumbarrelRedstoneOn",
@@ -3218,6 +3148,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "IthenariumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_body_recipe"
+    },
+    {
+      "name": "IthenariumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_leggings_recipe"
+    },
+    {
+      "name": "IthenariumArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Megaithenariumbarrel",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megaithenariumbarrel"
+    },
+    {
+      "name": "IthenariumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IthenariumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_boots_recipe"
+    },
+    {
+      "name": "Futureblock0",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "futureblock_0"
+    },
+    {
+      "name": "Futureblocksymbola",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "futureblocksymbola"
     }
   ],
   "variable_elements": [
@@ -3260,7 +3278,6 @@
       "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
-      "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
       "item.aarium.volcanite_sword": "Volcanite Sword",
@@ -3531,81 +3548,81 @@
       "item.solitudia.name": "Solitudia Portal Igniter"
     },
     "fr_fr": {
-      "item.lightium_armorboots.name": "Lightium Boots",
-      "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
-      "tile.luminousair.name": "Luminous solid air",
-      "item.aarium.aarium_sword": "Aarium Sword",
-      "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
-      "item.mugofmilk.name": "Mug of milk",
-      "item.aarium.swimming_chestplate": "Swimming Body",
-      "item.aarium_armorboots.name": "Aarium Boots",
-      "tile.egyptianblock_6.name": "Egyptian block (dead bush)",
-      "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
-      "tile.egyptianblock_19.name": "Egyptian block (feather)",
-      "item.travelerslegs.name": "Travelers Leggings",
+      "item.lightium_armorboots.name": "Bottes en Lightium",
+      "item.aarium.skyaria": "Allumeur de portail vers Skyaraia",
+      "block.aarium.greenscreen": "Écran vert",
+      "tile.luminousair.name": "Air lumineux solide",
+      "item.aarium.aarium_sword": "Épée en Aarium",
+      "item.aarium.darkium_pickaxe": "Pioche en Darkium",
+      "item.mugofmilk.name": "Bol de lait",
+      "item.aarium.swimming_chestplate": "Corps de nageur",
+      "tile.egyptianblock_6.name": "Bloc égyptien (buisson mort)",
+      "item.aarium_armorboots.name": "Bottes en Aarium",
+      "item.aarium.aarium_pickaxe": "Pioche en Aarium",
+      "item.travelerslegs.name": "Jambières du Voyageur",
+      "tile.egyptianblock_19.name": "Bloc égyptien (charbon)",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
-      "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
-      "item.aarium.volcanite_sword": "Volcanite Sword",
-      "item.aarium.darkiumingot": "Darkium ingot",
-      "tile.laboratoryblocktrue.name": "Laboratory block",
-      "tile.egyptianblock_17.name": "Egyptian block (feather)",
-      "item.volcanite_armorbody.name": "Volcanite Chestplate",
+      "item.aarium.farmingdirt": "Alummeur de portail vers Farmingdirt",
+      "item.aarium.volcanite_sword": "Épée en Volcanite",
+      "item.aarium.darkiumingot": "Lingot en Darkium",
+      "tile.laboratoryblocktrue.name": "Block de laboratoire (vrai)",
+      "tile.egyptianblock_17.name": "Egyptian block (apple)",
+      "item.volcanite_armorbody.name": "Torse en Volcanite",
       "item.treechopper.name": "Hâche de bucheron",
-      "tile.darkiumslab.name": "Darkium block",
-      "item.volcanite_hoe.name": "Volcanite Hoe",
-      "block.aarium.solidair": "Solid air",
-      "item.aarium.darkium_armor_boots": "Darkium Boots",
-      "item.aarium.pateria": "Pateria Portal Igniter",
-      "item.darkiumnugget.name": "Darkium nugget",
-      "item.aarium.lightium_sword": "Lightium Sword",
-      "tile.lightium_ore.name": "Lightium Ore",
-      "tile.egyptianblock_15.name": "Egyptian block (base)",
-      "item.aarium.darkium_armor_chestplate": "Darkium Chestplate",
-      "item.aarium.lightium_armor_leggings": "Lightium Leggings",
-      "item.swimminglegs.name": "Swimming Leggings",
-      "tile.egyptianblock_4.name": "Egyptian block (orange sun)",
-      "item.darkium_sword.name": "Darkium Sword",
-      "item.playerfrezer.name": "Player Freezer",
+      "tile.darkiumslab.name": "Bloc de Darkium",
+      "item.volcanite_hoe.name": "Houe en Volcanite",
+      "block.aarium.solidair": "Air solide",
+      "item.aarium.darkium_armor_boots": "Bottes en Darkium",
+      "item.aarium.pateria": "Allumeur de portail vers Pateria",
+      "item.darkiumnugget.name": "Pépite de Darkium",
+      "item.aarium.lightium_sword": "Épée en Lightium",
+      "tile.lightium_ore.name": "Minerai de Lightium",
+      "tile.egyptianblock_15.name": "Bloc égyptien (base)",
+      "item.aarium.darkium_armor_chestplate": "Torse en Darkium",
+      "item.aarium.lightium_armor_leggings": "Jambières en Lightium",
+      "item.swimminglegs.name": "Jambières de nageur",
+      "tile.egyptianblock_4.name": "Bloc égyptien (soleil orange)",
+      "item.darkium_sword.name": "Épée en Darkium",
+      "item.playerfrezer.name": "Glaceur de joueurs",
       "item.aarium.aarium_ingot": "Lingot d\u0027Aarium",
-      "item.aarium.event": "Spawn Portal Igniter",
-      "item.volcanite_axe.name": "Volcanite Axe",
-      "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : A",
+      "item.aarium.event": "Allumeur de portail vers le Spawn",
+      "item.volcanite_axe.name": "Hêche en Volcanite",
+      "tile.japanesetexthiraganau.name": "Texte en Japonais (Hiragana) : U",
       "item.ithenarium_armorbody.name": "Ithenarium Chestplate",
-      "tile.foodblock.name": "Food block",
+      "tile.foodblock.name": "Bloc de nourriture",
       "tile.steelblock.name": "Bloc d\u0027acier",
-      "tile.egyptianblock_181.name": "Egyptian block (apple)",
-      "tile.greenscreen.name": "Green screen",
-      "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
-      "tile.luminousconcreteblue.name": "Luminous concrete blue",
-      "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockwarning.name": "Laboratory block",
-      "tile.laboratoryblockfalse.name": "Laboratory block",
+      "tile.egyptianblock_181.name": "Bloc égyptien (Osiris, haut)",
+      "tile.greenscreen.name": "Écran vert",
+      "item.aarium.lightium_pickaxe": "Pioche en Lightium",
+      "tile.luminousconcreteblue.name": "Béton lumineux bleu",
+      "item.aarium.darkium_sword": "Épée en Darkium",
+      "tile.laboratoryblockwarning.name": "Bloc de labortoire (attention)",
+      "tile.laboratoryblockfalse.name": "Bloc de laboratoir (faux)",
       "entity.bosszombie.name": "Boss zombie",
-      "item.travelersboots.name": "Traveler\u0027s Boots",
-      "item.aarium.darkium_hoe": "Darkium Hoe",
-      "item.aarium.solitudia": "Solitudia Portal Igniter",
+      "item.travelersboots.name": "Bottes du Voyageur",
+      "item.aarium.darkium_hoe": "Houe en Darkium",
+      "item.aarium.solitudia": "Alluùeur de portail vers Solitudia",
       "item.smeltedcocoa.name": "Cacao fondu",
-      "tile.luminousconcretered.name": "Luminous concrete red",
+      "tile.luminousconcretered.name": "Béton lumineux rouge",
       "item.aarium.aarium_armor_helmet": "Casque en Aarium",
-      "tile.egyptianblock_12.name": "Egyptian block (Pharaon face)",
-      "tile.darkiumblock.name": "Darkium block",
-      "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
-      "item.aarium.travelers_helmet": "Travelers Helmet",
+      "tile.egyptianblock_12.name": "Bloc égyptien (Pharaon)",
+      "tile.darkiumblock.name": "Bloc de Darkium",
+      "item.volcanite_pickaxe.name": "Pioche en Volcanite",
+      "item.aarium.travelers_helmet": "Casque du voyageur",
       "item.record.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "block.aarium.greenscreenstairs": "Escaliers en fond vert",
       "tile.reinforcedsteelstairs.name": "Reinforced steel block",
-      "tile.japanesetexthiraganaa.name": "Japanese text (Hiragana) : A",
-      "item.nearentitiesfinder.name": "Near entities finder",
-      "tile.luminousconcretegreen.name": "Luminous concrete green",
-      "item.aquaria.name": "Aquaria Portal Igniter",
+      "tile.japanesetexthiraganaa.name": "Texte en Japonais (Hiragana) : A",
+      "item.nearentitiesfinder.name": "Localisateur d\u0027Entités Proches (LEP)",
+      "tile.luminousconcretegreen.name": "Béton lumineux vert",
+      "item.aquaria.name": "Allumeur de portail vers Aquaria",
       "block.aarium.luminousconcreteyellow": "Béton lumineux jaune",
-      "tile.egyptianblock_2.name": "Egyptian block (two papyrus leaves)",
-      "item.aarium.dirtsoup": "Dirt soup",
-      "tile.luminousconcretewhite.name": "Luminous concrete white",
-      "item.aarium.darkium_axe": "Darkium Axe",
+      "tile.egyptianblock_2.name": "Bloc égyptien (deux feuilles de papyrus)",
+      "item.aarium.dirtsoup": "Soupe à la terre",
+      "tile.luminousconcretewhite.name": "Béton lumineux blanc",
+      "item.aarium.darkium_axe": "Hâche en Darkium",
       "item.darkium_armorboots.name": "Darkium Boots",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
       "block.aarium.lightium_ore_block": "Bloc de Lightium",
@@ -3629,6 +3646,7 @@
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
       "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "tile.egyptianblock_9.name": "Egyptian block (Big bottle)",
+      "tile.futureblocksymbola.name": "Future block (base)",
       "tile.steelstairs.name": "Steel block",
       "tile.egyptianblock_71.name": "Egyptian block (Wither)",
       "item.lightium_sword.name": "Lightium Sword",
@@ -3677,6 +3695,7 @@
       "item.aarium.darkium_shovel": "Darkium Shovel",
       "block.aarium.aariumore": "Aarium Ore",
       "block.aarium.darkiumblock": "Darkium block",
+      "tile.futureblock_0.name": "Future block (base)",
       "block.aarium.aariumslab": "Aarium slab",
       "item.aarium_sword.name": "Aarium Sword",
       "tile.egyptianblock_5.name": "Egyptian block (river)",
@@ -3809,7 +3828,7 @@
       "item.aarium.volcanite_pickaxe": "Volcanite Pickaxe",
       "tile.laboratoryblockdarklinesborder.name": "Laboratory block",
       "item.holemaker.name": "Hole maker (5x5)",
-      "item.event.name": "Spawn Portal Igniter",
+      "item.event.name": "Event  Portal Igniter",
       "item.solitudia.name": "Solitudia Portal Igniter"
     }
   },
