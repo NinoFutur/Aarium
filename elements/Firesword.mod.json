@@ -26,6 +26,12 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "FireswordLivingEntityIsHitWithTool2"
+    },
+    "onRightClickedOnBlock": {
+      "name": "FireswordLivingEntityIsHitWithTool2"
+    },
     "onEntityHitWith": {
       "name": "FireswordLivingEntityIsHitWithTool"
     }

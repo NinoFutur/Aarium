@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 26,
+    "ENTITY": 16,
     "GUI": 5,
-    "ENTITY": 16
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -3118,6 +3118,106 @@
           }
         ]
       }
+    },
+    {
+      "name": "FireswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireswordLivingEntityIsHitWithTool2",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword_living_entity_is_hit_with_tool_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Megaithenariumbarrel",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megaithenariumbarrel"
+    },
+    {
+      "name": "MegaithenariumbarrelRedstoneOn",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megaithenariumbarrel_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3160,6 +3260,7 @@
       "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
+      "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
       "item.aarium.volcanite_sword": "Volcanite Sword",
@@ -3444,6 +3545,7 @@
       "tile.egyptianblock_19.name": "Egyptian block (feather)",
       "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
+      "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
       "item.aarium.volcanite_sword": "Volcanite Sword",

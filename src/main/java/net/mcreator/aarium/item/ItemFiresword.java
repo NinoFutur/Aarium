@@ -9,16 +9,23 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.aarium.procedure.ProcedureFireswordLivingEntityIsHitWithTool2;
 import net.mcreator.aarium.procedure.ProcedureFireswordLivingEntityIsHitWithTool;
 import net.mcreator.aarium.ElementsAariumMod;
 
@@ -55,6 +62,45 @@ public class ItemFiresword extends ElementsAariumMod.ModElement {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("sword", 5);
 				return ret.keySet();
+			}
+
+			@Override
+			public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
+				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
+				ItemStack itemstack = retval.getResult();
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureFireswordLivingEntityIsHitWithTool2.executeProcedure($_dependencies);
+				}
+				return retval;
+			}
+
+			@Override
+			public EnumActionResult onItemUse(EntityPlayer entity, World world, BlockPos pos, EnumHand hand, EnumFacing direction, float hitX,
+					float hitY, float hitZ) {
+				EnumActionResult retval = super.onItemUse(entity, world, pos, hand, direction, hitX, hitY, hitZ);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				ItemStack itemstack = entity.getHeldItem(hand);
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureFireswordLivingEntityIsHitWithTool2.executeProcedure($_dependencies);
+				}
+				return retval;
 			}
 
 			@Override
