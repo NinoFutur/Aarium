@@ -136,12 +136,12 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 				return new GuiSuperenchanteur.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiSmallloadingbaygui.GUIID)
 				return new GuiSmallloadingbaygui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiInfinitewoodgeneratorgui.GUIID)
+				return new GuiInfinitewoodgeneratorgui.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiSuperfurnacegui.GUIID)
 				return new GuiSuperfurnacegui.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiInfinitecobblestonegeneratorgui.GUIID)
 				return new GuiInfinitecobblestonegeneratorgui.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiInfinitewoodgeneratorgui.GUIID)
-				return new GuiInfinitewoodgeneratorgui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -151,12 +151,12 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 				return new GuiSuperenchanteur.GuiWindow(world, x, y, z, player);
 			if (id == GuiSmallloadingbaygui.GUIID)
 				return new GuiSmallloadingbaygui.GuiWindow(world, x, y, z, player);
+			if (id == GuiInfinitewoodgeneratorgui.GUIID)
+				return new GuiInfinitewoodgeneratorgui.GuiWindow(world, x, y, z, player);
 			if (id == GuiSuperfurnacegui.GUIID)
 				return new GuiSuperfurnacegui.GuiWindow(world, x, y, z, player);
 			if (id == GuiInfinitecobblestonegeneratorgui.GUIID)
 				return new GuiInfinitecobblestonegeneratorgui.GuiWindow(world, x, y, z, player);
-			if (id == GuiInfinitewoodgeneratorgui.GUIID)
-				return new GuiInfinitewoodgeneratorgui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

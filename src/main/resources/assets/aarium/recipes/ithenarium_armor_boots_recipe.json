@@ -1,0 +1,26 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:ithenariumingot"
+    },
+    "2": {
+      "item": "aarium:ithenariumingot"
+    },
+    "3": {
+      "item": "aarium:ithenariumingot"
+    },
+    "5": {
+      "item": "aarium:ithenariumingot"
+    }
+  },
+  "result": {
+    "item": "aarium:ithenarium_armorboots",
+    "count": 1
+  }
+}
