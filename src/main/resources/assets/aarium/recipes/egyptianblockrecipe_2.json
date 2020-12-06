@@ -1,0 +1,16 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "aarium:egyptianblock_0"
+    }
+  ],
+  "result": {
+    "item": "aarium:egyptianblock_2",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/furnace_top",
+    "up": "aarium:blocks/furnace_top",
+    "north": "aarium:blocks/furnace_front",
+    "east": "aarium:blocks/furnace_front",
+    "south": "aarium:blocks/furnace_front",
+    "west": "aarium:blocks/furnace_front",
+    "particle": "aarium:blocks/furnace_top"
+  }
+}

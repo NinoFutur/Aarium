@@ -1,0 +1,16 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "aarium:egyptianblock_0"
+    }
+  ],
+  "result": {
+    "item": "aarium:egyptianblock_10",
+    "count": 1
+  }
+}

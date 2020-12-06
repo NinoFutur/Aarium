@@ -1,0 +1,17 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "data": 32767
+    },
+    {
+      "item": "aarium:egyptianblock_0"
+    }
+  ],
+  "result": {
+    "item": "aarium:egyptian_block_8",
+    "count": 1
+  }
+}
