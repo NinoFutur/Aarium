@@ -1,8 +1,19 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.Slot;
+import net.minecraft.inventory.Container;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureInfinitecobblestonegeneratorguichangecontent extends ElementsAariumMod.ModElement {
-
 	public ProcedureInfinitecobblestonegeneratorguichangecontent(ElementsAariumMod instance) {
 		super(instance, 323);
 	}
@@ -12,9 +23,7 @@ public class ProcedureInfinitecobblestonegeneratorguichangecontent extends Eleme
 			System.err.println("Failed to load dependency entity for procedure Infinitecobblestonegeneratorguichangecontent!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof EntityPlayerMP) {
 			Container _current = ((EntityPlayerMP) entity).openContainer;
 			if (_current instanceof Supplier) {
@@ -123,7 +132,5 @@ public class ProcedureInfinitecobblestonegeneratorguichangecontent extends Eleme
 				}
 			}
 		}
-
 	}
-
 }
