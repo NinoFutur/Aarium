@@ -1,0 +1,23 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "1": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "2": {
+      "item": "aarium:egyptianblock_0"
+    }
+  },
+  "result": {
+    "item": "aarium:egyptianblock_15",
+    "data": 0,
+    "count": 6
+  }
+}

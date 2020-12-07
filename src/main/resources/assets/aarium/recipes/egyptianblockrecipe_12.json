@@ -1,0 +1,33 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "3": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "4": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "6": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "7": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "8": {
+      "item": "aarium:egyptianblock_0"
+    }
+  },
+  "result": {
+    "item": "aarium:egyptianblock_12",
+    "count": 6
+  }
+}

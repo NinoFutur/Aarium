@@ -17,7 +17,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import net.mcreator.aarium.procedure.ProcedureFarmingstonePlayerEntersDimension;
+import net.mcreator.aarium.procedure.ProcedureNearentitiesfinderRightClickedInAir;
 import net.mcreator.aarium.ElementsAariumMod;
 
 import java.util.Map;
@@ -43,7 +43,7 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			setMaxDamage(0);
+			setMaxDamage(75);
 			maxStackSize = 1;
 			setUnlocalizedName("nearentitiesfinder");
 			setRegistryName("nearentitiesfinder");
@@ -74,11 +74,12 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 			int z = (int) entity.posZ;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureFarmingstonePlayerEntersDimension.executeProcedure($_dependencies);
+				ProcedureNearentitiesfinderRightClickedInAir.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
