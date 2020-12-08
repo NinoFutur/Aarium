@@ -1,8 +1,30 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.Slot;
+import net.minecraft.inventory.Container;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aarium.item.ItemVolcaniteingot;
+import net.mcreator.aarium.item.ItemLightiumGem;
+import net.mcreator.aarium.item.ItemIthenariumingot;
+import net.mcreator.aarium.item.ItemDarkiumingot;
+import net.mcreator.aarium.item.ItemAariumingot;
+import net.mcreator.aarium.block.BlockVolcaniteore;
+import net.mcreator.aarium.block.BlockLightiumOre;
+import net.mcreator.aarium.block.BlockIthenariumore;
+import net.mcreator.aarium.block.BlockDarkiumore;
+import net.mcreator.aarium.block.BlockAariumore;
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.ModElement {
-
 	public ProcedureSuperfurnaceburnbuttonclicked(ElementsAariumMod instance) {
 		super(instance, 319);
 	}
@@ -12,9 +34,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 			System.err.println("Failed to load dependency entity for procedure Superfurnaceburnbuttonclicked!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		double Slot0 = 0;
 		boolean Burnable = false;
 		Slot0 = (double) (new Object() {
@@ -528,7 +548,5 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 				}
 			}
 		}
-
 	}
-
 }

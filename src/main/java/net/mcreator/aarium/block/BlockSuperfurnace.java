@@ -1,12 +1,48 @@
 
 package net.mcreator.aarium.block;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumBlockRenderType;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.network.play.server.SPacketUpdateTileEntity;
+import net.minecraft.network.NetworkManager;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.inventory.Container;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.ITileEntityProvider;
+import net.minecraft.block.Block;
+
+import net.mcreator.aarium.gui.GuiSuperfurnacegui;
+import net.mcreator.aarium.ElementsAariumMod;
+import net.mcreator.aarium.AariumMod;
+
 @ElementsAariumMod.ModElement.Tag
 public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
-
 	@GameRegistry.ObjectHolder("aarium:superfurnace")
 	public static final Block block = null;
-
 	public BlockSuperfurnace(ElementsAariumMod instance) {
 		super(instance, 321);
 	}
@@ -26,23 +62,17 @@ public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("aarium:superfurnace", "inventory"));
-
 	}
-
 	public static class BlockCustom extends Block implements ITileEntityProvider {
-
 		public BlockCustom() {
 			super(Material.ROCK);
-
 			setUnlocalizedName("superfurnace");
 			setSoundType(SoundType.GROUND);
-
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.DECORATIONS);
-
 		}
 
 		@Override
@@ -92,20 +122,15 @@ public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-
 			if (entity instanceof EntityPlayer) {
 				((EntityPlayer) entity).openGui(AariumMod.instance, GuiSuperfurnacegui.GUIID, world, x, y, z);
 			}
-
 			return true;
 		}
-
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(2, ItemStack.EMPTY);
-
 		@Override
 		public int getSizeInventory() {
 			return 2;
@@ -192,7 +217,5 @@ public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
 		protected NonNullList<ItemStack> getItems() {
 			return this.stacks;
 		}
-
 	}
-
 }
