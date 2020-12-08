@@ -73,7 +73,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
 						ItemStack _setstack = new ItemStack(ItemAariumingot.block, (int) (1));
-						_setstack.setCount((Slot0));
+						_setstack.setCount((int)Slot0);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
@@ -110,7 +110,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(ItemDarkiumingot.block, (int) (1));
-							_setstack.setCount((Slot0));
+							_setstack.setCount((int)Slot0);
 							((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -147,7 +147,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
 								ItemStack _setstack = new ItemStack(ItemIthenariumingot.block, (int) (1));
-								_setstack.setCount((Slot0));
+								_setstack.setCount((int)Slot0);
 								((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 								_current.detectAndSendChanges();
 							}
@@ -184,7 +184,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
 									ItemStack _setstack = new ItemStack(Items.COAL, (int) (1), 0);
-									_setstack.setCount((Slot0));
+									_setstack.setCount((int)Slot0);
 									((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 									_current.detectAndSendChanges();
 								}
@@ -221,7 +221,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 									Object invobj = ((Supplier) _current).get();
 									if (invobj instanceof Map) {
 										ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
-										_setstack.setCount((Slot0));
+										_setstack.setCount((int)Slot0);
 										((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 										_current.detectAndSendChanges();
 									}
@@ -258,7 +258,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 										Object invobj = ((Supplier) _current).get();
 										if (invobj instanceof Map) {
 											ItemStack _setstack = new ItemStack(Items.REDSTONE, (int) (1));
-											_setstack.setCount((Slot0));
+											_setstack.setCount((int)Slot0);
 											((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 											_current.detectAndSendChanges();
 										}
@@ -295,7 +295,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 											Object invobj = ((Supplier) _current).get();
 											if (invobj instanceof Map) {
 												ItemStack _setstack = new ItemStack(Items.GOLD_INGOT, (int) (1));
-												_setstack.setCount((Slot0));
+												_setstack.setCount((int)Slot0);
 												((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 												_current.detectAndSendChanges();
 											}
@@ -332,7 +332,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 												Object invobj = ((Supplier) _current).get();
 												if (invobj instanceof Map) {
 													ItemStack _setstack = new ItemStack(Items.DYE, (int) (1), 4);
-													_setstack.setCount((Slot0));
+													_setstack.setCount((int)Slot0);
 													((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 													_current.detectAndSendChanges();
 												}
@@ -369,7 +369,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 													Object invobj = ((Supplier) _current).get();
 													if (invobj instanceof Map) {
 														ItemStack _setstack = new ItemStack(Items.DIAMOND, (int) (1));
-														_setstack.setCount((Slot0));
+														_setstack.setCount((int)Slot0);
 														((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 														_current.detectAndSendChanges();
 													}
@@ -406,7 +406,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 														Object invobj = ((Supplier) _current).get();
 														if (invobj instanceof Map) {
 															ItemStack _setstack = new ItemStack(Items.EMERALD, (int) (1));
-															_setstack.setCount((Slot0));
+															_setstack.setCount((int)Slot0);
 															((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 															_current.detectAndSendChanges();
 														}
@@ -443,7 +443,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 															Object invobj = ((Supplier) _current).get();
 															if (invobj instanceof Map) {
 																ItemStack _setstack = new ItemStack(Items.QUARTZ, (int) (1));
-																_setstack.setCount((Slot0));
+																_setstack.setCount((int)Slot0);
 																((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 																_current.detectAndSendChanges();
 															}
@@ -481,7 +481,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 																Object invobj = ((Supplier) _current).get();
 																if (invobj instanceof Map) {
 																	ItemStack _setstack = new ItemStack(ItemLightiumGem.block, (int) (1));
-																	_setstack.setCount((Slot0));
+																	_setstack.setCount((int)Slot0);
 																	((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 																	_current.detectAndSendChanges();
 																}
@@ -519,7 +519,7 @@ public class ProcedureSuperfurnaceburnbuttonclicked extends ElementsAariumMod.Mo
 																	Object invobj = ((Supplier) _current).get();
 																	if (invobj instanceof Map) {
 																		ItemStack _setstack = new ItemStack(ItemVolcaniteingot.block, (int) (1));
-																		_setstack.setCount((Slot0));
+																		_setstack.setCount((int)Slot0);
 																		((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 																		_current.detectAndSendChanges();
 																	}
