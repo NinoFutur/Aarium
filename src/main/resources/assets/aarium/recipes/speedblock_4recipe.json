@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aariumblock"
+    },
+    "1": {
+      "item": "aarium:speed_block_3"
+    },
+    "2": {
+      "item": "aarium:aariumblock"
+    },
+    "3": {
+      "item": "aarium:aariumblock"
+    },
+    "5": {
+      "item": "aarium:aariumblock"
+    }
+  },
+  "result": {
+    "item": "aarium:speed_block_4",
+    "count": 1
+  }
+}

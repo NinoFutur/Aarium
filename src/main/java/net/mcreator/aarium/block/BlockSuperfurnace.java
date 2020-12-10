@@ -67,7 +67,7 @@ public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
 		public BlockCustom() {
 			super(Material.ROCK);
 			setUnlocalizedName("superfurnace");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.STONE);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);

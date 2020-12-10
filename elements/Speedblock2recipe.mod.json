@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:SpeedBlock"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aariumingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpeedBlock2"
+    },
+    "name": "speedblock_2recipe",
+    "namespace": "mod"
+  }
+}

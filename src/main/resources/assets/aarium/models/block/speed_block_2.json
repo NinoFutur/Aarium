@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/special_block_base",
+    "up": "aarium:blocks/speed_block_tier2",
+    "north": "aarium:blocks/special_block_base",
+    "east": "aarium:blocks/special_block_base",
+    "south": "aarium:blocks/special_block_base",
+    "west": "aarium:blocks/special_block_base",
+    "particle": "aarium:blocks/special_block_base"
+  }
+}
