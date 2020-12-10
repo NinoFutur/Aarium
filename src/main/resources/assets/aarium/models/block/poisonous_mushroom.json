@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aarium:blocks/poisonous_mushroom",
+    "particle": "aarium:blocks/poisonous_mushroom"
+  }
+}

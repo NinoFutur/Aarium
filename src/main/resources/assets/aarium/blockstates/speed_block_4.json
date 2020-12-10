@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:speed_block_4"
+    },
+    "facing=north": {
+      "model": "aarium:speed_block_4"
+    },
+    "facing=east": {
+      "model": "aarium:speed_block_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aarium:speed_block_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aarium:speed_block_4",
+      "y": 270
+    }
+  }
+}
