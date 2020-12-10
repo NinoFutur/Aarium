@@ -1,13 +1,8 @@
 package net.mcreator.aarium.procedure;
 
-import net.minecraft.entity.Entity;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureAirSwordLivingEntityIsHitWithTool extends ElementsAariumMod.ModElement {
+
 	public ProcedureAirSwordLivingEntityIsHitWithTool(ElementsAariumMod instance) {
 		super(instance, 348);
 	}
@@ -29,10 +24,14 @@ public class ProcedureAirSwordLivingEntityIsHitWithTool extends ElementsAariumMo
 			System.err.println("Failed to load dependency z for procedure AirSwordLivingEntityIsHitWithTool!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
+
 		entity.setPositionAndUpdate(x, (y + 10), z);
+
 	}
+
 }

@@ -14,8 +14,8 @@ import net.minecraft.client.Minecraft;
 public class AariumModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "aarium_mapvars";
-		public double Travellers_block_number = 0;
 		public double Travellers_block_code = 0;
+		public double Travellers_block_number = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -26,14 +26,14 @@ public class AariumModVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
-			Travellers_block_number = nbt.getDouble("Travellers_block_number");
 			Travellers_block_code = nbt.getDouble("Travellers_block_code");
+			Travellers_block_number = nbt.getDouble("Travellers_block_number");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
-			nbt.setDouble("Travellers_block_number", Travellers_block_number);
 			nbt.setDouble("Travellers_block_code", Travellers_block_code);
+			nbt.setDouble("Travellers_block_number", Travellers_block_number);
 			return nbt;
 		}
 

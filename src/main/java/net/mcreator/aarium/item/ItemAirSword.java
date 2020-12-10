@@ -1,33 +1,12 @@
 
 package net.mcreator.aarium.item;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.util.EnumHelper;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.item.ItemSword;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Set;
-import java.util.HashMap;
-
-import com.google.common.collect.Multimap;
-
 @ElementsAariumMod.ModElement.Tag
 public class ItemAirSword extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:air_sword")
 	public static final Item block = null;
+
 	public ItemAirSword(ElementsAariumMod instance) {
 		super(instance, 348);
 	}
@@ -35,6 +14,7 @@ public class ItemAirSword extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("AIR_SWORD", 3, 2000, 6f, 0f, 14)) {
+
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -52,6 +32,7 @@ public class ItemAirSword extends ElementsAariumMod.ModElement {
 				ret.put("sword", 3);
 				return ret.keySet();
 			}
+
 		}.setUnlocalizedName("air_sword").setRegistryName("air_sword").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
@@ -60,4 +41,5 @@ public class ItemAirSword extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:air_sword", "inventory"));
 	}
+
 }

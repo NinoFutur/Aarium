@@ -3563,95 +3563,13 @@
       "registry_name": "ithenarium_armor_boots_recipe"
     },
     {
-      "name": "PoisonousMushroomEntityCollidesInTheBlock",
-      "type": "procedure",
-      "sortid": 327,
+      "name": "Chaos",
+      "type": "command",
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "poisonous_mushroom_entity_collides_in_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PoisonousMushroom",
-      "type": "plant",
-      "sortid": 328,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poisonous_mushroom"
-    },
-    {
-      "name": "TreeChopperRecipe",
-      "type": "recipe",
-      "sortid": 329,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tree_chopper_recipe"
-    },
-    {
-      "name": "AdvancementStoryAarium",
-      "type": "achievement",
-      "sortid": 330,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "advancement_story_aarium"
-    },
-    {
-      "name": "SuperCompressedIceBlockDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 331,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_compressed_ice_block_destroyed_by_player",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SuperCompressedIce",
-      "type": "block",
-      "sortid": 331,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_compressed_ice"
-    },
-    {
-      "name": "SuperCompressedIceRecipe",
-      "type": "recipe",
-      "sortid": 332,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "super_compressed_ice_recipe"
+      "registry_name": "chaos"
     },
     {
       "name": "SpeedBlock",
@@ -3663,22 +3581,58 @@
       "registry_name": "speed_block"
     },
     {
-      "name": "SpeedBlock2",
+      "name": "FakeDirt",
       "type": "block",
-      "sortid": 334,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "speed_block_2"
+      "registry_name": "fake_dirt"
     },
     {
-      "name": "SpeedBlock3",
-      "type": "block",
-      "sortid": 335,
+      "name": "Speedblock3recipe",
+      "type": "recipe",
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "speed_block_3"
+      "registry_name": "speedblock_3recipe"
+    },
+    {
+      "name": "AdvancementStoryAarium",
+      "type": "achievement",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_story_aarium"
+    },
+    {
+      "name": "FakeStone",
+      "type": "block",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_stone"
+    },
+    {
+      "name": "FakeDirtRecipe",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_dirt_recipe"
+    },
+    {
+      "name": "TreeChopperRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_chopper_recipe"
     },
     {
       "name": "SpeedBlock4",
@@ -3699,31 +3653,49 @@
       "registry_name": "speedblock_1recipe"
     },
     {
-      "name": "Speedblock2recipe",
-      "type": "recipe",
-      "sortid": 338,
+      "name": "SpeedBlock2",
+      "type": "block",
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "speedblock_2recipe"
+      "registry_name": "speed_block_2"
     },
     {
-      "name": "Speedblock3recipe",
+      "name": "FakeGrassRecipe",
       "type": "recipe",
-      "sortid": 339,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "speedblock_3recipe"
+      "registry_name": "fake_grass_recipe"
     },
     {
-      "name": "Speedblock4recipe",
-      "type": "recipe",
-      "sortid": 340,
+      "name": "SpeedBlock3",
+      "type": "block",
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "speedblock_4recipe"
+      "registry_name": "speed_block_3"
+    },
+    {
+      "name": "AirSword",
+      "type": "tool",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_sword"
+    },
+    {
+      "name": "FakeStoneRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_stone_recipe"
     },
     {
       "name": "ChaosCommandExecuted",
@@ -3755,78 +3727,6 @@
       }
     },
     {
-      "name": "Chaos",
-      "type": "command",
-      "sortid": 341,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chaos"
-    },
-    {
-      "name": "FakeStone",
-      "type": "block",
-      "sortid": 342,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_stone"
-    },
-    {
-      "name": "FakeStoneRecipe",
-      "type": "recipe",
-      "sortid": 343,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_stone_recipe"
-    },
-    {
-      "name": "FakeDirt",
-      "type": "block",
-      "sortid": 344,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_dirt"
-    },
-    {
-      "name": "FakeDirtRecipe",
-      "type": "recipe",
-      "sortid": 345,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_dirt_recipe"
-    },
-    {
-      "name": "FakeGrass",
-      "type": "block",
-      "sortid": 346,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_grass"
-    },
-    {
-      "name": "FakeGrassRecipe",
-      "type": "recipe",
-      "sortid": 347,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fake_grass_recipe"
-    },
-    {
-      "name": "AirSword",
-      "type": "tool",
-      "sortid": 348,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "air_sword"
-    },
-    {
       "name": "AirSwordLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 348,
@@ -3854,6 +3754,106 @@
           }
         ]
       }
+    },
+    {
+      "name": "PoisonousMushroomEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_mushroom_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperCompressedIceBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperCompressedIceRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice_recipe"
+    },
+    {
+      "name": "Speedblock4recipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_4recipe"
+    },
+    {
+      "name": "PoisonousMushroom",
+      "type": "plant",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_mushroom"
+    },
+    {
+      "name": "SuperCompressedIce",
+      "type": "block",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice"
+    },
+    {
+      "name": "Speedblock2recipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_2recipe"
+    },
+    {
+      "name": "FakeGrass",
+      "type": "block",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_grass"
     }
   ],
   "variable_elements": [
@@ -3864,13 +3864,13 @@
       "value": "0"
     },
     {
-      "name": "Travellers_block_number",
+      "name": "Travellers_block_code",
       "type": "number",
       "scope": "map",
       "value": "0"
     },
     {
-      "name": "Travellers_block_code",
+      "name": "Travellers_block_number",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -3896,19 +3896,18 @@
     "en_us": {
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "tile.luminousair.name": "Luminous air",
       "block.aarium.greenscreen": "Green screen",
+      "tile.luminousair.name": "Luminous air",
       "item.aarium.aarium_sword": "Aarium Sword",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
       "item.mugofmilk.name": "Mug of milk",
       "item.aarium.swimming_chestplate": "Swimming Body",
-      "item.aarium_armorboots.name": "Aarium Boots",
       "tile.egyptianblock_6.name": "Egyptian block (Wither)",
+      "item.aarium_armorboots.name": "Aarium Boots",
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (coal)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
-      "tile.speed_block.name": "Speed Block (Tier I)",
       "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
@@ -3920,7 +3919,6 @@
       "item.treechopper.name": "Tree chopper",
       "tile.darkiumslab.name": "Darkium block",
       "item.volcanite_hoe.name": "Volcanite Hoe",
-      "tile.speed_block_3.name": "Speed Block (Tier III)",
       "block.aarium.solidair": "Solid air",
       "item.aarium.darkium_armor_boots": "Darkium Boots",
       "item.aarium.pateria": "Pateria Portal Igniter",
@@ -3936,8 +3934,8 @@
       "item.playerfrezer.name": "Player Freezer",
       "item.aarium.aarium_ingot": "Aarium ingot",
       "item.aarium.event": "Spawn Portal Igniter",
-      "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : U",
       "item.volcanite_axe.name": "Volcanite Axe",
+      "tile.japanesetexthiraganau.name": "Japanese text (Hiragana) : U",
       "item.ithenarium_armorbody.name": "Ithenarium Chestplate",
       "tile.foodblock.name": "Food block",
       "tile.steelblock.name": "Steel block",
@@ -3947,8 +3945,8 @@
       "tile.infinitecobblestonegenerator.name": "Infinite cobblestone generator",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
       "item.aarium.darkium_sword": "Darkium Sword",
-      "tile.laboratoryblockfalse.name": "Laboratory block (false)",
       "tile.laboratoryblockwarning.name": "Laboratory block (warning)",
+      "tile.laboratoryblockfalse.name": "Laboratory block (false)",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Traveler\u0027s Boots",
       "item.aarium.darkium_hoe": "Darkium Hoe",
@@ -3958,8 +3956,6 @@
       "item.aarium.aarium_armor_helmet": "Aarium Helmet",
       "tile.egyptianblock_12.name": "Egyptian stairs",
       "tile.darkiumblock.name": "Darkium block",
-      "item.air_sword.name": "Air Sword",
-      "tile.fake_stone.name": "Fake Stone",
       "item.volcanite_pickaxe.name": "Volcanite Pickaxe",
       "item.aarium.travelers_helmet": "Travelers Helmet",
       "item.record.musicdisk_thesoundofsilence.desc": "The sound of silence",
@@ -3993,7 +3989,6 @@
       "tile.egyptianblock_14.name": "Egyptian block (Ocean)",
       "item.lightium_armorbody.name": "Lightium Chestplate",
       "tile.healthblock.name": "Health block",
-      "advancements.advancement_story_aarium.title": "Aarium!",
       "item.aarium.swimming_boots": "Swimming Boots",
       "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
@@ -4030,7 +4025,6 @@
       "item.aarium_shovel.name": "Aarium Shovel",
       "item.siberia.name": "Siberia Portal Igniter",
       "item.op_sword.name": "OP Sword",
-      "tile.speed_block_2.name": "Speed Block (Tier II)",
       "item.skyaria.name": "Skyaria Portal Igniter",
       "item.aarium.forestia": "Pateria Portal Igniter",
       "item.aarium.op_sword": "OP Sword",
@@ -4071,10 +4065,8 @@
       "item.volcaniteapple.name": "Volcanite apple",
       "item.swimmingboots.name": "Swimming Boots",
       "item.swimmingbody.name": "Swimming Body",
-      "tile.super_compressed_ice.name": "Super Compressed Ice",
       "item.darkiumingot.name": "Darkium ingot",
       "item.aarium.travelers_leggings": "Travelers Leggings",
-      "tile.fake_grass.name": "Fake grass",
       "item.lightium_axe.name": "Lightium Axe",
       "tile.sushis.name": "Sushis",
       "item.farmingobsidian.name": "Farmingobsidian Portal Igniter",
@@ -4090,7 +4082,6 @@
       "item.forestia.name": "Pateria Portal Igniter",
       "tile.hiddenblock_4.name": "Hidden block",
       "item.aarium.enchantedegg": "Enchanted egg",
-      "tile.speed_block_4.name": "Speed Block (Tier IV)",
       "item.record.musicdiscrolling.desc": "Rindin\u0027",
       "tile.hiddenblock_1.name": "Hidden block",
       "item.mug.name": "Mug",
@@ -4137,7 +4128,6 @@
       "entity.koro.name": "Koro",
       "item.aarium.volcanite_armor_leggings": "Volcanite Leggings",
       "item.aarium.holemaker": "Hole maker (5x5)",
-      "tile.poisonous_mushroom.name": "Poisonous Mushroom",
       "item.aariumingot.name": "Aarium ingot",
       "fluid.acid": "Acid",
       "item.aarium.farmingobsidian": "Farmingobsidian Portal Igniter",
@@ -4146,7 +4136,6 @@
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
       "tile.egyptianblock_11.name": "Egyptian block (Pharaon face)",
-      "advancements.advancement_story_aarium.descr": "Mine an Aarium ore.",
       "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
@@ -4167,7 +4156,6 @@
       "tile.luminoussolidair.name": "Luminous solid air",
       "item.farmingstone.name": "Farmingstone Portal Igniter",
       "item.coldmilkchocolate.name": "Cold Milk Chocolate",
-      "tile.fake_dirt.name": "Fake dirt",
       "item.pateria.name": "Pateria Portal Igniter",
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
@@ -4198,14 +4186,14 @@
     "fr_fr": {
       "item.lightium_armorboots.name": "Bottes en Lightium",
       "item.aarium.skyaria": "Allumeur de portail vers Skyaraia",
-      "tile.luminousair.name": "Air lumineux solide",
       "block.aarium.greenscreen": "Écran vert",
+      "tile.luminousair.name": "Air lumineux solide",
       "item.aarium.aarium_sword": "Épée en Aarium",
       "item.aarium.darkium_pickaxe": "Pioche en Darkium",
       "item.mugofmilk.name": "Bol de lait",
       "item.aarium.swimming_chestplate": "Corps de nageur",
-      "item.aarium_armorboots.name": "Bottes en Aarium",
       "tile.egyptianblock_6.name": "Bloc égyptien (buisson mort)",
+      "item.aarium_armorboots.name": "Bottes en Aarium",
       "item.aarium.aarium_pickaxe": "Pioche en Aarium",
       "item.travelerslegs.name": "Jambières du Voyageur",
       "tile.egyptianblock_19.name": "Bloc égyptien (charbon)",
@@ -4222,8 +4210,8 @@
       "item.treechopper.name": "Hâche de bucheron",
       "tile.darkiumslab.name": "Bloc de Darkium",
       "item.volcanite_hoe.name": "Houe en Volcanite",
-      "tile.speed_block_3.name": "Speed Block (Tier II)",
       "block.aarium.solidair": "Air solide",
+      "tile.speed_block_3.name": "Speed Block (Tier II)",
       "item.aarium.darkium_armor_boots": "Bottes en Darkium",
       "item.aarium.pateria": "Allumeur de portail vers Pateria",
       "item.darkiumnugget.name": "Pépite de Darkium",
@@ -4238,8 +4226,8 @@
       "item.playerfrezer.name": "Glaceur de joueurs",
       "item.aarium.aarium_ingot": "Lingot d\u0027Aarium",
       "item.aarium.event": "Allumeur de portail vers le Spawn",
-      "item.volcanite_axe.name": "Hêche en Volcanite",
       "tile.japanesetexthiraganau.name": "Texte en Japonais (Hiragana) : U",
+      "item.volcanite_axe.name": "Hêche en Volcanite",
       "item.ithenarium_armorbody.name": "Ithenarium Chestplate",
       "tile.foodblock.name": "Bloc de nourriture",
       "tile.steelblock.name": "Bloc d\u0027acier",
@@ -4249,8 +4237,8 @@
       "tile.infinitecobblestonegenerator.name": "Infinite cobblestone generator",
       "tile.luminousconcreteblue.name": "Béton lumineux bleu",
       "item.aarium.darkium_sword": "Épée en Darkium",
-      "tile.laboratoryblockfalse.name": "Bloc de laboratoir (faux)",
       "tile.laboratoryblockwarning.name": "Bloc de labortoire (attention)",
+      "tile.laboratoryblockfalse.name": "Bloc de laboratoir (faux)",
       "entity.bosszombie.name": "Boss zombie",
       "item.travelersboots.name": "Bottes du Voyageur",
       "item.aarium.darkium_hoe": "Houe en Darkium",

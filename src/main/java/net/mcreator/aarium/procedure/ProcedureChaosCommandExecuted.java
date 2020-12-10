@@ -1,14 +1,8 @@
 package net.mcreator.aarium.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.entity.effect.EntityLightningBolt;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureChaosCommandExecuted extends ElementsAariumMod.ModElement {
+
 	public ProcedureChaosCommandExecuted(ElementsAariumMod instance) {
 		super(instance, 341);
 	}
@@ -30,10 +24,12 @@ public class ProcedureChaosCommandExecuted extends ElementsAariumMod.ModElement 
 			System.err.println("Failed to load dependency world for procedure ChaosCommandExecuted!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		double X = 0;
 		double Y = 0;
 		boolean Z = false;
@@ -63,5 +59,7 @@ public class ProcedureChaosCommandExecuted extends ElementsAariumMod.ModElement 
 			world.addWeatherEffect(
 					new EntityLightningBolt(world, (int) ((Math.random() * 30) - x), (int) y, (int) ((Math.random() * 30) - z), false));
 		}
+
 	}
+
 }
