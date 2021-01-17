@@ -13,7 +13,7 @@ import net.mcreator.aarium.ElementsAariumMod;
 @ElementsAariumMod.ModElement.Tag
 public class TabCollectionegypt extends ElementsAariumMod.ModElement {
 	public TabCollectionegypt(ElementsAariumMod instance) {
-		super(instance, 222);
+		super(instance, 300);
 	}
 
 	@Override

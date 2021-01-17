@@ -64,6 +64,8 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "this_is_my_rolling")));
 		sounds.put(new ResourceLocation("aarium", "the_sound_of_silence"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "the_sound_of_silence")));
+		sounds.put(new ResourceLocation("aarium", "the_hanging_tree_remix_hunger_games"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "the_hanging_tree_remix_hunger_games")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

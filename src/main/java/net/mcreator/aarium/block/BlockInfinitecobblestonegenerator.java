@@ -44,7 +44,7 @@ public class BlockInfinitecobblestonegenerator extends ElementsAariumMod.ModElem
 	@GameRegistry.ObjectHolder("aarium:infinitecobblestonegenerator")
 	public static final Block block = null;
 	public BlockInfinitecobblestonegenerator(ElementsAariumMod instance) {
-		super(instance, 322);
+		super(instance, 174);
 	}
 
 	@Override

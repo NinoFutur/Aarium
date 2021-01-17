@@ -1,0 +1,9 @@
+{
+  "parent": "aarium:custom/pizza_box",
+  "textures": {
+    "all": "aarium:blocks/box",
+    "particle": "aarium:blocks/box",
+    "0": "aarium:blocks/box",
+    "1": "aarium:blocks/pizza"
+  }
+}

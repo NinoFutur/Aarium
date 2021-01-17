@@ -39,7 +39,7 @@ public class GuiInfinitecobblestonegeneratorgui extends ElementsAariumMod.ModEle
 	public static int GUIID = 7;
 	public static HashMap guistate = new HashMap();
 	public GuiInfinitecobblestonegeneratorgui(ElementsAariumMod instance) {
-		super(instance, 322);
+		super(instance, 361);
 	}
 
 	@Override

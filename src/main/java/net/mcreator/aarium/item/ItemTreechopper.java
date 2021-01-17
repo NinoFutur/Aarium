@@ -33,7 +33,7 @@ public class ItemTreechopper extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:treechopper")
 	public static final Item block = null;
 	public ItemTreechopper(ElementsAariumMod instance) {
-		super(instance, 286);
+		super(instance, 70);
 	}
 
 	@Override

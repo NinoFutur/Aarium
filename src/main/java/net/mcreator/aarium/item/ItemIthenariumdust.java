@@ -20,7 +20,7 @@ public class ItemIthenariumdust extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:ithenariumdust")
 	public static final Item block = null;
 	public ItemIthenariumdust(ElementsAariumMod instance) {
-		super(instance, 253);
+		super(instance, 43);
 	}
 
 	@Override

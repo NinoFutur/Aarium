@@ -1,0 +1,10 @@
+{
+  "parent": "aarium:custom/laptop",
+  "textures": {
+    "all": "aarium:blocks/clavier",
+    "particle": "aarium:blocks/clavier",
+    "0": "aarium:blocks/clavier",
+    "1": "aarium:blocks/ecran",
+    "2": "aarium:blocks/souris"
+  }
+}

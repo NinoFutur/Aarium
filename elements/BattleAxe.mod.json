@@ -1,0 +1,50 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "battle_axe",
+    "customModelName": "Normal",
+    "name": "Battle Axe",
+    "specialInfo": [
+      "A small and handy battle axe"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 5.0,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 1500,
+    "blocksAffected": [
+      {
+        "value": "Blocks.SAPLING#0"
+      },
+      {
+        "value": "Blocks.SAPLING#1"
+      },
+      {
+        "value": "Blocks.SAPLING#2"
+      },
+      {
+        "value": "Blocks.SAPLING#3"
+      },
+      {
+        "value": "Blocks.SAPLING#4"
+      },
+      {
+        "value": "Blocks.SAPLING#5"
+      },
+      {
+        "value": "Blocks.REEDS"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -14,7 +14,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
-import net.mcreator.aarium.creativetab.TabCollectionjapanesetext;
 import net.mcreator.aarium.ElementsAariumMod;
 
 @ElementsAariumMod.ModElement.Tag
@@ -22,7 +21,7 @@ public class BlockJapanesetexthiraganai extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:japanesetexthiraganai")
 	public static final Block block = null;
 	public BlockJapanesetexthiraganai(ElementsAariumMod instance) {
-		super(instance, 225);
+		super(instance, 303);
 	}
 
 	@Override
@@ -46,7 +45,7 @@ public class BlockJapanesetexthiraganai extends ElementsAariumMod.ModElement {
 			setResistance(25F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabCollectionjapanesetext.tab);
+			setCreativeTab(null);
 		}
 	}
 }

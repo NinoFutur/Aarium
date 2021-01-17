@@ -20,7 +20,7 @@ public class ItemLightiumGem extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lightium_gem")
 	public static final Item block = null;
 	public ItemLightiumGem(ElementsAariumMod instance) {
-		super(instance, 24);
+		super(instance, 36);
 	}
 
 	@Override

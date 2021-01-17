@@ -35,12 +35,12 @@ public class ItemTravelers extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:travelersboots")
 	public static final Item boots = null;
 	public ItemTravelers(ElementsAariumMod instance) {
-		super(instance, 107);
+		super(instance, 154);
 	}
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TRAVELERS", "aarium:lightium", 10, new int[]{1, 5, 0, 0}, 35,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TRAVELERS", "aarium:lightium", 10, new int[]{1, 0, 0, 0}, 35,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 1f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET) {
 			@Override

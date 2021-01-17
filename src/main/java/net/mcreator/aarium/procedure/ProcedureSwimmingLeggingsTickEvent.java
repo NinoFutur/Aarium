@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSwimmingLeggingsTickEvent extends ElementsAariumMod.ModElement {
 	public ProcedureSwimmingLeggingsTickEvent(ElementsAariumMod instance) {
-		super(instance, 153);
+		super(instance, 239);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

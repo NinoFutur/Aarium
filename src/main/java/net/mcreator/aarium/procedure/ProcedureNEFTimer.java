@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureNEFTimer extends ElementsAariumMod.ModElement {
 	public ProcedureNEFTimer(ElementsAariumMod instance) {
-		super(instance, 193);
+		super(instance, 278);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

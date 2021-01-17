@@ -22,7 +22,7 @@ public class BlockEgyptianblock2 extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:egyptianblock_2")
 	public static final Block block = null;
 	public BlockEgyptianblock2(ElementsAariumMod instance) {
-		super(instance, 90);
+		super(instance, 133);
 	}
 
 	@Override

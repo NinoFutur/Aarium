@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "box",
+        "1": "pizza"
+      },
+      "name": "default"
+    }
+  }
+}

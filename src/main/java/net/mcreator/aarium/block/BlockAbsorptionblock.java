@@ -29,7 +29,7 @@ public class BlockAbsorptionblock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:absorptionblock")
 	public static final Block block = null;
 	public BlockAbsorptionblock(ElementsAariumMod instance) {
-		super(instance, 244);
+		super(instance, 169);
 	}
 
 	@Override

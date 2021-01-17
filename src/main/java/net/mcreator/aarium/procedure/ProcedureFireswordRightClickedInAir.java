@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureFireswordRightClickedInAir extends ElementsAariumMod.ModElement {
 	public ProcedureFireswordRightClickedInAir(ElementsAariumMod instance) {
-		super(instance, 296);
+		super(instance, 365);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

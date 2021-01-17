@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureWaterswordLivingEntityIsHitWithTool extends ElementsAariumMod.ModElement {
 	public ProcedureWaterswordLivingEntityIsHitWithTool(ElementsAariumMod instance) {
-		super(instance, 232);
+		super(instance, 308);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

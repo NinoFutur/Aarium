@@ -29,7 +29,7 @@ public class BlockHealthboostblock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:healthboostblock")
 	public static final Block block = null;
 	public BlockHealthboostblock(ElementsAariumMod instance) {
-		super(instance, 246);
+		super(instance, 170);
 	}
 
 	@Override

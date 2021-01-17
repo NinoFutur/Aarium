@@ -13,7 +13,7 @@ import net.mcreator.aarium.ElementsAariumMod;
 @ElementsAariumMod.ModElement.Tag
 public class RecipeHotmilkchocolaterecipe extends ElementsAariumMod.ModElement {
 	public RecipeHotmilkchocolaterecipe(ElementsAariumMod instance) {
-		super(instance, 283);
+		super(instance, 329);
 	}
 
 	@Override

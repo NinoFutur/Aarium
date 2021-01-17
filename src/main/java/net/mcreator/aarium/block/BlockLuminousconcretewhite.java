@@ -22,7 +22,7 @@ public class BlockLuminousconcretewhite extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:luminousconcretewhite")
 	public static final Block block = null;
 	public BlockLuminousconcretewhite(ElementsAariumMod instance) {
-		super(instance, 78);
+		super(instance, 103);
 	}
 
 	@Override

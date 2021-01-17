@@ -1,45 +1,22 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "model": "aarium:sushi_small.obj",
-    "custom": {
-      "flip-v": true
-    },
-    "textures": {
-      "#m_0": "aarium:blocks/sushis"
-    }
-  },
   "variants": {
     "normal": {
-      "model": "aarium:sushi_small.obj"
+      "model": "aarium:sushis"
     },
     "facing=north": {
-      "model": "aarium:sushi_small.obj"
+      "model": "aarium:sushis"
     },
     "facing=east": {
-      "model": "aarium:sushi_small.obj",
+      "model": "aarium:sushis",
       "y": 90
     },
     "facing=south": {
-      "model": "aarium:sushi_small.obj",
+      "model": "aarium:sushis",
       "y": 180
     },
     "facing=west": {
-      "model": "aarium:sushi_small.obj",
+      "model": "aarium:sushis",
       "y": 270
-    },
-    "facing=up": {
-      "model": "aarium:sushi_small.obj",
-      "x": 90
-    },
-    "facing=down": {
-      "model": "aarium:sushi_small.obj",
-      "x": 270
-    },
-    "inventory": [
-      {
-        "transform": "forge:default-item"
-      }
-    ]
+    }
   }
 }

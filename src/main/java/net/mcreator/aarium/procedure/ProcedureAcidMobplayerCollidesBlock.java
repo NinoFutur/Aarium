@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureAcidMobplayerCollidesBlock extends ElementsAariumMod.ModElement {
 	public ProcedureAcidMobplayerCollidesBlock(ElementsAariumMod instance) {
-		super(instance, 229);
+		super(instance, 306);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

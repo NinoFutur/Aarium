@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "acacia_planks",
+        "2": "white_wool"
+      },
+      "name": "default"
+    }
+  }
+}

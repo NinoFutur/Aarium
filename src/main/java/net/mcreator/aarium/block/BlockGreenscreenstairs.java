@@ -23,7 +23,7 @@ public class BlockGreenscreenstairs extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:greenscreenstairs")
 	public static final Block block = null;
 	public BlockGreenscreenstairs(ElementsAariumMod instance) {
-		super(instance, 77);
+		super(instance, 102);
 	}
 
 	@Override

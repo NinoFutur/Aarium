@@ -7,7 +7,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureAcidUpdateTick extends ElementsAariumMod.ModElement {
 	public ProcedureAcidUpdateTick(ElementsAariumMod instance) {
-		super(instance, 233);
+		super(instance, 309);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

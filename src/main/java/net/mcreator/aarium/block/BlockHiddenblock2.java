@@ -27,7 +27,7 @@ public class BlockHiddenblock2 extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:hiddenblock_2")
 	public static final Block block = null;
 	public BlockHiddenblock2(ElementsAariumMod instance) {
-		super(instance, 235);
+		super(instance, 115);
 	}
 
 	@Override

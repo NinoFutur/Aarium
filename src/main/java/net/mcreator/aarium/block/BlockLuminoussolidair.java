@@ -24,7 +24,7 @@ public class BlockLuminoussolidair extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:luminoussolidair")
 	public static final Block block = null;
 	public BlockLuminoussolidair(ElementsAariumMod instance) {
-		super(instance, 85);
+		super(instance, 110);
 	}
 
 	@Override

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:laptop"
+    },
+    "facing=north": {
+      "model": "aarium:laptop"
+    },
+    "facing=east": {
+      "model": "aarium:laptop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aarium:laptop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aarium:laptop",
+      "y": 270
+    }
+  }
+}

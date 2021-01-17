@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/postcard_japanese_painting",
+    "particle": "aarium:blocks/postcard_japanese_painting"
+  }
+}

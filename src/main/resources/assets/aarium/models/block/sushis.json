@@ -1,0 +1,8 @@
+{
+  "parent": "aarium:custom/sushi_small",
+  "textures": {
+    "all": "aarium:blocks/sushis",
+    "particle": "aarium:blocks/sushis",
+    "0": "aarium:blocks/sushis"
+  }
+}

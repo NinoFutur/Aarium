@@ -38,7 +38,7 @@ public class BlockIthenariumbarrel extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:ithenariumbarrel")
 	public static final Block block = null;
 	public BlockIthenariumbarrel(ElementsAariumMod instance) {
-		super(instance, 258);
+		super(instance, 172);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class ItemPlayerfrezer extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:playerfrezer")
 	public static final Item block = null;
 	public ItemPlayerfrezer(ElementsAariumMod instance) {
-		super(instance, 72);
+		super(instance, 93);
 	}
 
 	@Override

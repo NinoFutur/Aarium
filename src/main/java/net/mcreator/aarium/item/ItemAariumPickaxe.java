@@ -24,7 +24,7 @@ public class ItemAariumPickaxe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:aarium_pickaxe")
 	public static final Item block = null;
 	public ItemAariumPickaxe(ElementsAariumMod instance) {
-		super(instance, 29);
+		super(instance, 49);
 	}
 
 	@Override

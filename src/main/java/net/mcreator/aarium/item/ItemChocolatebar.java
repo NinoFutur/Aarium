@@ -21,7 +21,7 @@ public class ItemChocolatebar extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:chocolatebar")
 	public static final Item block = null;
 	public ItemChocolatebar(ElementsAariumMod instance) {
-		super(instance, 274);
+		super(instance, 159);
 	}
 
 	@Override

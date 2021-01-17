@@ -1,0 +1,42 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:aariumblock"
+    },
+    "1": {
+      "item": "aarium:aariumblock"
+    },
+    "2": {
+      "item": "aarium:aariumblock"
+    },
+    "3": {
+      "item": "aarium:aariumblock"
+    },
+    "4": {
+      "item": "aarium:aariumblock"
+    },
+    "5": {
+      "item": "aarium:aariumblock"
+    },
+    "6": {
+      "item": "aarium:aariumblock"
+    },
+    "7": {
+      "item": "aarium:aariumblock"
+    },
+    "8": {
+      "item": "aarium:aariumblock"
+    }
+  },
+  "result": {
+    "item": "aarium:engraved_aarium_block",
+    "count": 2
+  }
+}

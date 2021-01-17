@@ -29,7 +29,7 @@ public class BlockFoodblock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:foodblock")
 	public static final Block block = null;
 	public BlockFoodblock(ElementsAariumMod instance) {
-		super(instance, 241);
+		super(instance, 168);
 	}
 
 	@Override

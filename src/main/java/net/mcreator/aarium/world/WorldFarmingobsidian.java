@@ -56,7 +56,7 @@ public class WorldFarmingobsidian extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldFarmingobsidian(ElementsAariumMod instance) {
-		super(instance, 57);
+		super(instance, 78);
 	}
 
 	@Override

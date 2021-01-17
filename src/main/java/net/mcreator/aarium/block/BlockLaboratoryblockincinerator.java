@@ -36,7 +36,7 @@ public class BlockLaboratoryblockincinerator extends ElementsAariumMod.ModElemen
 	@GameRegistry.ObjectHolder("aarium:laboratoryblockincinerator")
 	public static final Block block = null;
 	public BlockLaboratoryblockincinerator(ElementsAariumMod instance) {
-		super(instance, 213);
+		super(instance, 166);
 	}
 
 	@Override

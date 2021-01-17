@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/flag_sc",
+    "particle": "aarium:blocks/flag_sc"
+  }
+}

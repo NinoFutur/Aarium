@@ -41,7 +41,7 @@ public class ItemBowoflight extends ElementsAariumMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 12;
 	public ItemBowoflight(ElementsAariumMod instance) {
-		super(instance, 71);
+		super(instance, 92);
 	}
 
 	@Override

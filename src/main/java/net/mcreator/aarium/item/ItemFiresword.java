@@ -40,7 +40,7 @@ public class ItemFiresword extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:firesword")
 	public static final Item block = null;
 	public ItemFiresword(ElementsAariumMod instance) {
-		super(instance, 74);
+		super(instance, 95);
 	}
 
 	@Override

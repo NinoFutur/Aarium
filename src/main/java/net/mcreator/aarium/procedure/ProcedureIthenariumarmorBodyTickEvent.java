@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureIthenariumarmorBodyTickEvent extends ElementsAariumMod.ModElement {
 	public ProcedureIthenariumarmorBodyTickEvent(ElementsAariumMod instance) {
-		super(instance, 286);
+		super(instance, 371);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

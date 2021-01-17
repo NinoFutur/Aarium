@@ -60,7 +60,7 @@ public class WorldFarmingwood extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldFarmingwood(ElementsAariumMod instance) {
-		super(instance, 60);
+		super(instance, 81);
 	}
 
 	@Override

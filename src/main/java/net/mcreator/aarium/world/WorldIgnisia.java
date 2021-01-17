@@ -52,7 +52,7 @@ public class WorldIgnisia extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = true;
 	public static DimensionType dtype;
 	public WorldIgnisia(ElementsAariumMod instance) {
-		super(instance, 55);
+		super(instance, 76);
 	}
 
 	@Override

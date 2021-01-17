@@ -16,5 +16,15 @@
         "stream": true
       }
     ]
+  },
+  "the_hanging_tree_remix_hunger_games": {
+    "category": "music",
+    "subtitle": "subtitles.the_hanging_tree_remix_hunger_games",
+    "sounds": [
+      {
+        "name": "aarium:the_hanging_tree__rebel_remix_-_from_the_hunger_games__mockingjay_part_1__audio__youzik.net",
+        "stream": true
+      }
+    ]
   }
 }

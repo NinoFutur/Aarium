@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureHolemakerRightClickedOnBlock extends ElementsAariumMod.ModElement {
 	public ProcedureHolemakerRightClickedOnBlock(ElementsAariumMod instance) {
-		super(instance, 154);
+		super(instance, 240);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

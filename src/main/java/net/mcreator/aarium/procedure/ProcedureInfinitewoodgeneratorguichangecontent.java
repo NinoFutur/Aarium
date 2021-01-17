@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureInfinitewoodgeneratorguichangecontent extends ElementsAariumMod.ModElement {
 	public ProcedureInfinitewoodgeneratorguichangecontent(ElementsAariumMod instance) {
-		super(instance, 326);
+		super(instance, 337);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

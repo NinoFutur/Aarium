@@ -51,7 +51,7 @@ public class EntityBossghast extends ElementsAariumMod.ModElement {
 	public static final int ENTITYID = 4;
 	public static final int ENTITYID_RANGED = 5;
 	public EntityBossghast(ElementsAariumMod instance) {
-		super(instance, 28);
+		super(instance, 40);
 	}
 
 	@Override

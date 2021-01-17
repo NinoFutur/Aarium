@@ -60,7 +60,7 @@ public class WorldFarmingdirt extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldFarmingdirt(ElementsAariumMod instance) {
-		super(instance, 58);
+		super(instance, 79);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/dark_sandstone_up",
+    "up": "aarium:blocks/dark_sandstone_up",
+    "north": "aarium:blocks/dark_sandstone",
+    "east": "aarium:blocks/dark_sandstone",
+    "south": "aarium:blocks/dark_sandstone",
+    "west": "aarium:blocks/dark_sandstone",
+    "particle": "aarium:blocks/dark_sandstone_up"
+  }
+}

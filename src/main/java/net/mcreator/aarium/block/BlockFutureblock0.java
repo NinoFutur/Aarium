@@ -22,7 +22,7 @@ public class BlockFutureblock0 extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:futureblock_0")
 	public static final Block block = null;
 	public BlockFutureblock0(ElementsAariumMod instance) {
-		super(instance, 295);
+		super(instance, 24);
 	}
 
 	@Override

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "feuilles",
+        "2": "dirt"
+      },
+      "name": "default"
+    }
+  }
+}

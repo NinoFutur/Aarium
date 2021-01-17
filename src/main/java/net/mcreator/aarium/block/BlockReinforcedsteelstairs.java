@@ -23,7 +23,7 @@ public class BlockReinforcedsteelstairs extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:reinforcedsteelstairs")
 	public static final Block block = null;
 	public BlockReinforcedsteelstairs(ElementsAariumMod instance) {
-		super(instance, 292);
+		super(instance, 23);
 	}
 
 	@Override

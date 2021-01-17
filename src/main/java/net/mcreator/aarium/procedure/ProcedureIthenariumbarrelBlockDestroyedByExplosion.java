@@ -9,7 +9,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureIthenariumbarrelBlockDestroyedByExplosion extends ElementsAariumMod.ModElement {
 	public ProcedureIthenariumbarrelBlockDestroyedByExplosion(ElementsAariumMod instance) {
-		super(instance, 261);
+		super(instance, 324);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

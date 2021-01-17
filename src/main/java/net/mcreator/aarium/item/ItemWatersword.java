@@ -33,7 +33,7 @@ public class ItemWatersword extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:watersword")
 	public static final Item block = null;
 	public ItemWatersword(ElementsAariumMod instance) {
-		super(instance, 232);
+		super(instance, 96);
 	}
 
 	@Override

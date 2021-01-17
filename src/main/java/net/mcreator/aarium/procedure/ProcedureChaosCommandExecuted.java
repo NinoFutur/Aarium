@@ -1,10 +1,16 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.entity.effect.EntityLightningBolt;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.Map;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureChaosCommandExecuted extends ElementsAariumMod.ModElement {
-
 	public ProcedureChaosCommandExecuted(ElementsAariumMod instance) {
-		super(instance, 341);
+		super(instance, 381);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -24,42 +30,29 @@ public class ProcedureChaosCommandExecuted extends ElementsAariumMod.ModElement 
 			System.err.println("Failed to load dependency world for procedure ChaosCommandExecuted!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		double X = 0;
 		double Y = 0;
-		boolean Z = false;
-		for (int index0 = 0; index0 < (int) (100); index0++) {
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * 30) + x), (int) y, (int) ((Math.random() * 30) + z), false));
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * (-30)) + x), (int) y, (int) ((Math.random() * (-30)) + z), false));
-			world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) ((Math.random() * (-30)) + z), false));
-			world.addWeatherEffect(new EntityLightningBolt(world, (int) ((Math.random() * (-30)) + x), (int) y, (int) z, false));
+		double Z = 0;
+		double Radius_positive = 0;
+		double Radius_negative = 0;
+		for (int index0 = 0; index0 < (int) (10); index0++) {
+			for (int index1 = 0; index1 < (int) (10); index1++) {
+				X = (double) (((Radius_positive) * Math.random()) + x);
+				X = (double) (((Radius_positive) * Math.random()) + y);
+				Z = (double) (((Radius_positive) * Math.random()) + z);
+				world.addWeatherEffect(new EntityLightningBolt(world, (int) (X), (int) (Y), (int) (Z), false));
+				world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) z, false));
+			}
+			for (int index2 = 0; index2 < (int) (10); index2++) {
+				X = (double) (((Radius_negative) * Math.random()) + x);
+				X = (double) (((Radius_negative) * Math.random()) + y);
+				Z = (double) (((Radius_negative) * Math.random()) + z);
+				world.addWeatherEffect(new EntityLightningBolt(world, (int) (X), (int) (Y), (int) (Z), false));
+			}
 		}
-		for (int index1 = 0; index1 < (int) (100); index1++) {
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * (-10)) + x), (int) y, (int) ((Math.random() * (-30)) + z), false));
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * 10) + x), (int) y, (int) ((Math.random() * 30) + z), false));
-			world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) ((Math.random() * 10) + z), false));
-			world.addWeatherEffect(new EntityLightningBolt(world, (int) ((Math.random() * 10) + x), (int) y, (int) z, false));
-		}
-		for (int index2 = 0; index2 < (int) (100); index2++) {
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * (-30)) + x), (int) y, (int) ((Math.random() * (-10)) + z), false));
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * 30) + x), (int) y, (int) ((Math.random() * 10) + z), false));
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * 30) + x), (int) y, (int) ((Math.random() * 30) + z), false));
-			world.addWeatherEffect(
-					new EntityLightningBolt(world, (int) ((Math.random() * 30) - x), (int) y, (int) ((Math.random() * 30) - z), false));
-		}
-
 	}
-
 }

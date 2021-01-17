@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:christmas_tree"
+    },
+    "facing=north": {
+      "model": "aarium:christmas_tree"
+    },
+    "facing=east": {
+      "model": "aarium:christmas_tree",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aarium:christmas_tree",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aarium:christmas_tree",
+      "y": 270
+    }
+  }
+}

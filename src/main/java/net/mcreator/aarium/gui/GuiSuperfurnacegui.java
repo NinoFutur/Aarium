@@ -39,7 +39,7 @@ public class GuiSuperfurnacegui extends ElementsAariumMod.ModElement {
 	public static int GUIID = 6;
 	public static HashMap guistate = new HashMap();
 	public GuiSuperfurnacegui(ElementsAariumMod instance) {
-		super(instance, 320);
+		super(instance, 342);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class BlockSushis extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:sushis")
 	public static final Block block = null;
 	public BlockSushis(ElementsAariumMod instance) {
-		super(instance, 221);
+		super(instance, 157);
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class BlockSushis extends ElementsAariumMod.ModElement {
 		public BlockCustom() {
 			super(Material.CAKE);
 			setUnlocalizedName("sushis");
-			setSoundType(SoundType.PLANT);
+			setSoundType(SoundType.SLIME);
 			setHardness(1.9999999999999998F);
 			setResistance(1F);
 			setLightLevel(0F);
@@ -84,13 +84,13 @@ public class BlockSushis extends ElementsAariumMod.ModElement {
 				case DOWN :
 				case SOUTH :
 				default :
-					return new AxisAlignedBB(1D, 0D, 1D, 1D, 0D, 1D);
+					return new AxisAlignedBB(0.6875D, 0D, 0.688D, 0.312D, 0.09375D, 0.312D);
 				case NORTH :
-					return new AxisAlignedBB(0D, 0D, 0D, 0D, 0D, 0D);
+					return new AxisAlignedBB(0.3125D, 0D, 0.312D, 0.688D, 0.09375D, 0.688D);
 				case WEST :
-					return new AxisAlignedBB(0D, 0D, 1D, 0D, 0D, 1D);
+					return new AxisAlignedBB(0.312D, 0D, 0.6875D, 0.688D, 0.09375D, 0.312D);
 				case EAST :
-					return new AxisAlignedBB(1D, 0D, 0D, 1D, 0D, 0D);
+					return new AxisAlignedBB(0.688D, 0D, 0.3125D, 0.312D, 0.09375D, 0.688D);
 			}
 		}
 

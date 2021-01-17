@@ -20,7 +20,7 @@ public class ItemMusicdiscrolling extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:musicdiscrolling")
 	public static final Item block = null;
 	public ItemMusicdiscrolling(ElementsAariumMod instance) {
-		super(instance, 22);
+		super(instance, 48);
 	}
 
 	@Override

@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "hanging_disc",
+    "name": "Music disk: The Hanging Tree",
+    "description": "The Hanging Tree - Jennifer Lawrence",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:the_hanging_tree_remix_hunger_games"
+    },
+    "specialInfo": [
+      "Credits to James Newton Howard"
+    ],
+    "hasGlow": false
+  }
+}

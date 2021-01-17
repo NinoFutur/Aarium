@@ -20,7 +20,7 @@ public class ItemMug extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:mug")
 	public static final Item block = null;
 	public ItemMug(ElementsAariumMod instance) {
-		super(instance, 281);
+		super(instance, 45);
 	}
 
 	@Override
