@@ -1,36 +1,12 @@
 
 package net.mcreator.aarium.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockHorizontal;
-import net.minecraft.block.Block;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
 @ElementsAariumMod.ModElement.Tag
 public class BlockChristmasTree extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:christmas_tree")
 	public static final Block block = null;
+
 	public BlockChristmasTree(ElementsAariumMod instance) {
 		super(instance, 406);
 	}
@@ -45,19 +21,27 @@ public class BlockChristmasTree extends ElementsAariumMod.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("aarium:christmas_tree", "inventory"));
+
 	}
+
 	public static class BlockCustom extends Block {
+
 		public static final PropertyDirection FACING = BlockHorizontal.FACING;
+
 		public BlockCustom() {
 			super(Material.PLANTS);
+
 			setUnlocalizedName("christmas_tree");
 			setSoundType(SoundType.SNOW);
+
 			setHardness(0.4F);
 			setResistance(20F);
 			setLightLevel(1F);
 			setLightOpacity(0);
 			setCreativeTab(CreativeTabs.DECORATIONS);
+
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+
 		}
 
 		@Override
@@ -95,5 +79,7 @@ public class BlockChristmasTree extends ElementsAariumMod.ModElement {
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
 		}
+
 	}
+
 }

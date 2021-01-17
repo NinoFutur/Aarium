@@ -1,25 +1,12 @@
 
 package net.mcreator.aarium.world.biome;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.common.BiomeManager;
-
-import net.minecraft.world.gen.feature.WorldGenAbstractTree;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.init.Blocks;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Random;
-
 @ElementsAariumMod.ModElement.Tag
 public class BiomeWastelandDesert extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:wasteland_desert")
 	public static final BiomeGenCustom biome = null;
+
 	public BiomeWastelandDesert(ElementsAariumMod instance) {
 		super(instance, 391);
 	}
@@ -34,7 +21,9 @@ public class BiomeWastelandDesert extends ElementsAariumMod.ModElement {
 		BiomeManager.addSpawnBiome(biome);
 		BiomeManager.addBiome(BiomeManager.BiomeType.DESERT, new BiomeManager.BiomeEntry(biome, 16));
 	}
+
 	static class BiomeGenCustom extends Biome {
+
 		public BiomeGenCustom() {
 			super(new Biome.BiomeProperties("Wasteland (Desert)").setRainfall(0F).setBaseHeight(1F).setWaterColor(-16764109).setHeightVariation(1F)
 					.setTemperature(1.5F));
@@ -50,10 +39,12 @@ public class BiomeWastelandDesert extends ElementsAariumMod.ModElement {
 			decorator.cactiPerChunk = 1;
 			decorator.sandPatchesPerChunk = 0;
 			decorator.gravelPatchesPerChunk = 0;
+
 			this.spawnableMonsterList.clear();
 			this.spawnableCreatureList.clear();
 			this.spawnableWaterCreatureList.clear();
 			this.spawnableCaveCreatureList.clear();
+
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -78,5 +69,7 @@ public class BiomeWastelandDesert extends ElementsAariumMod.ModElement {
 		public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
 			return super.getRandomTreeFeature(rand);
 		}
+
 	}
+
 }

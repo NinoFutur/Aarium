@@ -1,17 +1,8 @@
 package net.mcreator.aarium.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.command.ICommandSender;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureCopyrightCommandExecuted extends ElementsAariumMod.ModElement {
+
 	public ProcedureCopyrightCommandExecuted(ElementsAariumMod instance) {
 		super(instance, 388);
 	}
@@ -33,12 +24,15 @@ public class ProcedureCopyrightCommandExecuted extends ElementsAariumMod.ModElem
 			System.err.println("Failed to load dependency world for procedure CopyrightCommandExecuted!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if (!world.isRemote && world.getMinecraftServer() != null) {
 			world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+
 				@Override
 				public String getName() {
 					return "";
@@ -73,7 +67,10 @@ public class ProcedureCopyrightCommandExecuted extends ElementsAariumMod.ModElem
 				public Vec3d getPositionVector() {
 					return new Vec3d(x, y, z);
 				}
+
 			}, "tellraw @p {\"text\":\"This mod was made by NinoFutur and is teammates.\\n\\n##################################################\\n\\nIt only can be used for the server Aarium (aarium.minesr.com). \\nAny modification of the content of this mod without permissions is illegal. \\n\\n##################################################\\n\\nIf there is any modifications in this document, NinoFutur will send a message in Discord about it.\\n\\n/copyright \"}");
 		}
+
 	}
+
 }

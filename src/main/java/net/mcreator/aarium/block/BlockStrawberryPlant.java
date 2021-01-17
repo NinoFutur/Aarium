@@ -1,56 +1,12 @@
 
 package net.mcreator.aarium.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.gen.feature.WorldGenReed;
-import net.minecraft.world.gen.IChunkGenerator;
-import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockReed;
-import net.minecraft.block.Block;
-
-import net.mcreator.aarium.world.WorldSpawn;
-import net.mcreator.aarium.world.WorldSolitudia;
-import net.mcreator.aarium.world.WorldSkyaria;
-import net.mcreator.aarium.world.WorldSiberia;
-import net.mcreator.aarium.world.WorldPateria;
-import net.mcreator.aarium.world.WorldForestia;
-import net.mcreator.aarium.world.WorldFarmingwood;
-import net.mcreator.aarium.world.WorldFarmingstone;
-import net.mcreator.aarium.world.WorldFarmingobsidian;
-import net.mcreator.aarium.world.WorldFarmingdirt;
-import net.mcreator.aarium.world.WorldEvent;
-import net.mcreator.aarium.world.WorldAquaria;
-import net.mcreator.aarium.item.ItemStrawberry;
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Random;
-
 @ElementsAariumMod.ModElement.Tag
 public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:strawberry_plant")
 	public static final Block block = null;
+
 	public BlockStrawberryPlant(ElementsAariumMod instance) {
 		super(instance, 165);
 	}
@@ -71,6 +27,7 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
+
 		if (dimID == 0)
 			dimensionCriteria = true;
 		if (dimID == WorldSpawn.DIMID)
@@ -99,12 +56,14 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
+
 		boolean biomeCriteria = false;
 		Biome biome = world.getBiome(new BlockPos(chunkX, 128, chunkZ));
 		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("plains")))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
+
 		for (int i = 0; i < 1; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
@@ -127,8 +86,11 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 				}
 			}).generate(world, random, new BlockPos(l6, i11, l14));
 		}
+
 	}
+
 	public static class BlockCustomFlower extends BlockReed {
+
 		public BlockCustomFlower() {
 			setSoundType(SoundType.PLANT);
 			setCreativeTab(CreativeTabs.FOOD);
@@ -137,6 +99,7 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 			setLightLevel(0F);
 			setUnlocalizedName("strawberry_plant");
 			setRegistryName("strawberry_plant");
+
 		}
 
 		@Override
@@ -177,6 +140,7 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 
 		@Override
 		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+
 			if (world.getBlockState(pos.down()).getBlock() == block || this.checkForDrop(world, pos, state)) {
 				if (world.isAirBlock(pos.up())) {
 					int l;
@@ -193,5 +157,6 @@ public class BlockStrawberryPlant extends ElementsAariumMod.ModElement {
 				}
 			}
 		}
+
 	}
 }

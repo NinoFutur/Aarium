@@ -1,37 +1,12 @@
 
 package net.mcreator.aarium.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.AxisAlignedBB;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.Entity;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.Block;
-
-import net.mcreator.aarium.procedure.ProcedureInfectedAir1QuandLentiteEntreEnCollisionAvecLeBloc;
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsAariumMod.ModElement.Tag
 public class BlockInfectedAir1 extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:infected_air_1")
 	public static final Block block = null;
+
 	public BlockInfectedAir1(ElementsAariumMod instance) {
 		super(instance, 404);
 	}
@@ -46,18 +21,24 @@ public class BlockInfectedAir1 extends ElementsAariumMod.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("aarium:infected_air_1", "inventory"));
+
 	}
+
 	public static class BlockCustom extends Block {
+
 		public BlockCustom() {
 			super(Material.AIR);
+
 			setUnlocalizedName("infected_air_1");
 			setSoundType(SoundType.CLOTH);
+
 			setHardness(0F);
 			setResistance(10000F);
 			setLightLevel(0.05F);
 			setLightOpacity(50);
 			setCreativeTab(CreativeTabs.DECORATIONS);
 			setBlockUnbreakable();
+
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -100,9 +81,13 @@ public class BlockInfectedAir1 extends ElementsAariumMod.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("entity", entity);
+
 				ProcedureInfectedAir1QuandLentiteEntreEnCollisionAvecLeBloc.executeProcedure($_dependencies);
 			}
 		}
+
 	}
+
 }
