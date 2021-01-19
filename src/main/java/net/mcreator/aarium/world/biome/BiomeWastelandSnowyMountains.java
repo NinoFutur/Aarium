@@ -1,12 +1,25 @@
 
 package net.mcreator.aarium.world.biome;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.common.BiomeManager;
+
+import net.minecraft.world.gen.feature.WorldGenAbstractTree;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.init.Blocks;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.Random;
+
 @ElementsAariumMod.ModElement.Tag
 public class BiomeWastelandSnowyMountains extends ElementsAariumMod.ModElement {
-
 	@GameRegistry.ObjectHolder("aarium:wasteland_snowy_mountains")
 	public static final BiomeGenCustom biome = null;
-
 	public BiomeWastelandSnowyMountains(ElementsAariumMod instance) {
 		super(instance, 392);
 	}
@@ -21,9 +34,7 @@ public class BiomeWastelandSnowyMountains extends ElementsAariumMod.ModElement {
 		BiomeManager.addSpawnBiome(biome);
 		BiomeManager.addBiome(BiomeManager.BiomeType.ICY, new BiomeManager.BiomeEntry(biome, 16));
 	}
-
 	static class BiomeGenCustom extends Biome {
-
 		public BiomeGenCustom() {
 			super(new Biome.BiomeProperties("Wasteland (Snowy Mountains)").setRainfall(1F).setBaseHeight(2F).setWaterColor(-3355393)
 					.setHeightVariation(2F).setTemperature(0F));
@@ -39,12 +50,10 @@ public class BiomeWastelandSnowyMountains extends ElementsAariumMod.ModElement {
 			decorator.cactiPerChunk = 0;
 			decorator.sandPatchesPerChunk = 0;
 			decorator.gravelPatchesPerChunk = 0;
-
 			this.spawnableMonsterList.clear();
 			this.spawnableCreatureList.clear();
 			this.spawnableWaterCreatureList.clear();
 			this.spawnableCaveCreatureList.clear();
-
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -69,7 +78,5 @@ public class BiomeWastelandSnowyMountains extends ElementsAariumMod.ModElement {
 		public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
 			return super.getRandomTreeFeature(rand);
 		}
-
 	}
-
 }

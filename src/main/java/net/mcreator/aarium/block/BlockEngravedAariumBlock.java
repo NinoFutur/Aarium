@@ -1,12 +1,26 @@
 
 package net.mcreator.aarium.block;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.Block;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
 @ElementsAariumMod.ModElement.Tag
 public class BlockEngravedAariumBlock extends ElementsAariumMod.ModElement {
-
 	@GameRegistry.ObjectHolder("aarium:engraved_aarium_block")
 	public static final Block block = null;
-
 	public BlockEngravedAariumBlock(ElementsAariumMod instance) {
 		super(instance, 31);
 	}
@@ -22,25 +36,17 @@ public class BlockEngravedAariumBlock extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
 				new ModelResourceLocation("aarium:engraved_aarium_block", "inventory"));
-
 	}
-
 	public static class BlockCustom extends Block {
-
 		public BlockCustom() {
 			super(Material.ROCK);
-
 			setUnlocalizedName("engraved_aarium_block");
 			setSoundType(SoundType.METAL);
-
 			setHardness(3.5F);
 			setResistance(300F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-
 		}
-
 	}
-
 }
