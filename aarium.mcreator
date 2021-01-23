@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "GUI": 10,
     "ENTITY": 20,
-    "DIMENSION": 26,
-    "GUI": 10
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -3886,7 +3886,7 @@
       "type": "procedure",
       "sortid": 410,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "lootbox_common_right_clicked_in_air",
       "metadata": {
@@ -4463,6 +4463,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_aarium_block_recipe"
+    },
+    {
+      "name": "LootboxLegendary",
+      "type": "item",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lootbox_legendary"
+    },
+    {
+      "name": "LootboxLegendaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lootbox_legendary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4677,6 +4703,7 @@
       "item.aarium_sword.name": "Aarium Sword",
       "tile.egyptianblock_5.name": "Egyptian block (dead bush)",
       "block.aarium.luminousconcreteblack": "Luminous concrete black",
+      "item.lootbox_legendary.name": "Lootbox (Legendary)",
       "item.aarium.musicdisk_thesoundofsilence": "Music disk: The sound of silence",
       "tile.japanesetexthiraganai.name": "Japanese text (Hiragana) : I",
       "item.travelersbody.name": "Travelers Body",
@@ -5023,6 +5050,7 @@
       "item.aarium_sword.name": "Aarium Sword",
       "tile.egyptianblock_5.name": "Egyptian block (river)",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
+      "item.lootbox_legendary.name": "Lootbox (Common)",
       "item.aarium.musicdisk_thesoundofsilence": "Music disk: The sound of silence",
       "tile.japanesetexthiraganai.name": "Japanese text (Hiragana) : A",
       "item.travelersbody.name": "Travelers Body",

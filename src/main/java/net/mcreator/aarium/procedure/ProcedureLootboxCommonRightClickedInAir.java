@@ -62,7 +62,7 @@ public class ProcedureLootboxCommonRightClickedInAir extends ElementsAariumMod.M
 		}
 		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
 			((EntityPlayer) entity).sendStatusMessage(
-					new TextComponentString((("Vou avez eu ") + "" + ((LootNumber)) + "" + ( /* @ItemStack */(Win)) + "" + ("!"))), (true));
+					new TextComponentString((("Vous avez eu ") + "" + ((LootNumber)) + "" + ( /* @ItemStack */(Win)) + "" + ("!"))), (true));
 		}
 	}
 }
