@@ -20,7 +20,7 @@ public class ItemVolcaniteingot extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:volcaniteingot")
 	public static final Item block = null;
 	public ItemVolcaniteingot(ElementsAariumMod instance) {
-		super(instance, 38);
+		super(instance, 26);
 	}
 
 	@Override

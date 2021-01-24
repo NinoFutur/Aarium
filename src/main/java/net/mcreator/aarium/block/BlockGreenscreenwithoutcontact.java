@@ -26,7 +26,7 @@ public class BlockGreenscreenwithoutcontact extends ElementsAariumMod.ModElement
 	@GameRegistry.ObjectHolder("aarium:greenscreenwithoutcontact")
 	public static final Block block = null;
 	public BlockGreenscreenwithoutcontact(ElementsAariumMod instance) {
-		super(instance, 101);
+		super(instance, 76);
 	}
 
 	@Override

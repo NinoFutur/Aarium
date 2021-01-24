@@ -28,7 +28,7 @@ public class ItemLightiumArmor extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lightium_armorboots")
 	public static final Item boots = null;
 	public ItemLightiumArmor(ElementsAariumMod instance) {
-		super(instance, 89);
+		super(instance, 68);
 	}
 
 	@Override

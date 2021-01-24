@@ -38,7 +38,7 @@ public class BlockSushis extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:sushis")
 	public static final Block block = null;
 	public BlockSushis(ElementsAariumMod instance) {
-		super(instance, 157);
+		super(instance, 221);
 	}
 
 	@Override

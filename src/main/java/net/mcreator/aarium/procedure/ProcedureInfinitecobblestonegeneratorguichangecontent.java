@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureInfinitecobblestonegeneratorguichangecontent extends ElementsAariumMod.ModElement {
 	public ProcedureInfinitecobblestonegeneratorguichangecontent(ElementsAariumMod instance) {
-		super(instance, 346);
+		super(instance, 323);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

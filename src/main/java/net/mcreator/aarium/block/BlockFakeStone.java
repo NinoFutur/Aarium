@@ -26,7 +26,7 @@ public class BlockFakeStone extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:fake_stone")
 	public static final Block block = null;
 	public BlockFakeStone(ElementsAariumMod instance) {
-		super(instance, 180);
+		super(instance, 342);
 	}
 
 	@Override

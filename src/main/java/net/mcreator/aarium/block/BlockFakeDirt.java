@@ -26,7 +26,7 @@ public class BlockFakeDirt extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:fake_dirt")
 	public static final Block block = null;
 	public BlockFakeDirt(ElementsAariumMod instance) {
-		super(instance, 181);
+		super(instance, 344);
 	}
 
 	@Override

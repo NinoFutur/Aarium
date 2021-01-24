@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSuperbreakerBlockDestroyedWithTool extends ElementsAariumMod.ModElement {
 	public ProcedureSuperbreakerBlockDestroyedWithTool(ElementsAariumMod instance) {
-		super(instance, 307);
+		super(instance, 231);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

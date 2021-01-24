@@ -27,7 +27,7 @@ public class BlockLaddertrapdoor extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:laddertrapdoor")
 	public static final Block block = null;
 	public BlockLaddertrapdoor(ElementsAariumMod instance) {
-		super(instance, 171);
+		super(instance, 249);
 	}
 
 	@Override

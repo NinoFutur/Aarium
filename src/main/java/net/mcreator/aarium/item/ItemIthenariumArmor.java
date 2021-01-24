@@ -35,7 +35,7 @@ public class ItemIthenariumArmor extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:ithenarium_armorboots")
 	public static final Item boots = null;
 	public ItemIthenariumArmor(ElementsAariumMod instance) {
-		super(instance, 99);
+		super(instance, 287);
 	}
 
 	@Override

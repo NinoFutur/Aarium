@@ -21,7 +21,7 @@ public class BlockJapanesetexthiraganao extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:japanesetexthiraganao")
 	public static final Block block = null;
 	public BlockJapanesetexthiraganao(ElementsAariumMod instance) {
-		super(instance, 304);
+		super(instance, 226);
 	}
 
 	@Override

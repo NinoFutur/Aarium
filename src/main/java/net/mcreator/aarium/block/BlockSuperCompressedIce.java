@@ -53,7 +53,7 @@ public class BlockSuperCompressedIce extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:super_compressed_ice")
 	public static final Block block = null;
 	public BlockSuperCompressedIce(ElementsAariumMod instance) {
-		super(instance, 26);
+		super(instance, 331);
 	}
 
 	@Override

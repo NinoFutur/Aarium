@@ -26,7 +26,7 @@ public class BlockFakeGrass extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:fake_grass")
 	public static final Block block = null;
 	public BlockFakeGrass(ElementsAariumMod instance) {
-		super(instance, 182);
+		super(instance, 346);
 	}
 
 	@Override

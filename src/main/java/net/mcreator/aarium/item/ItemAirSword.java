@@ -29,7 +29,7 @@ public class ItemAirSword extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:air_sword")
 	public static final Item block = null;
 	public ItemAirSword(ElementsAariumMod instance) {
-		super(instance, 97);
+		super(instance, 348);
 	}
 
 	@Override

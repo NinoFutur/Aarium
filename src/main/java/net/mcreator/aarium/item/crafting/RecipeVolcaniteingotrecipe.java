@@ -13,7 +13,7 @@ import net.mcreator.aarium.ElementsAariumMod;
 @ElementsAariumMod.ModElement.Tag
 public class RecipeVolcaniteingotrecipe extends ElementsAariumMod.ModElement {
 	public RecipeVolcaniteingotrecipe(ElementsAariumMod instance) {
-		super(instance, 246);
+		super(instance, 160);
 	}
 
 	@Override

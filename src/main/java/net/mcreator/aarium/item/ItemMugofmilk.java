@@ -21,7 +21,7 @@ public class ItemMugofmilk extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:mugofmilk")
 	public static final Item block = null;
 	public ItemMugofmilk(ElementsAariumMod instance) {
-		super(instance, 160);
+		super(instance, 279);
 	}
 
 	@Override

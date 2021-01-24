@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 26,
+    "GUI": 10,
     "ENTITY": 20,
-    "GUI": 10
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -3228,7 +3228,7 @@
       "type": "procedure",
       "sortid": 319,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "superfurnaceburnbuttonclicked",
       "metadata": {
@@ -3886,7 +3886,7 @@
       "type": "procedure",
       "sortid": 410,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "lootbox_common_right_clicked_in_air",
       "metadata": {
@@ -4463,6 +4463,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "polished_aarium_block_recipe"
+    },
+    {
+      "name": "Cloudore",
+      "type": "block",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloudore"
+    },
+    {
+      "name": "Cloudbreaker",
+      "type": "tool",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloudbreaker"
     }
   ],
   "variable_elements": [
@@ -4499,6 +4517,7 @@
   ],
   "language_map": {
     "en_us": {
+      "tile.cloudore.name": "Cloud",
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
       "block.aarium.greenscreen": "Green screen",
@@ -4542,6 +4561,7 @@
       "tile.lightium_ore.name": "Lightium Ore",
       "item.lootbox_common.name": "Lootbox (Common)",
       "tile.egyptianblock_15.name": "Egyptian slab",
+      "item.cloudbreaker.name": "Cloudbreaker",
       "item.aarium.darkium_armor_chestplate": "Darkium Chestplate",
       "item.aarium.lightium_armor_leggings": "Lightium Leggings",
       "item.swimminglegs.name": "Swimming Leggings",
@@ -4844,6 +4864,7 @@
       "item.solitudia.name": "Solitudia Portal Igniter"
     },
     "fr_fr": {
+      "tile.cloudore.name": "Cloudore",
       "item.lightium_armorboots.name": "Bottes en Lightium",
       "item.aarium.skyaria": "Allumeur de portail vers Skyaraia",
       "tile.luminousair.name": "Air lumineux solide",
@@ -4887,6 +4908,7 @@
       "tile.lightium_ore.name": "Minerai de Lightium",
       "item.lootbox_common.name": "Lootbox (Common)",
       "tile.egyptianblock_15.name": "Bloc égyptien (base)",
+      "item.cloudbreaker.name": "Cloudbreaker",
       "item.aarium.darkium_armor_chestplate": "Torse en Darkium",
       "item.aarium.lightium_armor_leggings": "Jambières en Lightium",
       "item.swimminglegs.name": "Jambières de nageur",

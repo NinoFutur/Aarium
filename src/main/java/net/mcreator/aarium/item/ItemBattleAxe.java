@@ -1,12 +1,33 @@
 
 package net.mcreator.aarium.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import com.google.common.collect.Multimap;
+
 @ElementsAariumMod.ModElement.Tag
 public class ItemBattleAxe extends ElementsAariumMod.ModElement {
-
 	@GameRegistry.ObjectHolder("aarium:battle_axe")
 	public static final Item block = null;
-
 	public ItemBattleAxe(ElementsAariumMod instance) {
 		super(instance, 98);
 	}
@@ -14,7 +35,6 @@ public class ItemBattleAxe extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 		}.setUnlocalizedName("battle_axe").setRegistryName("battle_axe").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
@@ -23,9 +43,7 @@ public class ItemBattleAxe extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:battle_axe", "inventory"));
 	}
-
 	private static class ItemToolCustom extends Item {
-
 		protected ItemToolCustom() {
 			setMaxDamage(1500);
 			setMaxStackSize(1);
@@ -125,7 +143,5 @@ public class ItemBattleAxe extends ElementsAariumMod.ModElement {
 		public int getItemEnchantability() {
 			return 20;
 		}
-
 	}
-
 }

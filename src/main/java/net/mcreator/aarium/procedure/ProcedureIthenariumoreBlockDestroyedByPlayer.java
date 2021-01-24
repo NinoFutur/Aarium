@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureIthenariumoreBlockDestroyedByPlayer extends ElementsAariumMod.ModElement {
 	public ProcedureIthenariumoreBlockDestroyedByPlayer(ElementsAariumMod instance) {
-		super(instance, 319);
+		super(instance, 252);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

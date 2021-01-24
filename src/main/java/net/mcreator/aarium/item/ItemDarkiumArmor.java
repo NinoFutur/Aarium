@@ -28,7 +28,7 @@ public class ItemDarkiumArmor extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:darkium_armorboots")
 	public static final Item boots = null;
 	public ItemDarkiumArmor(ElementsAariumMod instance) {
-		super(instance, 87);
+		super(instance, 66);
 	}
 
 	@Override

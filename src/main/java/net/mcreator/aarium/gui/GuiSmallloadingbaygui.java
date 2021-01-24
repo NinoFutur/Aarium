@@ -38,7 +38,7 @@ public class GuiSmallloadingbaygui extends ElementsAariumMod.ModElement {
 	public static int GUIID = 5;
 	public static HashMap guistate = new HashMap();
 	public GuiSmallloadingbaygui(ElementsAariumMod instance) {
-		super(instance, 299);
+		super(instance, 219);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class BlockMegaithenariumbarrel extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:megaithenariumbarrel")
 	public static final Block block = null;
 	public BlockMegaithenariumbarrel(ElementsAariumMod instance) {
-		super(instance, 173);
+		super(instance, 298);
 	}
 
 	@Override

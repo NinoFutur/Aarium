@@ -44,7 +44,7 @@ public class BlockSuperfurnace extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:superfurnace")
 	public static final Block block = null;
 	public BlockSuperfurnace(ElementsAariumMod instance) {
-		super(instance, 118);
+		super(instance, 321);
 	}
 
 	@Override

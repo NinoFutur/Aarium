@@ -60,7 +60,7 @@ public class WorldFarmingstone extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldFarmingstone(ElementsAariumMod instance) {
-		super(instance, 80);
+		super(instance, 59);
 	}
 
 	@Override

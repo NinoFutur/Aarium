@@ -40,7 +40,7 @@ public class EntityKoro extends ElementsAariumMod.ModElement {
 	public static final int ENTITYID = 2;
 	public static final int ENTITYID_RANGED = 3;
 	public EntityKoro(ElementsAariumMod instance) {
-		super(instance, 39);
+		super(instance, 27);
 	}
 
 	@Override

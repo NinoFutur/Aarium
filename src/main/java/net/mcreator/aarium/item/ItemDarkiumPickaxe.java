@@ -24,7 +24,7 @@ public class ItemDarkiumPickaxe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:darkium_pickaxe")
 	public static final Item block = null;
 	public ItemDarkiumPickaxe(ElementsAariumMod instance) {
-		super(instance, 53);
+		super(instance, 33);
 	}
 
 	@Override

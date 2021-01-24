@@ -11,7 +11,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSuperCompressedIceBlockDestroyedByPlayer extends ElementsAariumMod.ModElement {
 	public ProcedureSuperCompressedIceBlockDestroyedByPlayer(ElementsAariumMod instance) {
-		super(instance, 384);
+		super(instance, 331);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

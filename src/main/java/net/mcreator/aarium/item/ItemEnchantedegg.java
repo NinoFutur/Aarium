@@ -20,7 +20,7 @@ public class ItemEnchantedegg extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:enchantedegg")
 	public static final Item block = null;
 	public ItemEnchantedegg(ElementsAariumMod instance) {
-		super(instance, 37);
+		super(instance, 25);
 	}
 
 	@Override

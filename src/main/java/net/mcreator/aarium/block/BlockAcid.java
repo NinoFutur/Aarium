@@ -42,7 +42,7 @@ public class BlockAcid extends ElementsAariumMod.ModElement {
 	public static final Item item = null;
 	private Fluid fluid;
 	public BlockAcid(ElementsAariumMod instance) {
-		super(instance, 42);
+		super(instance, 229);
 		fluid = new Fluid("acid", new ResourceLocation("aarium:blocks/acid_still"), new ResourceLocation("aarium:blocks/acid_flow")).setLuminosity(10)
 				.setDensity(980).setViscosity(150).setGaseous(false);
 	}

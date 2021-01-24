@@ -20,7 +20,7 @@ public class ItemSmeltedcocoa extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:smeltedcocoa")
 	public static final Item block = null;
 	public ItemSmeltedcocoa(ElementsAariumMod instance) {
-		super(instance, 158);
+		super(instance, 273);
 	}
 
 	@Override

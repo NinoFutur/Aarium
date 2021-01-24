@@ -44,7 +44,7 @@ public class BlockInfinitewoodgenerator extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:infinitewoodgenerator")
 	public static final Block block = null;
 	public BlockInfinitewoodgenerator(ElementsAariumMod instance) {
-		super(instance, 175);
+		super(instance, 324);
 	}
 
 	@Override

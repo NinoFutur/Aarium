@@ -56,7 +56,7 @@ public class BlockPoisonousMushroom extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:poisonous_mushroom")
 	public static final Block block = null;
 	public BlockPoisonousMushroom(ElementsAariumMod instance) {
-		super(instance, 119);
+		super(instance, 328);
 	}
 
 	@Override

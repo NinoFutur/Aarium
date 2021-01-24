@@ -23,7 +23,7 @@ import java.util.ArrayList;
 @ElementsAariumMod.ModElement.Tag
 public class CommandOpstuff extends ElementsAariumMod.ModElement {
 	public CommandOpstuff(ElementsAariumMod instance) {
-		super(instance, 280);
+		super(instance, 195);
 	}
 
 	@Override

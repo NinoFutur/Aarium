@@ -33,7 +33,7 @@ public class ItemSuperbreaker extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:superbreaker")
 	public static final Item block = null;
 	public ItemSuperbreaker(ElementsAariumMod instance) {
-		super(instance, 69);
+		super(instance, 230);
 	}
 
 	@Override

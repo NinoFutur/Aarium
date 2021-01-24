@@ -11,7 +11,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureTreechopperBlockDestroyedWithTool extends ElementsAariumMod.ModElement {
 	public ProcedureTreechopperBlockDestroyedWithTool(ElementsAariumMod instance) {
-		super(instance, 331);
+		super(instance, 286);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

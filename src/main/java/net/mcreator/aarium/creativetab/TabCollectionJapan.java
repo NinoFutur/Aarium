@@ -1,9 +1,17 @@
 
 package net.mcreator.aarium.creativetab;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.creativetab.CreativeTabs;
+
+import net.mcreator.aarium.block.BlockJapaneseBlock1;
+import net.mcreator.aarium.ElementsAariumMod;
+
 @ElementsAariumMod.ModElement.Tag
 public class TabCollectionJapan extends ElementsAariumMod.ModElement {
-
 	public TabCollectionJapan(ElementsAariumMod instance) {
 		super(instance, 394);
 	}
@@ -23,7 +31,5 @@ public class TabCollectionJapan extends ElementsAariumMod.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
-
 	public static CreativeTabs tab;
-
 }

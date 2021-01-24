@@ -13,7 +13,7 @@ import net.mcreator.aarium.ElementsAariumMod;
 @ElementsAariumMod.ModElement.Tag
 public class RecipeIthenariumingotfromblock extends ElementsAariumMod.ModElement {
 	public RecipeIthenariumingotfromblock(ElementsAariumMod instance) {
-		super(instance, 320);
+		super(instance, 255);
 	}
 
 	@Override

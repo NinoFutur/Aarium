@@ -39,7 +39,7 @@ public class GuiInfinitewoodgeneratorgui extends ElementsAariumMod.ModElement {
 	public static int GUIID = 8;
 	public static HashMap guistate = new HashMap();
 	public GuiInfinitewoodgeneratorgui(ElementsAariumMod instance) {
-		super(instance, 338);
+		super(instance, 325);
 	}
 
 	@Override

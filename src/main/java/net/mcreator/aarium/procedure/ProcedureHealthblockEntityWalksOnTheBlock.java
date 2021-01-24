@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureHealthblockEntityWalksOnTheBlock extends ElementsAariumMod.ModElement {
 	public ProcedureHealthblockEntityWalksOnTheBlock(ElementsAariumMod instance) {
-		super(instance, 311);
+		super(instance, 240);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

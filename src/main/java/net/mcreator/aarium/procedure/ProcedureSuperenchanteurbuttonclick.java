@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureSuperenchanteurbuttonclick extends ElementsAariumMod.ModElement {
 	public ProcedureSuperenchanteurbuttonclick(ElementsAariumMod instance) {
-		super(instance, 283);
+		super(instance, 198);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

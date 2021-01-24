@@ -32,7 +32,7 @@ public class BlockSpeedBlock extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:speed_block")
 	public static final Block block = null;
 	public BlockSpeedBlock(ElementsAariumMod instance) {
-		super(instance, 176);
+		super(instance, 333);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class EntityBosszombie extends ElementsAariumMod.ModElement {
 	public static final int ENTITYID = 15;
 	public static final int ENTITYID_RANGED = 16;
 	public EntityBosszombie(ElementsAariumMod instance) {
-		super(instance, 41);
+		super(instance, 228);
 	}
 
 	@Override

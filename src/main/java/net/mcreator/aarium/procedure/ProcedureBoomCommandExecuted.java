@@ -1,8 +1,17 @@
 package net.mcreator.aarium.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aarium.ElementsAariumMod;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureBoomCommandExecuted extends ElementsAariumMod.ModElement {
-
 	public ProcedureBoomCommandExecuted(ElementsAariumMod instance) {
 		super(instance, 411);
 	}
@@ -32,14 +41,12 @@ public class ProcedureBoomCommandExecuted extends ElementsAariumMod.ModElement {
 			System.err.println("Failed to load dependency world for procedure BoomCommandExecuted!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		HashMap cmdparams = (HashMap) dependencies.get("cmdparams");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		double BoomForce = 0;
 		BoomForce = (double) new Object() {
 			int convert(String s) {
@@ -65,7 +72,5 @@ public class ProcedureBoomCommandExecuted extends ElementsAariumMod.ModElement {
 			((EntityPlayer) entity).sendStatusMessage(new TextComponentString((("Explosion confirm\u00E9e (") + "" + ("x : ") + "" + (x) + ""
 					+ (", y : ") + "" + (y) + "" + (", z : ") + "" + (z) + "" + (", force : ") + "" + ((BoomForce)) + "" + (") !"))), (true));
 		}
-
 	}
-
 }

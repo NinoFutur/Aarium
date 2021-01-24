@@ -56,7 +56,7 @@ public class WorldSpawn extends ElementsAariumMod.ModElement {
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSpawn(ElementsAariumMod instance) {
-		super(instance, 83);
+		super(instance, 62);
 	}
 
 	@Override
