@@ -1,33 +1,12 @@
 
 package net.mcreator.aarium.item;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-
-import net.mcreator.aarium.block.BlockCloudore;
-import net.mcreator.aarium.ElementsAariumMod;
-
-import com.google.common.collect.Multimap;
-
 @ElementsAariumMod.ModElement.Tag
 public class ItemCloudbreaker extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:cloudbreaker")
 	public static final Item block = null;
+
 	public ItemCloudbreaker(ElementsAariumMod instance) {
 		super(instance, 413);
 	}
@@ -35,6 +14,7 @@ public class ItemCloudbreaker extends ElementsAariumMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
+
 		}.setUnlocalizedName("cloudbreaker").setRegistryName("cloudbreaker").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
@@ -43,7 +23,9 @@ public class ItemCloudbreaker extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:cloudbreaker", "inventory"));
 	}
+
 	private static class ItemToolCustom extends Item {
+
 		protected ItemToolCustom() {
 			setMaxDamage(200);
 			setMaxStackSize(1);
@@ -62,7 +44,7 @@ public class ItemCloudbreaker extends ElementsAariumMod.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
 			IBlockState require;
-			require = BlockCloudore.block.getDefaultState();
+			require = ItemCloudore.block.getDefaultState();
 			if (par2Block.getBlock() == require.getBlock())
 				return 6f;
 			return 0;
@@ -89,5 +71,7 @@ public class ItemCloudbreaker extends ElementsAariumMod.ModElement {
 		public int getItemEnchantability() {
 			return 5;
 		}
+
 	}
+
 }

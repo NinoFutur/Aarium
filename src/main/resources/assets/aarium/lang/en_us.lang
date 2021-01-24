@@ -1,4 +1,3 @@
-tile.cloudore.name=Cloud
 item.lightium_armorboots.name=Lightium Boots
 item.aarium.skyaria=Skyaria Portal Igniter
 block.aarium.greenscreen=Green screen
@@ -42,7 +41,6 @@ item.aarium.lightium_sword=Lightium Sword
 tile.lightium_ore.name=Lightium Ore
 item.lootbox_common.name=Lootbox (Common)
 tile.egyptianblock_15.name=Egyptian slab
-item.cloudbreaker.name=Cloudbreaker
 item.aarium.darkium_armor_chestplate=Darkium Chestplate
 item.aarium.lightium_armor_leggings=Lightium Leggings
 item.swimminglegs.name=Swimming Leggings

@@ -3228,7 +3228,7 @@
       "type": "procedure",
       "sortid": 319,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "superfurnaceburnbuttonclicked",
       "metadata": {
@@ -4465,6 +4465,15 @@
       "registry_name": "polished_aarium_block_recipe"
     },
     {
+      "name": "Cloudbreaker",
+      "type": "tool",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloudbreaker"
+    },
+    {
       "name": "Cloudore",
       "type": "block",
       "sortid": 412,
@@ -4474,13 +4483,30 @@
       "registry_name": "cloudore"
     },
     {
-      "name": "Cloudbreaker",
-      "type": "tool",
-      "sortid": 413,
+      "name": "LootboxLegendary",
+      "type": "item",
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cloudbreaker"
+      "registry_name": "lootbox_legendary"
+    },
+    {
+      "name": "LootboxLegendaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lootbox_legendary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4517,11 +4543,10 @@
   ],
   "language_map": {
     "en_us": {
-      "tile.cloudore.name": "Cloud",
       "item.lightium_armorboots.name": "Lightium Boots",
       "item.aarium.skyaria": "Skyaria Portal Igniter",
-      "block.aarium.greenscreen": "Green screen",
       "tile.luminousair.name": "Luminous air",
+      "block.aarium.greenscreen": "Green screen",
       "item.aarium.aarium_sword": "Aarium Sword",
       "tile.flag_south_korea.name": "Flag (South Korea)",
       "item.aarium.darkium_pickaxe": "Darkium Pickaxe",
@@ -4533,8 +4558,8 @@
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "item.travelerslegs.name": "Travelers Leggings",
       "tile.egyptianblock_19.name": "Egyptian block (coal)",
-      "tile.speed_block.name": "Speed Block (Tier I)",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
+      "tile.speed_block.name": "Speed Block (Tier I)",
       "subtitles.the_hanging_tree_remix_hunger_games": "James Newton Howard - The Hanging Tree (Rebel Remix)",
       "tile.sakura_sushis_sign.name": "Sign \"Sakura Sushis\"",
       "tile.strawberry_plant.name": "Strawberry Plant",
@@ -4542,11 +4567,11 @@
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
       "item.aarium.volcanite_sword": "Volcanite Sword",
-      "item.music_disc_hanging_tree.name": "Music disk: The Hanging Tree",
       "item.aarium.darkiumingot": "Darkium ingot",
+      "item.music_disc_hanging_tree.name": "Music disk: The Hanging Tree",
       "tile.laboratoryblocktrue.name": "Laboratory block (true)",
-      "tile.egyptianblock_17.name": "Egyptian block (apple)",
       "tile.flagjapan.name": "Flag (Japan)",
+      "tile.egyptianblock_17.name": "Egyptian block (apple)",
       "item.volcanite_armorbody.name": "Volcanite Chestplate",
       "item.treechopper.name": "Tree chopper",
       "tile.darkiumslab.name": "Darkium block",
@@ -4561,7 +4586,6 @@
       "tile.lightium_ore.name": "Lightium Ore",
       "item.lootbox_common.name": "Lootbox (Common)",
       "tile.egyptianblock_15.name": "Egyptian slab",
-      "item.cloudbreaker.name": "Cloudbreaker",
       "item.aarium.darkium_armor_chestplate": "Darkium Chestplate",
       "item.aarium.lightium_armor_leggings": "Lightium Leggings",
       "item.swimminglegs.name": "Swimming Leggings",
@@ -4867,8 +4891,8 @@
       "tile.cloudore.name": "Cloudore",
       "item.lightium_armorboots.name": "Bottes en Lightium",
       "item.aarium.skyaria": "Allumeur de portail vers Skyaraia",
-      "tile.luminousair.name": "Air lumineux solide",
       "block.aarium.greenscreen": "Écran vert",
+      "tile.luminousair.name": "Air lumineux solide",
       "item.aarium.aarium_sword": "Épée en Aarium",
       "tile.flag_south_korea.name": "Flag (France)",
       "item.aarium.darkium_pickaxe": "Pioche en Darkium",
@@ -4880,8 +4904,8 @@
       "item.aarium.aarium_pickaxe": "Pioche en Aarium",
       "item.travelerslegs.name": "Jambières du Voyageur",
       "tile.egyptianblock_19.name": "Bloc égyptien (charbon)",
-      "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "tile.speed_block.name": "Speed Block (Tier I)",
+      "block.aarium.luminousconcretewhite": "Béton lumineux blanc",
       "subtitles.the_hanging_tree_remix_hunger_games": "James Newton Howard - The Hanging Tree (Rebel Remix)",
       "tile.sakura_sushis_sign.name": "Sign \"Sakura Sushis\"",
       "tile.strawberry_plant.name": "Strawberry Plant",
@@ -4889,11 +4913,11 @@
       "block.aarium.greenscreenwithoutcontact": "Fond vert (sans contact)",
       "item.aarium.farmingdirt": "Alummeur de portail vers Farmingdirt",
       "item.aarium.volcanite_sword": "Épée en Volcanite",
-      "item.aarium.darkiumingot": "Lingot en Darkium",
       "item.music_disc_hanging_tree.name": "Music disk: The sound of silence",
+      "item.aarium.darkiumingot": "Lingot en Darkium",
       "tile.laboratoryblocktrue.name": "Block de laboratoire (vrai)",
-      "tile.egyptianblock_17.name": "Egyptian block (apple)",
       "tile.flagjapan.name": "Japanese Block (Orange stone with blue and green marks)",
+      "tile.egyptianblock_17.name": "Egyptian block (apple)",
       "item.volcanite_armorbody.name": "Torse en Volcanite",
       "item.treechopper.name": "Hâche de bucheron",
       "tile.darkiumslab.name": "Bloc de Darkium",
@@ -5045,6 +5069,7 @@
       "item.aarium_sword.name": "Aarium Sword",
       "tile.egyptianblock_5.name": "Egyptian block (river)",
       "block.aarium.luminousconcreteblack": "Béton lumineux noir",
+      "item.lootbox_legendary.name": "Lootbox (Common)",
       "item.aarium.musicdisk_thesoundofsilence": "Music disk: The sound of silence",
       "tile.japanesetexthiraganai.name": "Japanese text (Hiragana) : A",
       "item.travelersbody.name": "Travelers Body",
