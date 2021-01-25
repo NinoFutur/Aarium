@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 10,
     "ENTITY": 20,
-    "DIMENSION": 26
+    "DIMENSION": 26,
+    "GUI": 10
   },
   "mod_elements": [
     {
@@ -4468,7 +4468,7 @@
       "name": "Cloudbreaker",
       "type": "tool",
       "sortid": 413,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "cloudbreaker"
@@ -4477,7 +4477,7 @@
       "name": "Cloudore",
       "type": "block",
       "sortid": 412,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "cloudore"
@@ -4486,7 +4486,7 @@
       "name": "LootboxLegendary",
       "type": "item",
       "sortid": 412,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "lootbox_legendary"
