@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "ENTITY": 8,
     "GUI": 3,
-    "ENTITY": 7,
-    "DIMENSION": 13
+    "DIMENSION": 26
   },
   "mod_elements": [
     {
@@ -813,8 +813,13 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "spawn"
+      "ids": {
+        "1": 14
+      },
+      "registry_name": "spawn",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Bowoflight",
@@ -822,7 +827,9 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 8
+      },
       "registry_name": "bowoflight"
     },
     {
@@ -891,8 +898,13 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "event"
+      "ids": {
+        "1": 15
+      },
+      "registry_name": "event",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "FarmingwoodPlayerEntersDimension",
@@ -929,8 +941,13 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "farmingwood"
+      "ids": {
+        "1": 16
+      },
+      "registry_name": "farmingwood",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "FarmingstonePlayerEntersDimension",
@@ -967,8 +984,13 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "farmingstone"
+      "ids": {
+        "1": 17
+      },
+      "registry_name": "farmingstone",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "FarmingdirtPlayerEntersDimension",
@@ -1005,8 +1027,13 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "farmingdirt"
+      "ids": {
+        "1": 18
+      },
+      "registry_name": "farmingdirt",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Farmingobsidian",
@@ -1014,8 +1041,13 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "farmingobsidian"
+      "ids": {
+        "1": 19
+      },
+      "registry_name": "farmingobsidian",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Luminousconcreteyellow",
@@ -1444,8 +1476,13 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "aquaria"
+      "ids": {
+        "1": 20
+      },
+      "registry_name": "aquaria",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Siberia",
@@ -1453,8 +1490,13 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "siberia"
+      "ids": {
+        "1": 21
+      },
+      "registry_name": "siberia",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Pateria",
@@ -1462,8 +1504,13 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "pateria"
+      "ids": {
+        "1": 22
+      },
+      "registry_name": "pateria",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Forestia",
@@ -1471,8 +1518,13 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "forestia"
+      "ids": {
+        "1": 23
+      },
+      "registry_name": "forestia",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Solitudia",
@@ -1480,8 +1532,13 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "solitudia"
+      "ids": {
+        "1": 24
+      },
+      "registry_name": "solitudia",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Ignisia",
@@ -1489,8 +1546,13 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "ignisia"
+      "ids": {
+        "1": 25
+      },
+      "registry_name": "ignisia",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "Skyaria",
@@ -1498,8 +1560,13 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "skyaria"
+      "ids": {
+        "1": 26
+      },
+      "registry_name": "skyaria",
+      "metadata": {
+        "ep": false
+      }
     },
     {
       "name": "PlayerfrezerLivingEntityIsHitWithItem",
@@ -2270,6 +2337,10 @@
       "item.solitudia.name": "Solitudia Portal Igniter"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "aarium",
     "modName": "Aarium",
@@ -2287,5 +2358,5 @@
     "modElementsPackage": "net.mcreator.aarium",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000546519
+  "mcreatorVersion": 202100116710
 }

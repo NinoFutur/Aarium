@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "armor",
   "definition": {
     "enableHelmet": false,
@@ -48,6 +48,7 @@
     "damageValueBoots": 1,
     "enchantability": 35,
     "toughness": 0.5,
+    "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },

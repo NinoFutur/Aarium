@@ -1,24 +1,7 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "dimension",
   "definition": {
-    "portalFrame": {
-      "value": ""
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
-    "portalLuminance": 0.0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
-    "igniterName": "Farmingstone Portal Igniter",
-    "igniterTab": {
-      "value": "TOOLS"
-    },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false,
     "biomesInDimension": [
       {
         "value": "plains"
@@ -56,7 +39,6 @@
     },
     "canRespawnHere": true,
     "hasFog": false,
-    "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
@@ -64,6 +46,23 @@
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "FarmingstonePlayerEntersDimension"
-    }
+    },
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Farmingstone Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
   }
 }

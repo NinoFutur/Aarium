@@ -1,24 +1,7 @@
 {
-  "_fv": 13,
+  "_fv": 18,
   "_type": "dimension",
   "definition": {
-    "portalFrame": {
-      "value": ""
-    },
-    "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "portalLuminance": 0.0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
-    "igniterName": "Ignisia Portal Igniter",
-    "igniterTab": {
-      "value": "TOOLS"
-    },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false,
     "biomesInDimension": [
       {
         "value": "nether"
@@ -40,11 +23,27 @@
     },
     "canRespawnHere": true,
     "hasFog": true,
-    "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Ignisia Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
   }
 }

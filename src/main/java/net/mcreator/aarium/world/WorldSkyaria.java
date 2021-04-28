@@ -48,7 +48,7 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldSkyaria extends ElementsAariumMod.ModElement {
-	public static int DIMID = 15;
+	public static int DIMID = 28;
 	public static final boolean NETHER_TYPE = false;
 	public static DimensionType dtype;
 	public WorldSkyaria(ElementsAariumMod instance) {
@@ -327,10 +327,6 @@ public class WorldSkyaria extends ElementsAariumMod.ModElement {
 			return f2;
 		}
 
-		/**
-		 * Generates a bare-bones chunk of nothing but stone or ocean blocks, formed,
-		 * but featureless.
-		 */
 		public void setBlocksInChunk(int x, int z, ChunkPrimer primer) {
 			int i = 2;
 			int j = 3;
@@ -499,9 +495,7 @@ public class WorldSkyaria extends ElementsAariumMod.ModElement {
 			return this.getBiomes(oldBiomeList, x, z, width, depth, true);
 		}
 
-		@Override /**
-					 * Returns an array of biomes for the location input.
-					 */
+		@Override
 		public Biome[] getBiomesForGeneration(Biome[] biomes, int x, int z, int width, int height) {
 			IntCache.resetIntCache();
 			if (biomes == null || biomes.length < width * height) {
@@ -525,9 +519,7 @@ public class WorldSkyaria extends ElementsAariumMod.ModElement {
 			}
 		}
 
-		@Override /**
-					 * Gets a list of biomes for the specified blocks.
-					 */
+		@Override
 		public Biome[] getBiomes(@Nullable Biome[] listToReuse, int x, int z, int width, int length, boolean cacheFlag) {
 			IntCache.resetIntCache();
 			if (listToReuse == null || listToReuse.length < width * length) {
@@ -546,9 +538,7 @@ public class WorldSkyaria extends ElementsAariumMod.ModElement {
 			}
 		}
 
-		@Override /**
-					 * checks given Chunk's Biomes against List of allowed ones
-					 */
+		@Override
 		public boolean areBiomesViable(int x, int z, int radius, List<Biome> allowed) {
 			IntCache.resetIntCache();
 			int i = x - radius >> 2;

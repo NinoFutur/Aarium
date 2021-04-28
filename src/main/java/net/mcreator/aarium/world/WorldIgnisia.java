@@ -48,7 +48,7 @@ import java.util.List;
 
 @ElementsAariumMod.ModElement.Tag
 public class WorldIgnisia extends ElementsAariumMod.ModElement {
-	public static int DIMID = 14;
+	public static int DIMID = 27;
 	public static final boolean NETHER_TYPE = true;
 	public static DimensionType dtype;
 	public WorldIgnisia(ElementsAariumMod instance) {
@@ -505,9 +505,7 @@ public class WorldIgnisia extends ElementsAariumMod.ModElement {
 			return this.getBiomes(oldBiomeList, x, z, width, depth, true);
 		}
 
-		@Override /**
-					 * Returns an array of biomes for the location input.
-					 */
+		@Override
 		public Biome[] getBiomesForGeneration(Biome[] biomes, int x, int z, int width, int height) {
 			IntCache.resetIntCache();
 			if (biomes == null || biomes.length < width * height) {
@@ -531,9 +529,7 @@ public class WorldIgnisia extends ElementsAariumMod.ModElement {
 			}
 		}
 
-		@Override /**
-					 * Gets a list of biomes for the specified blocks.
-					 */
+		@Override
 		public Biome[] getBiomes(@Nullable Biome[] listToReuse, int x, int z, int width, int length, boolean cacheFlag) {
 			IntCache.resetIntCache();
 			if (listToReuse == null || listToReuse.length < width * length) {
@@ -552,9 +548,7 @@ public class WorldIgnisia extends ElementsAariumMod.ModElement {
 			}
 		}
 
-		@Override /**
-					 * checks given Chunk's Biomes against List of allowed ones
-					 */
+		@Override
 		public boolean areBiomesViable(int x, int z, int radius, List<Biome> allowed) {
 			IntCache.resetIntCache();
 			int i = x - radius >> 2;
