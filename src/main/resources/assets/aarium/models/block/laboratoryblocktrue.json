@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/labo_block_yellow_black_check_mark",
+    "particle": "aarium:blocks/labo_block_yellow_black_check_mark"
+  }
+}

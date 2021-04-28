@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spruce_log",
+        "1": "spruce_leaves",
+        "2": "snow",
+        "3": "gifts"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -34,7 +34,11 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.aarium.gui.GuiSuperfurnacegui;
 import net.mcreator.aarium.gui.GuiSuperenchanteur;
+import net.mcreator.aarium.gui.GuiSmallloadingbaygui;
+import net.mcreator.aarium.gui.GuiInfinitewoodgeneratorgui;
+import net.mcreator.aarium.gui.GuiInfinitecobblestonegeneratorgui;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -60,6 +64,8 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "this_is_my_rolling")));
 		sounds.put(new ResourceLocation("aarium", "the_sound_of_silence"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "the_sound_of_silence")));
+		sounds.put(new ResourceLocation("aarium", "the_hanging_tree_remix_hunger_games"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("aarium", "the_hanging_tree_remix_hunger_games")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
@@ -130,6 +136,14 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiSuperenchanteur.GUIID)
 				return new GuiSuperenchanteur.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiInfinitewoodgeneratorgui.GUIID)
+				return new GuiInfinitewoodgeneratorgui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiSmallloadingbaygui.GUIID)
+				return new GuiSmallloadingbaygui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiInfinitecobblestonegeneratorgui.GUIID)
+				return new GuiInfinitecobblestonegeneratorgui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiSuperfurnacegui.GUIID)
+				return new GuiSuperfurnacegui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -137,6 +151,14 @@ public class ElementsAariumMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiSuperenchanteur.GUIID)
 				return new GuiSuperenchanteur.GuiWindow(world, x, y, z, player);
+			if (id == GuiInfinitewoodgeneratorgui.GUIID)
+				return new GuiInfinitewoodgeneratorgui.GuiWindow(world, x, y, z, player);
+			if (id == GuiSmallloadingbaygui.GUIID)
+				return new GuiSmallloadingbaygui.GuiWindow(world, x, y, z, player);
+			if (id == GuiInfinitecobblestonegeneratorgui.GUIID)
+				return new GuiInfinitecobblestonegeneratorgui.GuiWindow(world, x, y, z, player);
+			if (id == GuiSuperfurnacegui.GUIID)
+				return new GuiSuperfurnacegui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

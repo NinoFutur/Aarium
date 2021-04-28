@@ -1,0 +1,16 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:smeltedcocoa"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "aarium:chocolatebar",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "animationtexture_cloudbreaker",
+    "customModelName": "Normal",
+    "name": "Cloudbreaker",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 5,
+    "damageVsEntity": 4.0,
+    "usageCount": 200,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:Cloudore"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

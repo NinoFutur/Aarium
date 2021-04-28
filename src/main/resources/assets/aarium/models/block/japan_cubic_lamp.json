@@ -1,0 +1,10 @@
+{
+  "parent": "aarium:custom/cubic_lamp",
+  "textures": {
+    "all": "aarium:blocks/lamp",
+    "particle": "aarium:blocks/lamp",
+    "0": "aarium:blocks/lamp",
+    "2": "aarium:blocks/lamp_side",
+    "3": "aarium:blocks/lamp_top"
+  }
+}

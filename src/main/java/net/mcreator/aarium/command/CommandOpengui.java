@@ -1,27 +1,9 @@
 
 package net.mcreator.aarium.command;
 
-import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.entity.Entity;
-import net.minecraft.command.ICommandSender;
-import net.minecraft.command.ICommand;
-import net.minecraft.command.CommandHandler;
-
-import net.mcreator.aarium.procedure.ProcedureOpenguiCommandExecuted;
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-import java.util.List;
-import java.util.HashMap;
-import java.util.Arrays;
-import java.util.ArrayList;
-
 @ElementsAariumMod.ModElement.Tag
 public class CommandOpengui extends ElementsAariumMod.ModElement {
+
 	public CommandOpengui(ElementsAariumMod instance) {
 		super(instance, 179);
 	}
@@ -30,7 +12,9 @@ public class CommandOpengui extends ElementsAariumMod.ModElement {
 	public void serverLoad(FMLServerStartingEvent event) {
 		event.registerServerCommand(new CommandHandler());
 	}
+
 	public static class CommandHandler implements ICommand {
+
 		@Override
 		public int compareTo(ICommand c) {
 			return getName().compareTo(c.getName());
@@ -74,22 +58,28 @@ public class CommandOpengui extends ElementsAariumMod.ModElement {
 			Entity entity = sender.getCommandSenderEntity();
 			if (entity != null) {
 				World world = entity.world;
+
 				HashMap<String, String> cmdparams = new HashMap<>();
 				int[] index = {0};
 				Arrays.stream(cmd).forEach(param -> {
 					cmdparams.put(Integer.toString(index[0]), param);
 					index[0]++;
 				});
+
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+
 					$_dependencies.put("entity", entity);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
+
 					ProcedureOpenguiCommandExecuted.executeProcedure($_dependencies);
 				}
 			}
 		}
+
 	}
+
 }

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:sushis"
+    },
+    "facing=north": {
+      "model": "aarium:sushis"
+    },
+    "facing=east": {
+      "model": "aarium:sushis",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aarium:sushis",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aarium:sushis",
+      "y": 270
+    }
+  }
+}

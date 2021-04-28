@@ -1,0 +1,46 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:ithenariumdust"
+    },
+    "1": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "2": {
+      "item": "aarium:ithenariumdust"
+    },
+    "3": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "4": {
+      "item": "aarium:ithenariumdust"
+    },
+    "5": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "6": {
+      "item": "aarium:ithenariumdust"
+    },
+    "7": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "8": {
+      "item": "aarium:ithenariumdust"
+    }
+  },
+  "result": {
+    "item": "aarium:ithenariumbarrel",
+    "count": 1
+  }
+}

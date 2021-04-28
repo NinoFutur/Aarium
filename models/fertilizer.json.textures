@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dirt",
+        "1": "fertilizer_mzchine"
+      },
+      "name": "default"
+    }
+  }
+}

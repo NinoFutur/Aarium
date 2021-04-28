@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Smelting",
     "xpReward": 200.0,
-    "cookingTime": 250,
+    "cookingTime": 350,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,

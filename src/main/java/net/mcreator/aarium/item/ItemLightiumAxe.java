@@ -27,13 +27,13 @@ public class ItemLightiumAxe extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:lightium_axe")
 	public static final Item block = null;
 	public ItemLightiumAxe(ElementsAariumMod instance) {
-		super(instance, 83);
+		super(instance, 39);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-		}.setUnlocalizedName("lightium_axe").setRegistryName("lightium_axe").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("lightium_axe").setRegistryName("lightium_axe").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)

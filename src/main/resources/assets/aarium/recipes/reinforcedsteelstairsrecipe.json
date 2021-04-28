@@ -1,0 +1,33 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aarium:reinforcedsteelblock"
+    },
+    "3": {
+      "item": "aarium:reinforcedsteelblock"
+    },
+    "4": {
+      "item": "aarium:reinforcedsteelblock"
+    },
+    "6": {
+      "item": "aarium:reinforcedsteelblock"
+    },
+    "7": {
+      "item": "aarium:reinforcedsteelblock"
+    },
+    "8": {
+      "item": "aarium:reinforcedsteelblock"
+    }
+  },
+  "result": {
+    "item": "aarium:reinforcedsteelstairs",
+    "count": 3
+  }
+}

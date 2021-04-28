@@ -44,7 +44,7 @@
     "maxDamage": 10,
     "damageValueHelmet": 0,
     "damageValueBody": 0,
-    "damageValueLeggings": 5,
+    "damageValueLeggings": 0,
     "damageValueBoots": 1,
     "enchantability": 35,
     "toughness": 1.0,

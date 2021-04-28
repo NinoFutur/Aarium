@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:engraved_aarium_block"
+    }
+  }
+}

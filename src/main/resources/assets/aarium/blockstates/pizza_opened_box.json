@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:pizza_opened_box"
+    },
+    "facing=north": {
+      "model": "aarium:pizza_opened_box"
+    },
+    "facing=east": {
+      "model": "aarium:pizza_opened_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aarium:pizza_opened_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aarium:pizza_opened_box",
+      "y": 270
+    }
+  }
+}

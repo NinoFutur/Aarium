@@ -1,0 +1,19 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:egyptianblock_0"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:boat"
+    }
+  ],
+  "result": {
+    "item": "aarium:egyptianblock_13",
+    "count": 1
+  }
+}

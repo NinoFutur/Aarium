@@ -30,7 +30,7 @@ public class ItemHolemaker extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:holemaker")
 	public static final Item block = null;
 	public ItemHolemaker(ElementsAariumMod instance) {
-		super(instance, 23);
+		super(instance, 37);
 	}
 
 	@Override

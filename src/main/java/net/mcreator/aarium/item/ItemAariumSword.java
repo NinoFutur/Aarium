@@ -29,7 +29,7 @@ public class ItemAariumSword extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:aarium_sword")
 	public static final Item block = null;
 	public ItemAariumSword(ElementsAariumMod instance) {
-		super(instance, 29);
+		super(instance, 63);
 	}
 
 	@Override

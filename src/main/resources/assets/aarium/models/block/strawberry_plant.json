@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aarium:blocks/strawberry_tree",
+    "particle": "aarium:blocks/strawberry_tree"
+  }
+}

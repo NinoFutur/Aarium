@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "fire_sword",
+    "texture": "fire_sword_texture_maker_32",
     "customModelName": "Normal",
     "name": "Fire sword",
     "specialInfo": [],
@@ -22,14 +22,17 @@
     "repairItems": [
       {
         "value": "Items.LAVA_BUCKET"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "FireswordLivingEntityIsHitWithTool2"
+    },
+    "onRightClickedOnBlock": {
+      "name": "FireswordLivingEntityIsHitWithTool2"
+    },
     "onEntityHitWith": {
       "name": "FireswordLivingEntityIsHitWithTool"
     }

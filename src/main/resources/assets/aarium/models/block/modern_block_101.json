@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/dirt",
+    "up": "aarium:blocks/grass_path_cross_stone",
+    "north": "aarium:blocks/grass_block_side",
+    "east": "aarium:blocks/grass_block_side",
+    "south": "aarium:blocks/grass_block_side",
+    "west": "aarium:blocks/grass_block_side",
+    "particle": "aarium:blocks/dirt"
+  }
+}

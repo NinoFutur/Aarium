@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 8,
-    "GUI": 3,
-    "DIMENSION": 26
+    "ENTITY": 21,
+    "GUI": 10,
+    "DIMENSION": 52
   },
   "mod_elements": [
     {
@@ -247,15 +247,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aariumslabrecipe_3"
-    },
-    {
-      "name": "Dirtsouprecipe",
-      "type": "recipe",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dirtsouprecipe"
     },
     {
       "name": "Darkiumnugget",
@@ -814,12 +805,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 14
+        "1": 52
       },
-      "registry_name": "spawn",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "spawn"
     },
     {
       "name": "Bowoflight",
@@ -899,12 +887,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 15
+        "1": 49
       },
-      "registry_name": "event",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "event"
     },
     {
       "name": "FarmingwoodPlayerEntersDimension",
@@ -942,12 +927,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 16
+        "1": 41
       },
-      "registry_name": "farmingwood",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "farmingwood"
     },
     {
       "name": "FarmingstonePlayerEntersDimension",
@@ -985,12 +967,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 17
+        "1": 46
       },
-      "registry_name": "farmingstone",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "farmingstone"
     },
     {
       "name": "FarmingdirtPlayerEntersDimension",
@@ -1028,12 +1007,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 18
+        "1": 44
       },
-      "registry_name": "farmingdirt",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "farmingdirt"
     },
     {
       "name": "Farmingobsidian",
@@ -1042,12 +1018,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 19
+        "1": 42
       },
-      "registry_name": "farmingobsidian",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "farmingobsidian"
     },
     {
       "name": "Luminousconcreteyellow",
@@ -1477,12 +1450,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 20
+        "1": 45
       },
-      "registry_name": "aquaria",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "aquaria"
     },
     {
       "name": "Siberia",
@@ -1491,12 +1461,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 21
+        "1": 47
       },
-      "registry_name": "siberia",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "siberia"
     },
     {
       "name": "Pateria",
@@ -1505,12 +1472,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 22
+        "1": 40
       },
-      "registry_name": "pateria",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "pateria"
     },
     {
       "name": "Forestia",
@@ -1519,12 +1483,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 23
+        "1": 43
       },
-      "registry_name": "forestia",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "forestia"
     },
     {
       "name": "Solitudia",
@@ -1533,12 +1494,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 24
+        "1": 50
       },
-      "registry_name": "solitudia",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "solitudia"
     },
     {
       "name": "Ignisia",
@@ -1547,12 +1505,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 25
+        "1": 51
       },
-      "registry_name": "ignisia",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "ignisia"
     },
     {
       "name": "Skyaria",
@@ -1561,12 +1516,9 @@
       "compiles": true,
       "locked_code": false,
       "ids": {
-        "1": 26
+        "1": 48
       },
-      "registry_name": "skyaria",
-      "metadata": {
-        "ep": false
-      }
+      "registry_name": "skyaria"
     },
     {
       "name": "PlayerfrezerLivingEntityIsHitWithItem",
@@ -1891,15 +1843,2720 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "opengui"
+    },
+    {
+      "name": "NightVisionHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_vision_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LootboxCommonRightClickedInAir",
+      "type": "procedure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lootbox_common_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healthblockrecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblockrecipe"
+    },
+    {
+      "name": "JapaneseBlock2",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_2"
+    },
+    {
+      "name": "JapaneseBlock3",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_3"
+    },
+    {
+      "name": "JapaneseBlock1",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_1"
+    },
+    {
+      "name": "JapaneseBlock6",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_6"
+    },
+    {
+      "name": "JapaneseBlock7",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_7"
+    },
+    {
+      "name": "Healthblock",
+      "type": "block",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblock"
+    },
+    {
+      "name": "InfectedAir1QuandLentiteEntreEnCollisionAvecLeBloc",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_air_1_quand_lentite_entre_en_collision_avec_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laboratory",
+      "type": "tag",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratory"
+    },
+    {
+      "name": "JapaneseBlock5",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_5"
+    },
+    {
+      "name": "Smeltedcocoa",
+      "type": "item",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smeltedcocoa"
+    },
+    {
+      "name": "JapaneseBlock8",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_block_8"
+    },
+    {
+      "name": "Reinforcedsteelstairs",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairs"
+    },
+    {
+      "name": "Ithenariumore",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumore"
+    },
+    {
+      "name": "Megaithenariumbarrel",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megaithenariumbarrel"
+    },
+    {
+      "name": "FakeGrassRecipe",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_grass_recipe"
+    },
+    {
+      "name": "Modernblock100",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modernblock_100"
+    },
+    {
+      "name": "SuperCompressedIceBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speedblock4recipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_4recipe"
+    },
+    {
+      "name": "TreechopperBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopper_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infinitecobblestonegenerator",
+      "type": "block",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinitecobblestonegenerator"
+    },
+    {
+      "name": "Coldmilkchocolate",
+      "type": "food",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldmilkchocolate"
+    },
+    {
+      "name": "SpeedBlock",
+      "type": "block",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_block"
+    },
+    {
+      "name": "WaterswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watersword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Collectionegypt",
+      "type": "tab",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "collectionegypt"
+    },
+    {
+      "name": "FlagSouthKorea",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_south_korea"
+    },
+    {
+      "name": "Absorptionblockrecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblockrecipe"
+    },
+    {
+      "name": "Egyptianblockrecipe19",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_19"
+    },
+    {
+      "name": "FlagUnitedStatesOfAmerica",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_united_states_of_america"
+    },
+    {
+      "name": "MusicDiscTheSoundOfSilence",
+      "type": "musicdisc",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_the_sound_of_silence"
+    },
+    {
+      "name": "HealthblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IthenariumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_body_recipe"
+    },
+    {
+      "name": "Egyptianblockrecipe14",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_14"
+    },
+    {
+      "name": "Egyptianblockrecipe13",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_13"
+    },
+    {
+      "name": "Egyptianblockrecipe12",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_12"
+    },
+    {
+      "name": "Egyptianblockrecipe11",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_11"
+    },
+    {
+      "name": "Egyptianblockrecipe18",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_18"
+    },
+    {
+      "name": "Egyptianblockrecipe17",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_17"
+    },
+    {
+      "name": "Laddertrapdoorrecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laddertrapdoorrecipe"
+    },
+    {
+      "name": "Egyptianblockrecipe16",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_16"
+    },
+    {
+      "name": "Luminoussolidairrecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luminoussolidairrecipe"
+    },
+    {
+      "name": "Egyptianblockrecipe15",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_15"
+    },
+    {
+      "name": "SuperbreakerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superbreaker_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egyptianblockrecipe10",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_10"
+    },
+    {
+      "name": "FlagThailand",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_thailand"
+    },
+    {
+      "name": "FlagUnitedKingdom",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_united_kingdom"
+    },
+    {
+      "name": "PolishedAariumBlock",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_aarium_block"
+    },
+    {
+      "name": "Laboratoryblockwarning",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockwarning"
+    },
+    {
+      "name": "Steelblockrecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblockrecipe"
+    },
+    {
+      "name": "Ithenariumdust",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumdust"
+    },
+    {
+      "name": "PolishedAariumBlockRecipe",
+      "type": "recipe",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_aarium_block_recipe"
+    },
+    {
+      "name": "LootboxLegendaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lootbox_legendary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smeltedcocoarecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smeltedcocoarecipe"
+    },
+    {
+      "name": "Reinforcedsteelblock",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblock"
+    },
+    {
+      "name": "Chaos",
+      "type": "command",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos"
+    },
+    {
+      "name": "EgyptianBlock8",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptian_block_8"
+    },
+    {
+      "name": "Laddertrapdoor",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laddertrapdoor"
+    },
+    {
+      "name": "IthenariumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_leggings_recipe"
+    },
+    {
+      "name": "Ithenariumingotfromblock",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingotfromblock"
+    },
+    {
+      "name": "Mugrecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mugrecipe"
+    },
+    {
+      "name": "Mugofmilk",
+      "type": "food",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mugofmilk"
+    },
+    {
+      "name": "LootboxLegendary",
+      "type": "item",
+      "sortid": 412,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lootbox_legendary"
+    },
+    {
+      "name": "AdvancementStoryAarium",
+      "type": "achievement",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_story_aarium"
+    },
+    {
+      "name": "PolishedAariumStairsRecipe",
+      "type": "recipe",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_aarium_stairs_recipe"
+    },
+    {
+      "name": "JapanCubicLamp",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japan_cubic_lamp"
+    },
+    {
+      "name": "FlagRussia",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_russia"
+    },
+    {
+      "name": "AcidUpdateTick",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Egyptianblockrecipe",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe"
+    },
+    {
+      "name": "Egyptianblock71",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_71"
+    },
+    {
+      "name": "Steelblock",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelblock"
+    },
+    {
+      "name": "FakeStoneRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_stone_recipe"
+    },
+    {
+      "name": "StrawberryPlant",
+      "type": "plant",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strawberry_plant"
+    },
+    {
+      "name": "Egyptianblock70",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_70"
+    },
+    {
+      "name": "Futureblocksymbola",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "futureblocksymbola"
+    },
+    {
+      "name": "DarkSand",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sand"
+    },
+    {
+      "name": "Ithenariumblockrecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblockrecipe"
+    },
+    {
+      "name": "Luminoussolidair",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luminoussolidair"
+    },
+    {
+      "name": "JapaneseAcaciaWoolCarpet",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanese_acacia_wool_carpet"
+    },
+    {
+      "name": "Coldmilkchocolaterecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coldmilkchocolaterecipe"
+    },
+    {
+      "name": "Egyptianblockrecipe8",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_8"
+    },
+    {
+      "name": "Egyptianblockrecipe9",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_9"
+    },
+    {
+      "name": "Egyptianblockrecipe4",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_4"
+    },
+    {
+      "name": "Egyptianblockrecipe5",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_5"
+    },
+    {
+      "name": "Ithenariumbarrel",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel"
+    },
+    {
+      "name": "Egyptianblockrecipe6",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_6"
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egyptianblockrecipe7",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_7"
+    },
+    {
+      "name": "Egyptianblockrecipe1",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_1"
+    },
+    {
+      "name": "Egyptianblockrecipe2",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_2"
+    },
+    {
+      "name": "Egyptianblockrecipe3",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_3"
+    },
+    {
+      "name": "Laptop",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laptop"
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "Hiddenblock3",
+      "type": "block",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_3"
+    },
+    {
+      "name": "Hiddenblock4",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_4"
+    },
+    {
+      "name": "Futureblock0",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "futureblock_0"
+    },
+    {
+      "name": "MegaithenariumbarrelRedstoneOn",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megaithenariumbarrel_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laboratoryblocktrue",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblocktrue"
+    },
+    {
+      "name": "SakuraSushisSign",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_sushis_sign"
+    },
+    {
+      "name": "Egyptianblock181",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_181"
+    },
+    {
+      "name": "Luminousair",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luminousair"
+    },
+    {
+      "name": "FakeDirtRecipe",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_dirt_recipe"
+    },
+    {
+      "name": "ModernBlock101",
+      "type": "block",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modern_block_101"
+    },
+    {
+      "name": "Hiddenblock1",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_1"
+    },
+    {
+      "name": "Hiddenblock2",
+      "type": "block",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiddenblock_2"
+    },
+    {
+      "name": "Superbreaker",
+      "type": "tool",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superbreaker"
+    },
+    {
+      "name": "Egyptianblock180",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_180"
+    },
+    {
+      "name": "Laboratoryblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblock"
+    },
+    {
+      "name": "IthenariumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_helmet_recipe"
+    },
+    {
+      "name": "Chocolatebar",
+      "type": "food",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatebar"
+    },
+    {
+      "name": "ChaosCommandExecuted",
+      "type": "procedure",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlagSpain",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_spain"
+    },
+    {
+      "name": "IthenariumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hotmilkchocolate",
+      "type": "food",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotmilkchocolate"
+    },
+    {
+      "name": "FakeGrass",
+      "type": "block",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_grass"
+    },
+    {
+      "name": "LoottableLootboxCommon",
+      "type": "loottable",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loottable_lootbox_common"
+    },
+    {
+      "name": "LoottableLootboxLegendary",
+      "type": "loottable",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loottable_lootbox_legendary"
+    },
+    {
+      "name": "FlagFrance",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_france"
+    },
+    {
+      "name": "Absorptionblock",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblock"
+    },
+    {
+      "name": "LootboxCommon",
+      "type": "item",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lootbox_common"
+    },
+    {
+      "name": "Boom",
+      "type": "command",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boom"
+    },
+    {
+      "name": "Laboratoryblockdarkline",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockdarkline"
+    },
+    {
+      "name": "WastelandSnowyMountains",
+      "type": "biome",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wasteland_snowy_mountains"
+    },
+    {
+      "name": "IthenariumbarrelBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoottableLootboxRare",
+      "type": "loottable",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loottable_lootbox_rare"
+    },
+    {
+      "name": "Laboratoryblockdarklinesborder",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockdarklinesborder"
+    },
+    {
+      "name": "Speedblock1recipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_1recipe"
+    },
+    {
+      "name": "ChristmasTree",
+      "type": "block",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "christmas_tree"
+    },
+    {
+      "name": "AirSword",
+      "type": "tool",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_sword"
+    },
+    {
+      "name": "Egyptianblockrecipe71",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_71"
+    },
+    {
+      "name": "Ithenariumblock",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumblock"
+    },
+    {
+      "name": "JapanseBlock4",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanse_block_4"
+    },
+    {
+      "name": "HealthboostblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoisonousMushroomEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_mushroom_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackDesert",
+      "type": "biome",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_desert"
+    },
+    {
+      "name": "ModernBlock101Recipe",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modern_block_101_recipe"
+    },
+    {
+      "name": "PoisonousMushroom",
+      "type": "plant",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_mushroom"
+    },
+    {
+      "name": "DarkSandstoneRecipe",
+      "type": "recipe",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sandstone_recipe"
+    },
+    {
+      "name": "DarkSandstone",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sandstone"
+    },
+    {
+      "name": "SuperCompressedIce",
+      "type": "block",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice"
+    },
+    {
+      "name": "EB0",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eb_0"
+    },
+    {
+      "name": "Egyptianblock6",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_6"
+    },
+    {
+      "name": "Egyptianblock9",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_9"
+    },
+    {
+      "name": "Foodblockrecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblockrecipe"
+    },
+    {
+      "name": "Lelechampignon",
+      "type": "plant",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lelechampignon"
+    },
+    {
+      "name": "Egyptianblock3",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_3"
+    },
+    {
+      "name": "Egyptianblock2",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_2"
+    },
+    {
+      "name": "Egyptianblock5",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_5"
+    },
+    {
+      "name": "Ithenariumingot",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumingot"
+    },
+    {
+      "name": "Egyptianblock4",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_4"
+    },
+    {
+      "name": "Cloudbreaker",
+      "type": "tool",
+      "sortid": 413,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloudbreaker"
+    },
+    {
+      "name": "Egyptianblock1",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_1"
+    },
+    {
+      "name": "Flagjapan",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flagjapan"
+    },
+    {
+      "name": "MusicDiscHangingTree",
+      "type": "musicdisc",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_hanging_tree"
+    },
+    {
+      "name": "Egyptianblock0",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_0"
+    },
+    {
+      "name": "BattleAxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battle_axe"
+    },
+    {
+      "name": "InfectedAir1",
+      "type": "block",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_air_1"
+    },
+    {
+      "name": "Infinitewoodgeneratorgui",
+      "type": "gui",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      },
+      "registry_name": "infinitewoodgeneratorgui"
+    },
+    {
+      "name": "StrawberryPlantRecipe",
+      "type": "recipe",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strawberry_plant_recipe"
+    },
+    {
+      "name": "Steelstairsrecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairsrecipe"
+    },
+    {
+      "name": "EngravedAariumBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "engraved_aarium_block"
+    },
+    {
+      "name": "Luminousairrecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luminousairrecipe"
+    },
+    {
+      "name": "CopyrightCommandExecuted",
+      "type": "procedure",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copyright_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bosszombie",
+      "type": "mob",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 15,
+        "1": 16
+      },
+      "registry_name": "bosszombie"
+    },
+    {
+      "name": "Superfurnaceburnbuttonclicked",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superfurnaceburnbuttonclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PizzaOpenedBox",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pizza_opened_box"
+    },
+    {
+      "name": "CollectionJapan",
+      "type": "tab",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "collection_japan"
+    },
+    {
+      "name": "AbsorptionblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "absorptionblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laboratoryblockfalse",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockfalse"
+    },
+    {
+      "name": "LB1",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_1"
+    },
+    {
+      "name": "LB3",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_3"
+    },
+    {
+      "name": "LB2",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_2"
+    },
+    {
+      "name": "Smallloadingbaygui",
+      "type": "gui",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "smallloadingbaygui"
+    },
+    {
+      "name": "Infinitecobblestonegeneratorgui",
+      "type": "gui",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7
+      },
+      "registry_name": "infinitecobblestonegeneratorgui"
+    },
+    {
+      "name": "LB5",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_5"
+    },
+    {
+      "name": "LB4",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_4"
+    },
+    {
+      "name": "LB7",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_7"
+    },
+    {
+      "name": "LB6",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lb_6"
+    },
+    {
+      "name": "EngravedAariumBlockRecipe",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "engraved_aarium_block_recipe"
+    },
+    {
+      "name": "FireswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egyptianblockrecipe181",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblockrecipe_181"
+    },
+    {
+      "name": "ModernBlock100Recipe",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modern_block_100_recipe"
+    },
+    {
+      "name": "Steelstairs",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstairs"
+    },
+    {
+      "name": "Sushis",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sushis"
+    },
+    {
+      "name": "FakeDirt",
+      "type": "block",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_dirt"
+    },
+    {
+      "name": "Infinitewoodgeneratorguichangecontent",
+      "type": "procedure",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinitewoodgeneratorguichangecontent",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mugofmilkrecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mugofmilkrecipe"
+    },
+    {
+      "name": "Copyright",
+      "type": "command",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copyright"
+    },
+    {
+      "name": "Infinitewoodgenerator",
+      "type": "block",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinitewoodgenerator"
+    },
+    {
+      "name": "FakeStone",
+      "type": "block",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fake_stone"
+    },
+    {
+      "name": "Strawberry",
+      "type": "food",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strawberry"
+    },
+    {
+      "name": "Infinitecobblestonegeneratorguichangecontent",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinitecobblestonegeneratorguichangecontent",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedBlock4",
+      "type": "block",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_block_4"
+    },
+    {
+      "name": "Mug",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mug"
+    },
+    {
+      "name": "SpeedBlock2",
+      "type": "block",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_block_2"
+    },
+    {
+      "name": "SpeedBlock3",
+      "type": "block",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_block_3"
+    },
+    {
+      "name": "Japanesetexthiraganao",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanesetexthiraganao"
+    },
+    {
+      "name": "PolishedAariumStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_aarium_stairs"
+    },
+    {
+      "name": "Laboratoryblockincinerator",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockincinerator"
+    },
+    {
+      "name": "Foodblock",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblock"
+    },
+    {
+      "name": "FoodblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodblock_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IthenariumArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Japanesetexthiraganau",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanesetexthiraganau"
+    },
+    {
+      "name": "Watersword",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "watersword"
+    },
+    {
+      "name": "Japanesetexthiraganaa",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanesetexthiraganaa"
+    },
+    {
+      "name": "FlagIrland",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_irland"
+    },
+    {
+      "name": "Cloudore",
+      "type": "block",
+      "sortid": 412,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloudore"
+    },
+    {
+      "name": "Reinforcedsteelblockrecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelblockrecipe"
+    },
+    {
+      "name": "Chocolatbarrecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolatbarrecipe"
+    },
+    {
+      "name": "Japanesetexthiraganai",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanesetexthiraganai"
+    },
+    {
+      "name": "MusicDiscHangingTreeRecipe",
+      "type": "recipe",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_hanging_tree_recipe"
+    },
+    {
+      "name": "Japanesetexthiraganae",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "japanesetexthiraganae"
+    },
+    {
+      "name": "Treechopper",
+      "type": "tool",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treechopper"
+    },
+    {
+      "name": "WastelandDesert",
+      "type": "biome",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wasteland_desert"
+    },
+    {
+      "name": "IthenariumbarrelRedstoneOn",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrel_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IthenariumArmor",
+      "type": "armor",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Egypt",
+      "type": "tag",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egypt"
+    },
+    {
+      "name": "Speedblock3recipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_3recipe"
+    },
+    {
+      "name": "Laboratoryblockdarkcross",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockdarkcross"
+    },
+    {
+      "name": "Reinforcedsteelstairsrecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reinforcedsteelstairsrecipe"
+    },
+    {
+      "name": "FlagItalia",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_italia"
+    },
+    {
+      "name": "IthenariumoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Superfurnacegui",
+      "type": "gui",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 6
+      },
+      "registry_name": "superfurnacegui"
+    },
+    {
+      "name": "Healthboostblockrecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblockrecipe"
+    },
+    {
+      "name": "Ithenariumbarrelrecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenariumbarrelrecipe"
+    },
+    {
+      "name": "TreeChopperRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tree_chopper_recipe"
+    },
+    {
+      "name": "NightVision",
+      "type": "armor",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_vision",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "AirSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoomCommandExecuted",
+      "type": "procedure",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boom_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperCompressedIceRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_ice_recipe"
+    },
+    {
+      "name": "LaboratoryblockincineratorRedstoneOn",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "laboratoryblockincinerator_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireswordLivingEntityIsHitWithTool2",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firesword_living_entity_is_hit_with_tool_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speedblock2recipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speedblock_2recipe"
+    },
+    {
+      "name": "FlagSeychelles",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flag_seychelles"
+    },
+    {
+      "name": "BossghastEntityDies",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bossghast_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egyptianblock19",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_19"
+    },
+    {
+      "name": "Egyptianblock17",
+      "type": "block",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_17"
+    },
+    {
+      "name": "Hotmilkchocolaterecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotmilkchocolaterecipe"
+    },
+    {
+      "name": "Healthboostblock",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healthboostblock"
+    },
+    {
+      "name": "Egyptianblock15",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_15"
+    },
+    {
+      "name": "Egyptianblock16",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_16"
+    },
+    {
+      "name": "Egyptianblock13",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_13"
+    },
+    {
+      "name": "Egyptianblock14",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_14"
+    },
+    {
+      "name": "IthenariumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithenarium_armor_boots_recipe"
+    },
+    {
+      "name": "Egyptianblock11",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_11"
+    },
+    {
+      "name": "Egyptianblock12",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_12"
+    },
+    {
+      "name": "Egyptianblock10",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "egyptianblock_10"
+    },
+    {
+      "name": "Superfurnace",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superfurnace"
     }
   ],
   "variable_elements": [
-    {
-      "name": "Money",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "500.0"
-    },
     {
       "name": "Prestige",
       "type": "number",
@@ -1921,6 +4578,14 @@
         "hello-darkness-my-old-friend-lyrics-version-2017"
       ],
       "category": "music"
+    },
+    {
+      "name": "the_hanging_tree_remix_hunger_games",
+      "files": [
+        "the_hanging_tree__rebel_remix_-_from_the_hunger_games__mockingjay_part_1__audio__youzik.net"
+      ],
+      "category": "music",
+      "subtitle": "James Newton Howard - The Hanging Tree (Rebel Remix)"
     }
   ],
   "language_map": {
@@ -1935,6 +4600,8 @@
       "item.aarium.aarium_pickaxe": "Aarium Pickaxe",
       "item.travelerslegs.name": "Travelers Leggings",
       "block.aarium.luminousconcretewhite": "Luminous concrete white",
+      "subtitles.the_hanging_tree_remix_hunger_games": "James Newton Howard - The Hanging Tree (Rebel Remix)",
+      "tile.megaithenariumbarrel.name": "Megaithenariumbarrel",
       "block.aarium.greenscreenwithoutcontact": "Green screen (without contact)",
       "item.aarium.farmingdirt": "Farmingdirt Portal Igniter",
       "item.aarium.volcanite_sword": "Volcanite Sword",
@@ -1956,6 +4623,7 @@
       "item.aarium.aarium_ingot": "Aarium ingot",
       "item.aarium.event": "Spawn Portal Igniter",
       "item.volcanite_axe.name": "Volcanite Axe",
+      "tile.foodblock.name": "Food block",
       "tile.greenscreen.name": "Green screen",
       "item.aarium.lightium_pickaxe": "Lightium Pickaxe",
       "tile.luminousconcreteblue.name": "Luminous concrete blue",
@@ -1974,13 +4642,14 @@
       "tile.luminousconcretegreen.name": "Luminous concrete green",
       "item.aquaria.name": "Aquaria Portal Igniter",
       "block.aarium.luminousconcreteyellow": "Luminous concrete yellow",
+      "item.tassedelait.name": "Tasse de lait",
       "item.aarium.dirtsoup": "Dirt soup",
       "tile.luminousconcretewhite.name": "Luminous concrete white",
       "item.aarium.darkium_axe": "Darkium Axe",
       "item.darkium_armorboots.name": "Darkium Boots",
-      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
-      "block.aarium.lightium_ore_block": "Block of Lightium",
       "item.aarium.volcanite_armor_chestplate": "Volcanite Chestplate",
+      "block.aarium.lightium_ore_block": "Block of Lightium",
+      "item.aarium.aarium_armor_chestplate": "Aarium Chestplate",
       "item.aarium.aquaria": "Aquaria Portal Igniter",
       "tile.greenscreenwithoutcontact.name": "Green screen (without contact)",
       "item.aarium.volcanite_armor_boots": "Volcanite Boots",
@@ -1991,21 +4660,23 @@
       "item.lightium_pickaxe.name": "Lightium Pickaxe",
       "entity.bossghast.name": "Bossghast",
       "item.lightium_armorbody.name": "Lightium Chestplate",
+      "tile.healthblock.name": "Health block",
       "item.aarium.swimming_boots": "Swimming Boots",
+      "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.lightium_armorlegs.name": "Lightium Leggings",
       "item.musicdisk_thesoundofsilence.name": "Music disk: The sound of silence",
-      "item.aarium.volcanite_hoe": "Volcanite Hoe",
       "item.lightium_sword.name": "Lightium Sword",
       "item.aarium_pickaxe.name": "Aarium Pickaxe",
       "item.aarium.musicdisk_thesoundofsilence.desc": "The sound of silence",
       "item.aarium.farmingwood": "Farmingwood Portal Igniter",
+      "tile.laboratoryblockincinerator.name": "Incinerator",
       "item.aarium.lightium_shovel": "Lightium Shovel",
       "item.largeaariumsword.name": "Large aarium sword",
       "item.aarium.swimming_leggings": "Swimming Leggings",
       "item.darkium_axe.name": "Darkium Axe",
       "item.darkium_hoe.name": "Darkium Hoe",
-      "item.travelershelmet.name": "Travelers Helmet",
       "item.aarium.lightium_hoe": "Lightium Hoe",
+      "item.travelershelmet.name": "Travelers Helmet",
       "item.aariumnugget.name": "Aarium nugget",
       "block.aarium.darkiumore": "Darkium Ore",
       "item.aarium.nearentitiesfinder": "Near entities finder",
@@ -2064,6 +4735,8 @@
       "tile.darkiumore.name": "Darkium Ore",
       "tile.luminousconcreteyellow.name": "Luminous concrete yellow",
       "item.spawn.name": "Spawn Portal Igniter",
+      "tile.absorptionblock.name": "Absorption block",
+      "tile.ithenariumbarrel.name": "Ithenarium barrel",
       "item.aarium.farmingstone": "Farmingstone Portal Igniter",
       "item.aarium.volcanite_shovel": "Volcanite Shovel",
       "item.aarium_armorhelmet.name": "Aarium Helmet",
@@ -2075,6 +4748,7 @@
       "item.aarium.darkium_armor_helmet": "Darkium Helmet",
       "item.volcanite_armorboots.name": "Volcanite Boots",
       "item.aarium.volcaniteingot": "Volcanite ingot",
+      "item.tasseitem.name": "Tasse",
       "item.aarium.musicdiscrolling": "Music disc - Rolling",
       "item.darkium_shovel.name": "Darkium Shovel",
       "block.aarium.luminousconcretegreen": "Luminous concrete green",
@@ -2095,6 +4769,7 @@
       "item.aarium.travelers_chestplate": "Travelers Body",
       "item.aarium.lightium_axe": "Lightium Axe",
       "item.lightium_gem.name": "Lightium",
+      "tile.ithenariumore.name": "Ithenarium ore",
       "item.aarium.enchantedcoalblock": "Enchanted coal block",
       "item.enchantedegg.name": "Enchanted egg",
       "item.oppickaxe.name": "OP pickaxe",
@@ -2113,6 +4788,7 @@
       "item.pateria.name": "Pateria Portal Igniter",
       "tile.aariumblock.name": "Aarium block",
       "tile.solidair.name": "Solid air",
+      "item.chocolatchaud.name": "Chocolat chaud",
       "item.volcanite_armorhelmet.name": "Volcanite Helmet",
       "item.aarium_armorlegs.name": "Aarium Leggings",
       "item.aarium.aarium_armor_boots": "Aarium Boots",
@@ -2358,5 +5034,5 @@
     "modElementsPackage": "net.mcreator.aarium",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100116710
+  "mcreatorVersion": 202000546519
 }

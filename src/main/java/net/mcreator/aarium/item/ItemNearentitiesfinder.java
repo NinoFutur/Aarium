@@ -1,32 +1,12 @@
 
 package net.mcreator.aarium.item;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.ActionResult;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-
-import net.mcreator.aarium.procedure.ProcedureNearentitiesfinderRightClickedInAir;
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsAariumMod.ModElement.Tag
 public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
+
 	@GameRegistry.ObjectHolder("aarium:nearentitiesfinder")
 	public static final Item block = null;
+
 	public ItemNearentitiesfinder(ElementsAariumMod instance) {
 		super(instance, 167);
 	}
@@ -41,9 +21,11 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("aarium:nearentitiesfinder", "inventory"));
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
-			setMaxDamage(0);
+			setMaxDamage(75);
 			maxStackSize = 1;
 			setUnlocalizedName("nearentitiesfinder");
 			setRegistryName("nearentitiesfinder");
@@ -74,14 +56,18 @@ public class ItemNearentitiesfinder extends ElementsAariumMod.ModElement {
 			int z = (int) entity.posZ;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				ProcedureNearentitiesfinderRightClickedInAir.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
+
 	}
+
 }

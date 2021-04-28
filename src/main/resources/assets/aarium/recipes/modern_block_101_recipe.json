@@ -1,0 +1,29 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_slab",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "aarium:modernblock_100",
+    "count": 4
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE_SLAB"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE_SLAB"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.STONE_SLAB"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE_SLAB"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Modernblock100"
+    },
+    "name": "modern_block_101_recipe",
+    "namespace": "mod"
+  }
+}

@@ -24,7 +24,7 @@ public class ItemAariumShovel extends ElementsAariumMod.ModElement {
 	@GameRegistry.ObjectHolder("aarium:aarium_shovel")
 	public static final Item block = null;
 	public ItemAariumShovel(ElementsAariumMod instance) {
-		super(instance, 17);
+		super(instance, 31);
 	}
 
 	@Override

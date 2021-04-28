@@ -1,0 +1,11 @@
+{
+  "parent": "aarium:custom/special_xmas_tree",
+  "textures": {
+    "all": "aarium:blocks/spruce_log",
+    "particle": "aarium:blocks/spruce_log",
+    "0": "aarium:blocks/spruce_log",
+    "1": "aarium:blocks/spruce_leaves",
+    "2": "aarium:blocks/snow",
+    "3": "aarium:blocks/gifts"
+  }
+}

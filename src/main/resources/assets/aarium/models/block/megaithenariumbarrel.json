@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aarium:blocks/ithenarium_block",
+    "up": "aarium:blocks/mega_ithenarium_barrel_up",
+    "north": "aarium:blocks/mega_ithenarium_barrel_side",
+    "east": "aarium:blocks/mega_ithenarium_barrel_side",
+    "south": "aarium:blocks/mega_ithenarium_barrel_side",
+    "west": "aarium:blocks/mega_ithenarium_barrel_side",
+    "particle": "aarium:blocks/ithenarium_block"
+  }
+}

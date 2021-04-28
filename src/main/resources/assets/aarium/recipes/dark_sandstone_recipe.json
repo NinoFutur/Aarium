@@ -1,0 +1,22 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:dark_sand"
+    },
+    {
+      "item": "aarium:dark_sand"
+    },
+    {
+      "item": "aarium:dark_sand"
+    },
+    {
+      "item": "aarium:dark_sand"
+    }
+  ],
+  "result": {
+    "item": "aarium:dark_sandstone",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone",
+      "data": 2
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 2
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 2
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 2
+    }
+  ],
+  "result": {
+    "item": "aarium:egyptianblock_0",
+    "count": 4
+  }
+}

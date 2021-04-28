@@ -1,0 +1,17 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:tallgrass",
+      "data": 1
+    },
+    {
+      "item": "aarium:strawberry"
+    }
+  ],
+  "result": {
+    "item": "aarium:strawberry_plant",
+    "count": 1
+  }
+}

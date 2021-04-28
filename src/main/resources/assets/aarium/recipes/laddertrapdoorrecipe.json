@@ -1,0 +1,16 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ladder"
+    },
+    {
+      "item": "minecraft:trapdoor"
+    }
+  ],
+  "result": {
+    "item": "aarium:laddertrapdoor",
+    "count": 1
+  }
+}

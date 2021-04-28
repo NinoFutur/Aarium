@@ -7,9 +7,9 @@
     "mobModelName": "Ghast",
     "mobModelTexture": "ghast.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 2.0,
-    "modelHeight": 2.0,
-    "modelShadowSize": 0.5,
+    "modelWidth": 1.5,
+    "modelHeight": 1.5,
+    "modelShadowSize": 1.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -52,8 +52,8 @@
     "movementSpeed": 3.0,
     "armorBaseValue": 0.0,
     "trackingRange": 640,
-    "health": 200,
-    "xpAmount": 200,
+    "health": 1000,
+    "xpAmount": 250,
     "waterMob": false,
     "flyingMob": true,
     "guiBoundTo": "<NONE>",
@@ -83,10 +83,10 @@
       "value": "entity.ghast.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.ghast.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.ghast.scream"
     },
     "stepSound": {
       "value": ""
@@ -98,9 +98,12 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 1.9,
     "particleAmount": 5,
+    "whenMobDies": {
+      "name": "BossghastEntityDies"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"76\" y=\"-1\"><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Bossghast</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

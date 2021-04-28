@@ -1,0 +1,22 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:aariumblock"
+    },
+    {
+      "item": "aarium:aariumblock"
+    },
+    {
+      "item": "aarium:aariumblock"
+    },
+    {
+      "item": "aarium:aariumblock"
+    }
+  ],
+  "result": {
+    "item": "aarium:polished_aarium_block",
+    "count": 2
+  }
+}

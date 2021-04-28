@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aarium:blocks/tayu_with_phoenix_robe_anonymous_19th_century_japanese_painting_honolulu_academy_of_arts",
+    "particle": "aarium:blocks/tayu_with_phoenix_robe_anonymous_19th_century_japanese_painting_honolulu_academy_of_arts"
+  }
+}

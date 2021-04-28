@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "aarium:ithenariumbarrel"
+    },
+    "facing=south": {
+      "model": "aarium:ithenariumbarrel"
+    },
+    "facing=north": {
+      "model": "aarium:ithenariumbarrel"
+    },
+    "facing=east": {
+      "model": "aarium:ithenariumbarrel",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "aarium:ithenariumbarrel",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "aarium:ithenariumbarrel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "aarium:ithenariumbarrel",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

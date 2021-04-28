@@ -102,7 +102,21 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "Surface",
+      "CUSTOM:Spawn",
+      "CUSTOM:Event",
+      "CUSTOM:Farmingwood",
+      "CUSTOM:Farmingstone",
+      "CUSTOM:Farmingdirt",
+      "CUSTOM:Farmingobsidian",
+      "CUSTOM:Aquaria",
+      "CUSTOM:Siberia",
+      "CUSTOM:Pateria",
+      "CUSTOM:Forestia",
+      "CUSTOM:Solitudia",
+      "CUSTOM:Ignisia",
+      "CUSTOM:Skyaria"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

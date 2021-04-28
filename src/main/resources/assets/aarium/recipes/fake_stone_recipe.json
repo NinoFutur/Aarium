@@ -1,0 +1,17 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aarium:solidair"
+    },
+    {
+      "item": "minecraft:stone",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "aarium:fake_stone",
+    "count": 1
+  }
+}

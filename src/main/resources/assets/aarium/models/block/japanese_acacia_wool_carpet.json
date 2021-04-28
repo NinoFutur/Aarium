@@ -1,0 +1,9 @@
+{
+  "parent": "aarium:custom/16x2x16_carpet_wood_wool_accacia",
+  "textures": {
+    "all": "aarium:blocks/acacia_planks",
+    "particle": "aarium:blocks/acacia_planks",
+    "1": "aarium:blocks/acacia_planks",
+    "2": "aarium:blocks/white_wool"
+  }
+}

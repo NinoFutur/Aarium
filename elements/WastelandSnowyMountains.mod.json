@@ -1,0 +1,86 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Wasteland (Snowy Mountains)",
+    "groundBlock": {
+      "value": "Blocks.SNOW"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SNOW"
+    },
+    "treeType": 0,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 1.0,
+    "temperature": 0.0,
+    "baseHeight": 2.0,
+    "heightVariation": 2.0,
+    "spawnBiome": true,
+    "biomeWeight": 16,
+    "biomeType": "ICY",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "snowy_mountains"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": true,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Ores"
+    ],
+    "spawnEntries": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    {
+      "item": "minecraft:concrete",
+      "data": 4
+    }
+  ],
+  "result": {
+    "item": "aarium:laboratoryblockfalse",
+    "count": 1
+  }
+}

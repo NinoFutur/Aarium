@@ -1,0 +1,50 @@
+{
+  "group": "aarium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "2": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "3": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "4": {
+      "item": "aarium:egyptianblock_0"
+    },
+    "5": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "6": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "7": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "8": {
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  },
+  "result": {
+    "item": "aarium:egyptianblock_11",
+    "count": 1
+  }
+}

@@ -1,17 +1,8 @@
 package net.mcreator.aarium.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.command.ICommandSender;
-
-import net.mcreator.aarium.ElementsAariumMod;
-
-import java.util.Map;
-
 @ElementsAariumMod.ModElement.Tag
 public class ProcedureTreechopperaxeBlockDestroyedWithTool extends ElementsAariumMod.ModElement {
+
 	public ProcedureTreechopperaxeBlockDestroyedWithTool(ElementsAariumMod instance) {
 		super(instance, 144);
 	}
@@ -33,12 +24,15 @@ public class ProcedureTreechopperaxeBlockDestroyedWithTool extends ElementsAariu
 			System.err.println("Failed to load dependency world for procedure TreechopperaxeBlockDestroyedWithTool!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if (!world.isRemote && world.getMinecraftServer() != null) {
 			world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+
 				@Override
 				public String getName() {
 					return "";
@@ -73,10 +67,12 @@ public class ProcedureTreechopperaxeBlockDestroyedWithTool extends ElementsAariu
 				public Vec3d getPositionVector() {
 					return new Vec3d(x, y, z);
 				}
+
 			}, "execute as @p run fill ~- ~ ~-5 ~5 ~20 ~5 air replace #minecraft:logs");
 		}
 		if (!world.isRemote && world.getMinecraftServer() != null) {
 			world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+
 				@Override
 				public String getName() {
 					return "";
@@ -111,7 +107,10 @@ public class ProcedureTreechopperaxeBlockDestroyedWithTool extends ElementsAariu
 				public Vec3d getPositionVector() {
 					return new Vec3d(x, y, z);
 				}
+
 			}, "execute as @p run fill ~- ~ ~-5 ~5 ~20 ~5 air replace #minecraft:leaves");
 		}
+
 	}
+
 }

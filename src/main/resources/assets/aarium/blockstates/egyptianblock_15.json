@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "aarium:egyptianblock_15"
+    },
+    "half=top,variant=default": {
+      "model": "aarium:egyptianblock_15_top"
+    }
+  }
+}
